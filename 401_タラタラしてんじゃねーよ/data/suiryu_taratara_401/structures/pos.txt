@@ -1,0 +1,3 @@
+/setblock 3990 48 -7 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:0b,powered:0b,seed:0L,author:"Rusk_Eocssar",rotation:"NONE",posX:0,mode:"LOAD",posY:0,sizeX:21,posZ:0,integrity:1.0f,showair:0b,name:"suiryu_taratara_401:lobby",sizeY:13,sizeZ:22,showboundingbox:1b}
+
+/setblock 3980 48 80 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:0b,powered:0b,seed:0L,author:"Rusk_Eocssar",rotation:"NONE",posX:0,mode:"LOAD",posY:0,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"suiryu_taratara_401:stage_0_0",sizeY:20,sizeZ:32,showboundingbox:1b}

@@ -1,0 +1,504 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 960,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:1}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3600,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:2}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 960,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:3}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 960,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:4,CustomModelData:4002}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 960,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:5,CustomModelData:4003}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 960,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:6,CustomModelData:4004}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1200,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:7}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 240,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:8}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 240,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:9}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 240,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:10}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 240,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:11,CustomModelData:4005}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 240,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:12,CustomModelData:4006}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 240,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:13,CustomModelData:4007}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 240,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:14,CustomModelData:4008}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:15}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 87,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:16}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 228,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:17}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 228,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:18}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:19,CustomModelData:4009}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:20,CustomModelData:4010}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:21,CustomModelData:4011}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:22,CustomModelData:4012}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:23}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 48,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:24}"
+            }
+          ],
+          "name": "minecraft:trident",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 48,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:25,CustomModelData:4013}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{taratara_gacha_401:26,CustomModelData:4014}"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
