@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "picked_gun": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "clay_502:advancements/tutorial"
+    }
+}

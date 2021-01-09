@@ -1,0 +1,1 @@
+scoreboard players add @a[tag=owner_501] hit_502 1

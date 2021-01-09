@@ -1,0 +1,1 @@
+function clay_502:game/delete

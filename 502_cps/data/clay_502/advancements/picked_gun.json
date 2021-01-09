@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "picked_gun": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "id": "minecraft:crossbow",
+                        "nbt": "{gun:{}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "clay_502:player/picked_gun"
+    }
+}

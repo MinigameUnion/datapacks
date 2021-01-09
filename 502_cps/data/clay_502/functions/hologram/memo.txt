@@ -1,0 +1,90 @@
+TextGroup:[
+    Offset: [
+        0.0f, //float型 X軸の始点補正
+        0.0f  //float型 Y軸の始点補正
+    ],
+    HologramID: 0, //int型 製作者番号*1000 ~ +999まで使用可能
+    Setting: {
+        CursorCollider: 0b,  //boolean型 カーソルが判定を持つか否か
+        TextInterpret: 0b,   //boolean型 TextのInterpretを有効にするか否か
+        TextSpaceWidth: 0.0f //文字データ間の幅 1byte文字の場合1.2f,2byteの場合2.4fがおすすめ
+    },
+    Text: [
+        "", //String型 テキストデータ
+        "", //Setting.TextInterpretが0bの場合そのまま文字を
+        "", //1bの場合TextComponentを入れてください
+        ""  //テキストデータに"ItemIcon()"と入力した場合下記のItemIconを参照します
+    ],
+    ItemIcon: [ //minecraft:itemを召喚します
+        {
+            id: "minecraft:glass",
+            Setting: {
+                CustomModelData: 0, //int型 CustomModelDataを指定できます
+                Offset: 0.0f,       //float型(負数対応) アイテムの出現位置のY軸を補正できます
+                Enchant: 0b,        //boolean型 エンチャントエフェクトを有効にするか否か
+                NBT: {glowing:1b}   //NBTデータをmergeします itemの一番浅いネストにmergeするのを注意してください
+            }
+        }
+    ]
+]
+
+
+TextGroup:[
+    Offset: [
+        0.0f,
+        0.0f
+    ],
+    HologramID: 5000,
+    Setting: {
+        CursorCollider: 1b,
+        TextInterpret: 0b,
+        TextSpaceWidth: 1.2f
+    },
+    Text: [
+        "",
+        "",
+        "",
+        ""
+    ],
+    ItemIcon: [
+        {
+            id: "minecraft:glass",
+            Setting: {
+                CustomModelData: 0,
+                Offset: 0.0f,
+                Enchant: 0b,
+                NBT: {glowing:1b}
+            }
+        }
+    ]
+]
+
+TextGroup:[
+    Offset: [
+        0.0f,
+        0.0f
+    ],
+    HologramID: 0,
+    Setting: {
+        CursorCollider: 0b,
+        TextInterpret: 0b,
+        TextSpaceWidth: 0.0f
+    },
+    Text: [
+        "",
+        "",
+        "",
+        ""
+    ],
+    ItemIcon: [
+        {
+            id: "minecraft:glass",
+            Setting: {
+                CustomModelData: 0,
+                Offset: 0.0f,
+                Enchant: 0b,
+                NBT: {glowing:1b}
+            }
+        }
+    ]
+]

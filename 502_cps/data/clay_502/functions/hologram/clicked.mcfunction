@@ -1,0 +1,1 @@
+execute if score @s hologram_id_001 matches 5000..5999 positioned 5014.0 2.0 2028.75 rotated -90 0 run function clay_502:hologram/root

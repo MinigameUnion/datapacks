@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_button",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "nbt": "version.array[0]",
+                                    "storage": "system_000:storage",
+                                    "interpret": true
+                                },
+                                {
+                                    "text": "."
+                                },
+                                {
+                                    "nbt": "version.array[1]",
+                                    "storage": "system_000:storage",
+                                    "interpret": true
+                                },
+                                {
+                                    "text": "."
+                                },
+                                {
+                                    "nbt": "version.array[2]",
+                                    "storage": "system_000:storage",
+                                    "interpret": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

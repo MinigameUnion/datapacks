@@ -1,0 +1,1 @@
+execute if entity @a[scores={playing_000=502}] run function clay_502:tick
