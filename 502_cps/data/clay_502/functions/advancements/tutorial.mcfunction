@@ -1,1 +1,1 @@
-tellraw @s [{"text":"[Standard] ","color":"green"},{"text": "スタンダード","color":"white","underlined": true},{"text":"が","color":"gray","underlined": "false"},{"text":"解放されました","color":"white","underlined": "false"}]
+tellraw @s [{"text":"[Standard] ","color":"green"},{"text": "スタンダード","color":"white","underlined": true},{"text":"が","color":"gray","underlined": false},{"text":"解放されました","color":"white","underlined": false}]
