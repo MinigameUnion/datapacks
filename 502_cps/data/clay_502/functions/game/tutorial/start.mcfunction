@@ -2,7 +2,7 @@ kill @e[dx=47,dy=31,dz=31,tag=gun_stand_502,tag=ticking_502]
 
 execute as @a[tag=ticking_502] at @s run playsound minecraft:entity.experience_orb.pickup neutral @s ~ ~ ~ 1 1 1
 
-tellraw @a[tag=ticking_502] [{"text":"[Tutorial] ","color":"gold"},{"text": " ✓ ","color":"green","underlined": "false","bold": true},{"text": "銃を拾う : ","color":"gray","underlined": "false"},{"keybind": "key.use","color":"white","underlined": true}]
+tellraw @a[tag=ticking_502] [{"text":"[Tutorial] ","color":"gold"},{"text": " ✓ ","color":"green","underlined": false,"bold": true},{"text": "銃を拾う : ","color":"gray","underlined": false},{"keybind": "key.use","color":"white","underlined": true}]
 
 loot give @a[advancements={clay_502:picked_gun=false},tag=ticking_502] loot clay_502:s1897
 
