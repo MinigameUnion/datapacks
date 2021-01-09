@@ -1,0 +1,176 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5000}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5001}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5002}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5003}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{Tags:[\"x_501\"]}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5010}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5011}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5012}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5013}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{Tags:[\"y_501\"]}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5020}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5021}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5022}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:item",
+                                    "name": "minecraft:black_stained_glass_pane",
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:set_nbt",
+                                            "tag": "{CustomModelData:5023}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{Tags:[\"z_501\"]}"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

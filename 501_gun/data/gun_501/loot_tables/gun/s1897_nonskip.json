@@ -1,0 +1,194 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:5000}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{chamber:0b,ads:0b,reloading:0b,firemode:[B;1b],sound:2,name:\"{\\\"text\\\":\\\"S1897\\\"}\"}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{magazine:{amount:0,data:{default:5,extend:5,type:0b,ammo:2b}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{status:{damage:2.0d,speed:100.0d,range:10.0d,spread:{hip:7,ads:5},type:4b,cooltime:16,amount:9,recoil:[I;5,10]}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{temp:[],base:5000,default:5000}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{ads:{value:5050,list:[{value:3},{value:4},{value:5},{value:6,action:1b}],hip:[{value:6},{value:5},{value:4},{value:3,action:1b}]}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{shot:[{value:11},{value:12},{value:13},{value:14},{value:15},{value:15,action:2b}]}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{cocking:[{value:16},{value:17},{value:18},{value:19},{value:20,sound:1,action:3b},{value:21},{value:22},{value:23},{value:24},{value:25},{value:25,sound:1}],reload:{start:[{value:31},{value:32},{value:33},{value:34},{value:34,action:4b}],loop:[{value:34},{value:34},{value:34},{value:35},{value:36},{value:37,action:5b,sound:2},{value:35},{value:34},{value:34},{value:34,action:4b}],finish:[{value:34},{value:33},{value:32},{value:31,action:2b}]},pick:[{value:40},{value:40},{value:40},{value:41},{value:42},{value:43},{value:44},{value:45},{value:46},{value:47},{value:47},{value:47}]}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{reload:{start:[{value:31},{value:32},{value:33},{value:34},{value:34,action:4b}]}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{reload:{loop:[{value:34},{value:34},{value:34},{value:35},{value:36},{value:37,action:5b,sound:2},{value:35},{value:34},{value:34},{value:34,action:4b}]}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{reload:{finish:[{value:34},{value:33},{value:32},{value:31,action:2b}]}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{pick:[{value:40},{value:40},{value:40},{value:41},{value:42},{value:43},{value:44},{value:45},{value:46},{value:47},{value:47},{value:47}]}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "S1897",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " 0 / 5",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "弾薬",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "12gauge",
+                                        "color": "red",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "威力",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "2",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "弾速",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "100m/s",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "射程",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "10m",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Charged:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ChargedProjectiles:[]}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:2}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.armor_toughness",
+                                    "attribute": "generic.armor_toughness",
+                                    "operation": "addition",
+                                    "amount": {
+                                        "min": 0,
+                                        "max": 21474836.47
+                                    },
+                                    "slot": "head",
+                                    "id": "0-0-0-0-1"
+                                },
+                                {
+                                    "name": "generic.attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "addition",
+                                    "amount": -4,
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "generic.attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "addition",
+                                    "amount": -4,
+                                    "slot": "offhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

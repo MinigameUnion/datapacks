@@ -1,0 +1,98 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "gun_501:gun/s1897",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{status:{spread:{hip:4,ads:0},amount:1,cooltime:0,speed:150.0d}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{shot:[{value:15,action:3b}]}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "replace": true,
+                            "lore": [
+                                [
+                                    {
+                                        "text": "弾薬",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "12gauge",
+                                        "color": "red",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "威力",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "2",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "弾速",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "150m/s",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "射程",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "10m",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "id": "minecraft:crossbow",
+                    "nbt": "{gun:{}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "player_501:clicked"
+    }
+}

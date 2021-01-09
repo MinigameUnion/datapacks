@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source":"this",
+                            "ops": [
+                                {
+                                    "source": "SelectedItem.tag",
+                                    "target": "{}",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Charged:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ChargedProjectiles:[]}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "nbt": "SelectedItem.tag.gun.name",
+                                    "entity": "@s",
+                                    "interpret": true,
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " ",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "nbt": "SelectedItem.tag.gun.magazine.amount",
+                                    "entity": "@s",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " / ",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "nbt": "SelectedItem.tag.gun.magazine.data.default",
+                                    "entity": "@s",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:crossbow",
+                            "functions": [
+                                {
+                                    "function": "minecraft:copy_nbt",
+                                    "source":"this",
+                                    "ops": [
+                                        {
+                                            "source": "Inventory[{Slot:-106b}].tag",
+                                            "target": "{}",
+                                            "op": "merge"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{Charged:1b}"
+                                },
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{ChargedProjectiles:[]}"
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "entity": "this",
+                                    "name": [
+                                        {
+                                            "nbt": "Inventory[{Slot:-106b}].tag.gun.name",
+                                            "entity": "@s",
+                                            "interpret": true,
+                                            "color": "blue",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "nbt": "Inventory[{Slot:-106b}].tag.gun.magazine.amount",
+                                            "entity": "@s",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " / ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "nbt": "Inventory[{Slot:-106b}].tag.gun.magazine.data.default",
+                                            "entity": "@s",
+                                            "color": "gray",
+                                            "italic": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{Inventory:[{Slot:-106b,id:\"minecraft:crossbow\"}]}" 
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:wooden_hoe",
+                            "functions": [
+                                {
+                                    "function": "minecraft:copy_nbt",
+                                    "source":"this",
+                                    "ops": [
+                                        {
+                                            "source": "Inventory[{Slot:-106b}].tag",
+                                            "target": "{}",
+                                            "op": "merge"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "function": "minecraft:set_name",
+                                    "entity": "this",
+                                    "name": [
+                                        {
+                                            "nbt": "Inventory[{Slot:-106b}].tag.gun.name",
+                                            "entity": "@s",
+                                            "interpret": true,
+                                            "color": "blue",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "nbt": "Inventory[{Slot:-106b}].tag.gun.magazine.amount",
+                                            "entity": "@s",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "text": " / ",
+                                            "color": "gray",
+                                            "italic": false
+                                        },
+                                        {
+                                            "nbt": "Inventory[{Slot:-106b}].tag.gun.magazine.data.default",
+                                            "entity": "@s",
+                                            "color": "gray",
+                                            "italic": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{Inventory:[{Slot:-106b,id:\"minecraft:wooden_hoe\"}]}" 
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

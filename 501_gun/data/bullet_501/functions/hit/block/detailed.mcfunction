@@ -1,0 +1,59 @@
+execute store result score #BASE x_vec_501 store result score #BASE y_vec_501 store result score #BASE z_vec_501 run scoreboard players operation #BASE num_501 -= #SKIP num_501
+scoreboard players set #SPEED num_501 0
+scoreboard players set #SKIP num_501 0
+scoreboard players add #HIT num_501 1
+scoreboard players set #SKIP x_vec_501 0
+scoreboard players set #SKIP y_vec_501 0
+scoreboard players set #SKIP z_vec_501 0
+
+scoreboard players operation #BASE x_vec_501 *= #BULLET x_vec_501
+scoreboard players operation #BASE y_vec_501 *= #BULLET y_vec_501
+scoreboard players operation #BASE z_vec_501 *= #BULLET z_vec_501
+
+execute store result score #x pos_501 run scoreboard players operation #X num_501 += #BASE x_vec_501
+execute store result score #y pos_501 run scoreboard players operation #Y num_501 += #BASE y_vec_501
+execute store result score #z pos_501 run scoreboard players operation #Z num_501 += #BASE z_vec_501
+
+execute store result entity @s Pos[0] double 0.00001 store result score #x num_501 run scoreboard players operation #x pos_501 -= #DETAILED x_vec_501
+execute store result entity @s Pos[1] double 0.00001 store result score #y num_501 run scoreboard players operation #y pos_501 -= #DETAILED y_vec_501
+execute store result entity @s Pos[2] double 0.00001 store result score #z num_501 run scoreboard players operation #z pos_501 -= #DETAILED z_vec_501
+
+scoreboard players operation #X min_501 += #x min_501
+scoreboard players operation #Y min_501 += #y min_501
+scoreboard players operation #Z min_501 += #z min_501
+scoreboard players operation #X max_501 += #x max_501
+scoreboard players operation #Y max_501 += #y max_501
+scoreboard players operation #Z max_501 += #z max_501
+
+
+scoreboard players set #X pos_501 0
+scoreboard players set #Y pos_501 0
+scoreboard players set #Z pos_501 0
+execute if score #x num_501 > #X max_501 if score #X num_501 <= #X max_501 run scoreboard players set #X pos_501 -1
+execute if score #y num_501 > #Y max_501 if score #Y num_501 <= #Y max_501 run scoreboard players set #Y pos_501 -1
+execute if score #z num_501 > #Z max_501 if score #Z num_501 <= #Z max_501 run scoreboard players set #Z pos_501 -1
+execute if score #x num_501 < #X min_501 if score #X num_501 >= #X min_501 run scoreboard players set #X pos_501 1
+execute if score #y num_501 < #Y min_501 if score #Y num_501 >= #Y min_501 run scoreboard players set #Y pos_501 1
+execute if score #z num_501 < #Z min_501 if score #Z num_501 >= #Z min_501 run scoreboard players set #Z pos_501 1
+
+scoreboard players operation #x num_501 /= #100000 num_000
+scoreboard players operation #y num_501 /= #100000 num_000
+scoreboard players operation #z num_501 /= #100000 num_000
+scoreboard players operation #x num_501 *= #100000 num_000
+scoreboard players operation #y num_501 *= #100000 num_000
+scoreboard players operation #z num_501 *= #100000 num_000
+
+execute if score #X pos_501 matches ..-1 run scoreboard players operation #x num_501 = #X max_501
+execute if score #X pos_501 matches ..-1 run scoreboard players add #x num_501 100
+execute if score #X pos_501 matches 1.. run scoreboard players operation #x num_501 = #X min_501
+execute if score #X pos_501 matches 1.. run scoreboard players remove #x num_501 100
+execute if score #Y pos_501 matches ..-1 run scoreboard players operation #y num_501 = #Y max_501
+execute if score #Y pos_501 matches ..-1 run scoreboard players add #y num_501 100
+execute if score #Y pos_501 matches 1.. run scoreboard players operation #y num_501 = #Y min_501
+execute if score #Y pos_501 matches 1.. run scoreboard players remove #y num_501 100
+execute if score #Z pos_501 matches ..-1 run scoreboard players operation #z num_501 = #Z max_501
+execute if score #Z pos_501 matches ..-1 run scoreboard players add #z num_501 100
+execute if score #Z pos_501 matches 1.. run scoreboard players operation #z num_501 = #Z min_501
+execute if score #Z pos_501 matches 1.. run scoreboard players remove #z num_501 100
+
+function bullet_501:hit/block/root

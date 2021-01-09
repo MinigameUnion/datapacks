@@ -1,0 +1,3 @@
+data modify storage gun_501:temp tag.gun.chamber set value 1b
+execute if data storage gun_501:temp tag.gun{ads:1b}.magazine.data{ammo:2b} anchored eyes run particle item red_wool ^-0.25 ^-0.15 ^1.25 ^-100000000000000000000000000000000000 ^ ^ 0.0000000000000000000000000000000000025 0 normal
+execute if data storage gun_501:temp tag.gun{ads:0b}.magazine.data{ammo:2b} anchored eyes run particle item red_wool ^-0.5 ^-0.5 ^0.5 ^-100000000000000000000000000000000000 ^ ^ 0.0000000000000000000000000000000000025 0 normal

@@ -1,0 +1,1 @@
+scoreboard players set #ACTION num_501 0

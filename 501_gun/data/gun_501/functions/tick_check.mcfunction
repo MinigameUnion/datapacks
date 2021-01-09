@@ -1,0 +1,1 @@
+execute if entity @a[tag=gun_501] run function gun_501:tick

@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:sand",
+        "minecraft:red_sand",
+        "minecraft:gravel",
+        "#bullet_501:material/dirt",
+        "#bullet_501:material/metal",
+        "#bullet_501:material/planks"
+    ]
+}

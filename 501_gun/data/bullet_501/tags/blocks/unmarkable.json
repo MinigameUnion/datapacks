@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:sand",
+        "minecraft:red_sand",
+        "minecraft:gravel",
+        "#minecraft:doors",
+        "#minecraft:trapdoors",
+        "#bullet_501:material/dirt",
+        "#bullet_501:material/metal",
+        "#bullet_501:immune"
+    ]
+}

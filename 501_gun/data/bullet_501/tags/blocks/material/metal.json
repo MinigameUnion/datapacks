@@ -1,0 +1,28 @@
+{
+    "values": [
+        "minecraft:bedrock",
+        "minecraft:gold_block",
+        "minecraft:iron_block",
+        "minecraft:obsidian",
+        "minecraft:cauldron",
+        "minecraft:end_portal_frame",
+        "minecraft:diamond_block",
+        "minecraft:iron_door",
+        "minecraft:iron_bars",
+        "minecraft:ender_chest",
+        "minecraft:emerald_block",
+        "minecraft:command_block",
+        "minecraft:anvil",
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil",
+        "minecraft:light_weighted_pressure_plate",
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:hopper",
+        "minecraft:iron_trapdoor",
+        "minecraft:black_stained_glass",
+        "minecraft:black_stained_glass_pane",
+        "minecraft:repeating_command_block",
+        "minecraft:chain_command_block",
+        "minecraft:structure_block"
+    ]
+}
