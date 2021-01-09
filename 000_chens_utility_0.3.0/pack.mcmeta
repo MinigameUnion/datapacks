@@ -1,14 +1,14 @@
 {
     "pack": {
-        "pack_format": 3,
+        "pack_format": 6,
         "description": [
             {
                 "text": "Chen's Utility",
-                "italic":"true"
+                "italic":true
             },
             {
                 "text": "ver0.1.0",
-                "italic":"false"
+                "italic":false
             }
         ]
     }
