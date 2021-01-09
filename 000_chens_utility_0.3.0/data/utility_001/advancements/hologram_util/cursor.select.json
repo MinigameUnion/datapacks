@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": "PlayerInteractEvent",
+        "description": "",
+        "icon": {
+            "item": "minecraft:debug_stick"
+        },
+        "background": "minecraft:textures/block/glass.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "onAttack": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"hologram_sandbag_001\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "utility_001:hologram_util/core/cursor/select"
+    }
+}
