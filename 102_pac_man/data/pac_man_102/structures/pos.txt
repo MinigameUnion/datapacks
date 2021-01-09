@@ -1,0 +1,1 @@
+/setblock 981 85 984 minecraft:structure_block[mode=save]{metadata:"",ignoreEntities:0b,posX:0,mode:"SAVE",posY:0,sizeX:32,posZ:0,integrity:1.0f,showair:0b,name:"pac_man_102:stage_0_0_0",sizeY:32,sizeZ:32,showboundingbox:1b}
