@@ -1,0 +1,294 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ネコ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"イヌ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:2b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ウシ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:3b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ヒツジ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:4b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ニワトリ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:5b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ヒヨコ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:6b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ブタ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:7b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ウマ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:8b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ライオン","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:9b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"オオカミ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:10b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ゾウ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:11b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"村人","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:12b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"クリーパー","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:13b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"イカ","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:14b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"♡お試し機能♡","color":"light_purple","italic":false}],
+                                [{"text":"アニマル塔戦闘で、動物を発射する時に","color":"white","italic": false}],
+                                [{"text":"オフハンド","color":"gold","italic": false,"bold":true},{"text":"に持っていると","color":"white","bold":false}],
+                                [{"text":"自分をアピールするために自動的に鳴きます。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"おさかな","color":"blue"}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{only602:0b,say602:15b}"
+                        }
+                    ]
+                }
+            ]            
+        }
+    ]
+}

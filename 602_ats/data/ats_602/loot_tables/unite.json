@@ -1,0 +1,163 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"速度 : 5 ","color":"aqua","italic": false},{"text":"スコア倍率 : x1.5 ","color":"light_purple"},{"text":"スコア加算量 : 1.3 ","color":"gold"}],
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Epic","color":"light_purple"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"一度だけ、停止後に速度が復活する","color":"white"}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Perissodactyla / Family:Equidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Equus / Species:E. africanus / Subspecies:E. a. asinus","color":"dark_gray"}],
+                                [{"text":"Binomial:Equus africanus asinus","color":"dark_gray","bold":true}],
+                                [{"text":"ロバは社会性のあるウマとは違い、頑固で用心深い性格をしている。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"ロバ","color":"light_purple","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[5b,10b,15b,4b],item602:1b,mul_602:\"x1.5\",mul1_602:\"1.3\",CustomModelData:6007,Tags:[\"donkey_602\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"速度 : 6 ","color":"aqua","italic": false},{"text":"スコア倍率 : x1.5 ","color":"light_purple"},{"text":"スコア加算量 : 1.0 ","color":"gold"}],
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Epic","color":"light_purple"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"停止状態から他の動物と接触すると","color":"white"}],
+                                [{"text":"更に別の動物の方向へ向く。","color":"white","italic": false}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Subclass:Theria","color":"dark_gray","italic": false}],
+                                [{"text":"Order:Carnivora / Suborder:Feliformia / Family:Felidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Leopardus / Species:L. pardalis","color":"dark_gray"}],
+                                [{"text":"Binomial:Leopardus pardalis","color":"dark_gray","bold":true}],
+                                [{"text":"強い視力を持つオセロットだが、獲物を追う際は臭いを嗅いでいる。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"オセロット","color":"light_purple","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[6b,10b,15b,1b],item602:1b,mul_602:\"x1.5\",mul1_602:\"1.0\",CustomModelData:6012,Tags:[\"ocelot_602\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"速度 : 4 ","color":"aqua","italic": false},{"text":"スコア倍率 : x1.2 ","color":"light_purple"},{"text":"スコア加算量 : 1.9 ","color":"gold"}],
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Epic","color":"light_purple"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"一度だけ停止時に、スコア加算倍率を動物三匹に0.3与える","color":"white"}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Actinopterygii / Order:Tetraodontiformes","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Diodontidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Diodon / Species:D. holocanthus","color":"dark_gray"}],
+                                [{"text":"Binomial:Diodon holocanthus","color":"dark_gray","bold":true}],
+                                [{"text":"ハリセンボンは上下に歯が一つずつ、2本ある。","color":"gray","italic": false}],
+                                [{"text":"科(Family)のラテン語名(Diodontidae)もそれが由来となっている。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"フグ (ハリセンボン)","color":"light_purple","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[4b,10b,12b,10b],item602:1b,mul_602:\"x1.2\",mul1_602:\"1.9\",CustomModelData:6021,Tags:[\"puffer_fish_602\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"速度 : 6 ","color":"aqua","italic": false},{"text":"スコア倍率 : x2.0","color":"light_purple"},{"text":"スコア加算量 : 1.2 ","color":"gold"}],
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Epic","color":"light_purple"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"一度だけ1.2よりも高いスコア加算倍率を持った動物が接触すると","color":"white"}],
+                                [{"text":"その動物のスコア加算倍率になる","italic": false,"color":"white"}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Aves / Order:Psittaciformes","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Psittacidae / Subfamily:Psittacinae / Tride:Arini","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Ara / Species:A. macao","color":"dark_gray"}],
+                                [{"text":"Binomial:Ara macao","color":"dark_gray","bold":true}],
+                                [{"text":"一部の地域でのオウム(コンゴウインコ)は","color":"gray","italic": false}],
+                                [{"text":"食べるものの毒素を中和するために粘土を食べる。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"オウム (コンゴウインコ)","color":"light_purple","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[6b,10b,20b,3b],item602:1b,mul_602:\"x2.0\",mul1_602:\"1.2\",CustomModelData:6026,Tags:[\"parrot_602\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"速度 : 7 ","color":"aqua","italic": false},{"text":"スコア倍率 : x1.5","color":"light_purple"},{"text":"スコア加算量 : 1.5 ","color":"gold"}],
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Epic","color":"light_purple"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"一度だけ低速の状態で、動物に接触した場合","color":"white"}],
+                                [{"text":"       その動物を最速状態にする","italic": false,"color":"white"}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Cetartiodactyla","color":"dark_gray","italic": false}],
+                                [{"text":"Suborder:Odontoceti / Family:Delphinidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Tursiops / Species:T. truncatus","color":"dark_gray"}],
+                                [{"text":"Binomial:Trusiops truncatus","color":"dark_gray","bold":true}],
+                                [{"text":"イルカは片方の脳を眠らせ、片方は起きたままといった半球睡眠が可能。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"イルカ (ハンドウイルカ)","color":"light_purple","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[7b,10b,15b,6b],item602:1b,mul_602:\"x1.5\",mul1_602:\"1.5\",CustomModelData:6027,Tags:[\"dolphin_602\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"速度 : 4 ","color":"aqua","italic": false},{"text":"スコア倍率 : x1.5","color":"light_purple"},{"text":"スコア加算量 : 1.8 ","color":"gold"}],
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Epic","color":"light_purple"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"接触した動物のヒットスコアの量を1.2倍にする","color":"white"}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Artiodactyla / Suborder:Ruminantia","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Bovidae / Subfamily:Bovidae / Tride:Bovini","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Bos / Species:B.primigenius / Subspecies:???","color":"dark_gray"}],
+                                [{"text":"Binomial:Bos taurus","color":"dark_gray","bold":true}],
+                                [{"text":"実は茶色のムーシュルームもいる。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"ムーシュルーム","color":"light_purple","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[4b,10b,15b,9b],item602:1b,mul_602:\"x1.5\",mul1_602:\"1.8\",CustomModelData:6030,Tags:[\"mooshroom_602\"]}"
+                        }
+                    ]
+                }
+            ]            
+        }
+    ]
+}

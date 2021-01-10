@@ -1,0 +1,1 @@
+#setblock 6018 80 10 minecraft:birch_wall_sign[facing=north]{Text2:'{"text":"台本ガチャ","color":"light_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/function ats_602:sign/g1"}}'} replace

@@ -1,0 +1,15 @@
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:1b}}] run function ats_602:p/say/1
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:2b}}] run function ats_602:p/say/2
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:3b}}] run function ats_602:p/say/3
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:4b}}] run function ats_602:p/say/4
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:5b}}] run function ats_602:p/say/5
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:6b}}] run function ats_602:p/say/6
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:7b}}] run function ats_602:p/say/7
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:8b}}] run function ats_602:p/say/8
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:9b}}] run function ats_602:p/say/9
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:10b}}] run function ats_602:p/say/10
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:11b}}] run function ats_602:p/say/11
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:12b}}] run function ats_602:p/say/12
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:13b}}] run function ats_602:p/say/13
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:14b}}] run function ats_602:p/say/14
+execute if data entity @s Inventory[{Slot:-106b,tag:{say602:15b}}] run function ats_602:p/say/15

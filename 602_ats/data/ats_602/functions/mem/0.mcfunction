@@ -1,0 +1,1 @@
+team join 602 @s

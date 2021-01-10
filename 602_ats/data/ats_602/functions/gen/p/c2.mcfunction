@@ -1,0 +1,16 @@
+clone ^0 ^ ^ ^0 ^2 ^31 ^31 ^ ^ filtered minecraft:redstone_block normal
+clone ^1 ^ ^ ^1 ^2 ^31 ^30 ^ ^ filtered minecraft:redstone_block normal
+clone ^2 ^ ^ ^2 ^2 ^31 ^29 ^ ^ filtered minecraft:redstone_block normal
+clone ^3 ^ ^ ^3 ^2 ^31 ^28 ^ ^ filtered minecraft:redstone_block normal
+clone ^4 ^ ^ ^4 ^2 ^31 ^27 ^ ^ filtered minecraft:redstone_block normal
+clone ^5 ^ ^ ^5 ^2 ^31 ^26 ^ ^ filtered minecraft:redstone_block normal
+clone ^6 ^ ^ ^6 ^2 ^31 ^25 ^ ^ filtered minecraft:redstone_block normal
+clone ^7 ^ ^ ^7 ^2 ^31 ^24 ^ ^ filtered minecraft:redstone_block normal
+clone ^8 ^ ^ ^8 ^2 ^31 ^23 ^ ^ filtered minecraft:redstone_block normal
+clone ^9 ^ ^ ^9 ^2 ^31 ^22 ^ ^ filtered minecraft:redstone_block normal
+clone ^10 ^ ^ ^10 ^2 ^31 ^21 ^ ^ filtered minecraft:redstone_block normal
+clone ^11 ^ ^ ^11 ^2 ^31 ^20 ^ ^ filtered minecraft:redstone_block normal
+clone ^12 ^ ^ ^12 ^2 ^31 ^19 ^ ^ filtered minecraft:redstone_block normal
+clone ^13 ^ ^ ^13 ^2 ^31 ^18 ^ ^ filtered minecraft:redstone_block normal
+clone ^14 ^ ^ ^14 ^2 ^31 ^17 ^ ^ filtered minecraft:redstone_block normal
+clone ^15 ^ ^ ^15 ^2 ^31 ^16 ^ ^ filtered minecraft:redstone_block normal

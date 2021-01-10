@@ -1,0 +1,1 @@
+execute as @a positioned as @s rotated as @s run function ats_602:tada/2

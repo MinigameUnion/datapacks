@@ -1,0 +1,1 @@
+execute store result storage temp_000:playdata game.602.chaos byte 1 run scoreboard players get $602 chaos_602
