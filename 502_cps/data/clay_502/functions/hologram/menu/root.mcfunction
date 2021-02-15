@@ -1,9 +1,13 @@
 execute at @e[type=villager,tag=clay_502,sort=nearest,limit=1,distance=..9] run tp @e[type=villager,tag=clay_502,limit=1,distance=..0] ~ ~ ~ facing entity @s eyes
 data modify storage utility_001:hologram_util TextGroup append value {Offset: [0.1f,-0.33f],HologramID: 5001,Setting: {CursorCollider: 1b,TextInterpret: 0b,TextSpaceWidth: 0.18f},Text: ['チ','ュ','ー','ト','リ','ア','ル']}
 data modify storage utility_001:hologram_util TextGroup append value {Offset: [0.66f,-0.75f],HologramID: 5001,Setting: {CursorCollider: 0b,TextInterpret: 0b,TextSpaceWidth: 0.18f},Text: ['ItemIcon()'],ItemIcon:[{id:"minecraft:knowledge_book"}]}
-function utility_001:hologram_util/api/create
+
 data modify storage utility_001:hologram_util TextGroup append value {Offset: [1.95f,-0.33f],HologramID: 5005,Setting: {CursorCollider: 1b,TextInterpret: 0b,TextSpaceWidth: 0.18f},Text: ['ス','タ','ン','ダ','ー','ド']}
 execute unless entity @a[scores={playing_000=502},tag=!playing_502,tag=!spectating_502,advancements={clay_502:tutorial=true}] run data modify storage utility_001:hologram_util TextGroup[-1] merge value {Setting:{CursorCollider:0b,TextInterpret:1b},Text:['{"text":"ス","strikethrough":true}','{"text":"タ","strikethrough":true}','{"text":"ン","strikethrough":true}','{"text":"ダ","strikethrough":true}','{"text":"ー","strikethrough":true}','{"text":"ド","strikethrough":true}']}
 data modify storage utility_001:hologram_util TextGroup append value {Offset: [2.34f,-0.75f],HologramID: 5005,Setting: {CursorCollider: 0b,TextInterpret: 0b,TextSpaceWidth: 0.18f},Text: ['ItemIcon()'],ItemIcon:[{id:"minecraft:emerald"}]}
-function utility_001:hologram_util/api/create
+
+data modify storage utility_001:hologram_util TextGroup append value {Offset: [0.9f,-1.0f],HologramID: 5009,Setting: {CursorCollider: 1b,TextInterpret: 0b,TextSpaceWidth: 0.18f},Text: ['ク','イ','ッ','ク','シ','ョ','ッ','ト']}
+execute unless entity @a[scores={playing_000=502},tag=!playing_502,tag=!spectating_502,advancements={clay_502:tutorial=true}] run data modify storage utility_001:hologram_util TextGroup[-1] merge value {Setting:{CursorCollider:0b,TextInterpret:1b},Text:['{"text":"ク","strikethrough":true}','{"text":"イ","strikethrough":true}','{"text":"ッ","strikethrough":true}','{"text":"ク","strikethrough":true}','{"text":"シ","strikethrough":true}','{"text":"ョ","strikethrough":true}','{"text":"ッ","strikethrough":true}','{"text":"ト","strikethrough":true}']}
+data modify storage utility_001:hologram_util TextGroup append value {Offset: [1.5f,-1.42f],HologramID: 5009,Setting: {CursorCollider: 0b,TextInterpret: 0b,TextSpaceWidth: 0.18f},Text: ['ItemIcon()'],ItemIcon:[{id:"minecraft:iron_sword"}]}
+
 data modify storage utility_001:hologram_util TextGroup append value {Offset: [0.25f,0.125f],HologramID: 5999,Setting: {CursorCollider: 1b,TextInterpret: 0b,TextSpaceWidth: 0.12f},Text: ['↩']}

@@ -1,1 +1,0 @@
-/setblock 4992 0 1999 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:0,sizeX:32,posZ:1,integrity:1.0f,showair:0b,name:"clay_502:lobby/0",sizeY:32,sizeZ:32,showboundingbox:1b}

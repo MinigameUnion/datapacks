@@ -1,0 +1,31 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "minecraft:doors",
+                    "state": {
+                        "hinge": "left",
+                        "facing": "north",
+                        "open": "false"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "minecraft:doors",
+                    "state": {
+                        "hinge": "right",
+                        "facing": "east",
+                        "open": "true"
+                    }
+                }
+            }
+        }
+    ]
+}

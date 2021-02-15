@@ -1,6 +1,9 @@
 {
     "values": [
         "minecraft:sea_lantern",
-        "#bullet_501:glass"
+        "minecraft:glowstone",
+        "#minecraft:flower_pots",
+        "#bullet_501:glass",
+        "#bullet_501:lantern"
     ]
 }

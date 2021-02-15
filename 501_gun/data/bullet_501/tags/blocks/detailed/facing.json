@@ -1,5 +1,16 @@
 {
     "values": [
+        "minecraft:bell",
+        "minecraft:grindstone",
+        "minecraft:hopper",
+        "minecraft:lectern",
+        "minecraft:piston_head",
+        "#bullet_501:anvil",
+        "#bullet_501:chests",
+        "#bullet_501:fence_gates",
+        "#bullet_501:piston",
+        "#minecraft:beds",
+        "#minecraft:campfires",
         "#minecraft:stairs",
         "#minecraft:trapdoors"
     ]

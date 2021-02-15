@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #bullet_501:penetratable run function bullet_501:detailed/stop

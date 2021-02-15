@@ -1,0 +1,115 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "east",
+                        "shape": "inner_right"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "west",
+                        "shape": "straight"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "west",
+                        "shape": "inner_left"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "west",
+                        "shape": "inner_right"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "west",
+                        "shape": "outer_left"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "south",
+                        "shape": "straight"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "south",
+                        "shape": "inner_left"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "south",
+                        "shape": "inner_right"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "south",
+                        "shape": "outer_right"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "state": {
+                        "facing": "north",
+                        "shape": "inner_left"
+                    }
+                }
+            }
+        }
+    ]
+}

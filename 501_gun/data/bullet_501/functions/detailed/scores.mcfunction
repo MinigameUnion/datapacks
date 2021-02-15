@@ -1,0 +1,10 @@
+execute store result score #BASE num_501 run scoreboard players operation #SKIP num_501 = #min num_501
+execute store result score #X max_501 store result score #X num_501 run scoreboard players operation #x num_501 = #x pos_501
+execute store result score #Y max_501 store result score #Y num_501 run scoreboard players operation #y num_501 = #y pos_501
+execute store result score #Z max_501 store result score #Z num_501 run scoreboard players operation #z num_501 = #z pos_501
+scoreboard players operation #x num_501 %= #1block num_501
+scoreboard players operation #y num_501 %= #1block num_501
+scoreboard players operation #z num_501 %= #1block num_501
+execute store result score #X min_501 run scoreboard players operation #X max_501 -= #x num_501
+execute store result score #Y min_501 run scoreboard players operation #Y max_501 -= #y num_501
+execute store result score #Z min_501 run scoreboard players operation #Z max_501 -= #z num_501

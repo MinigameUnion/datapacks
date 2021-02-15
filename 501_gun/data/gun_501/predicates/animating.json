@@ -1,0 +1,28 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "mainhand": {
+                    "tag": "gun_501:gun",
+                    "nbt": "{gun:{}}"
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{animation:{playing:[]}}"
+                    }
+                }
+            }
+        }
+    }
+]

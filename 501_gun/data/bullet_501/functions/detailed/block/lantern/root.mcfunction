@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #bullet_501:lantern[hanging=true] run function bullet_501:detailed/block/lantern/hanging
+execute if block ~ ~ ~ #bullet_501:lantern[hanging=false] run function bullet_501:detailed/block/lantern/ground

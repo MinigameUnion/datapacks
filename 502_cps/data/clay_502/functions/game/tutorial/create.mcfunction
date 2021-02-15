@@ -11,12 +11,6 @@ execute as @e[dx=47,dy=31,dz=31,tag=creating_502,tag=gun_stand_502] run loot rep
 data remove storage clay_502:storage match.player[]
 execute as @a[scores={playing_000=502},tag=creating_502,limit=1] run function clay_502:game/tutorial/player
 
-tag @e[dx=47,dy=31,dz=31,tag=creating_502] remove creating_502
-
-data modify entity @s ArmorItems[0].tag.match.tag.type set value 0b
-data modify entity @s ArmorItems[0].tag.match.tag.join set value 1b
-data modify entity @s ArmorItems[0].tag.match.tag.spectate set value 0b
-data modify entity @s ArmorItems[0].tag.match.tag.display.Name set value '{"text":"チュートリアル"}'
-data modify entity @s ArmorItems[0].tag.match.tag.display.Lore set value ['チ','ュ','ー','ト','リ','ア','ル']
+data modify entity @s ArmorItems[0].tag.match.tag set from storage clay_502:storage match.games[0].tag
 
 data modify entity @s ArmorItems[0].tag.match.tag.player set from storage clay_502:storage match.player

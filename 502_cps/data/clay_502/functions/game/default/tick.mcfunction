@@ -4,4 +4,4 @@ execute if score @s progress_502 matches 0 if entity @a[scores={playing_000=502}
 
 execute if score @s progress_502 matches 1.. if score @s tick_502 matches 0 run function clay_502:game/default/action
 
-execute if entity @s[tag=delete_502] run function clay_502:game/default/delete
+execute if entity @s[tag=delete_502] if entity @a[tag=ticking_502,tag=playing_502] run function clay_502:game/default/delete

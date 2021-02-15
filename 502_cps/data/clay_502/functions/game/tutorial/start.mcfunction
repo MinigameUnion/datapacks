@@ -8,6 +8,9 @@ loot give @a[advancements={clay_502:picked_gun=false},tag=ticking_502] loot clay
 
 scoreboard players set @a[tag=ticking_502] hit_502 0
 
+tag @e[dx=47,dy=31,dz=31,tag=ticking_502,tag=sign_502,tag=leave_match_502] add disabled_502
+function clay_502:game/sign/leave_match/restore
+
 data modify entity @s ArmorItems[0].tag.match.tag.join set value 0b
 data modify block 4992 0 2000 Items set from storage clay_502:storage match.playing
 data modify block 4992 0 2000 Items append from entity @s ArmorItems[0].tag.match

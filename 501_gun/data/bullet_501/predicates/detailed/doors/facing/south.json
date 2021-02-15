@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "bullet_501:detailed/doors/left/south"
+        },
+        {
+            "condition": "reference",
+            "name": "bullet_501:detailed/doors/right/south"
+        }
+    ]
+}

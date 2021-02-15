@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "item_501:gun/new_s1897",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{status:{speed:20.0d,zeroin:0.0d}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

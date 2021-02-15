@@ -8,6 +8,15 @@
                         "id": "minecraft:crossbow",
                         "nbt": "{gun:{}}"
                     }
+                ],
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "playing_000": 502
+                        }
+                    }
                 ]
             }
         }

@@ -1,0 +1,8 @@
+{
+    "values": [
+        "bullet_501:detailed/hit/scores",
+        "bullet_501:detailed/hit/get_face",
+        "bullet_501:detailed/hit/material/fluid",
+        "bullet_501:detailed/hit/finish"
+    ]
+}

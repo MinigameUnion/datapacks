@@ -1,4 +1,4 @@
-execute store result score #MATCH num_502 run scoreboard players set #MATCH match_id_502 0
+
 data remove storage clay_502:storage match.display.list[]
 data modify storage clay_502:storage match.display.list append from storage clay_502:storage match.playing[{tag:{type:1b,spectate:1b}}]
 data modify storage clay_502:storage match.display.return set value 5005

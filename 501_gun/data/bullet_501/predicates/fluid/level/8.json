@@ -1,0 +1,19 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "fluid": {
+                    "state": {
+                        "level": 8
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "bullet_501:fluid/level/8_0"
+        }
+    ]
+}

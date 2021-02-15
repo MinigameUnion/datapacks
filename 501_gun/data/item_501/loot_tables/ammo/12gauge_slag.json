@@ -1,0 +1,73 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:acacia_button",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:5001}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ammo:{caliber:\"12gauge\",particle:1b,bullet:1}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "12gauge SLAG",
+                                    "color": "blue",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "口径",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "12gauge",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "弾道",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " : ",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "赤",
+                                        "color": "red",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

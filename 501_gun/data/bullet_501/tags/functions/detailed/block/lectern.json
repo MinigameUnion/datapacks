@@ -1,0 +1,9 @@
+{
+    "values": [
+        {
+            "id": "bullet_501:detailed/block/lectern/root",
+            "required": false
+        },
+        "bullet_501:detailed/block/lectern/loop"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "tag": "gun_501:gun",
+                "nbt": "{gun:{}}"
+            }
+        }
+    }
+}

@@ -1,5 +1,8 @@
 {
     "values": [
-        "#minecraft:fences"
+        "minecraft:iron_bars",
+        "#minecraft:fences",
+        "#bullet_501:glass_pane",
+        "minecraft:black_stained_glass_pane"
     ]
 }

@@ -1,0 +1,53 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "minecraft:beds",
+                    "state": {
+                        "facing": "east",
+                        "part": "foot"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "minecraft:beds",
+                    "state": {
+                        "facing": "west",
+                        "part": "head"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "minecraft:beds",
+                    "state": {
+                        "facing": "south",
+                        "part": "foot"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "minecraft:beds",
+                    "state": {
+                        "facing": "north",
+                        "part": "head"
+                    }
+                }
+            }
+        }
+    ]
+}

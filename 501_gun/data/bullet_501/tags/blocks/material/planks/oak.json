@@ -1,5 +1,12 @@
 {
     "values": [
+        "minecraft:bee_nest",
+        "minecraft:beehive",
+        "minecraft:bookshelf",
+        "minecraft:chest",
+        "minecraft:crafting_table",
+        "minecraft:lectern",
+        "minecraft:loom",
         "minecraft:oak_planks",
         "minecraft:oak_stairs",
         "minecraft:oak_slab",
@@ -7,6 +14,9 @@
         "minecraft:oak_fence_gate",
         "minecraft:oak_door",
         "minecraft:oak_trapdoor",
-        "#minecraft:oak_logs"
+        "minecraft:trapped_chest",
+        "#minecraft:oak_logs",
+        "#minecraft:beds",
+        "#minecraft:campfires"
     ]
 }

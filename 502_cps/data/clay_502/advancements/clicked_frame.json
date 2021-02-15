@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "clicked": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:item_frame",
+                    "nbt": "{Tags:[\"gun_stand_502\"]}"
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "playing_000": 502
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "clay_502:player/clicked_frame"
+    }
+}

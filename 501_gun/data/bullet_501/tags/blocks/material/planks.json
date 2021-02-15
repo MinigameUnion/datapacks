@@ -5,6 +5,8 @@
         "#bullet_501:material/planks/birch",
         "#bullet_501:material/planks/jungle",
         "#bullet_501:material/planks/acacia",
-        "#bullet_501:material/planks/dark_oak"
+        "#bullet_501:material/planks/dark_oak",
+        "#bullet_501:material/planks/crimson",
+        "#bullet_501:material/planks/warped"
     ]
 }

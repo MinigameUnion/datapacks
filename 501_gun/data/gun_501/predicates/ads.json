@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "tag": "gun_501:gun",
+                "nbt": "{gun:{ads:1b}}"
+            }
+        }
+    }
+}

@@ -1,9 +1,22 @@
 {
     "values": [
+        "minecraft:brewing_stand",
+        "minecraft:composter",
+        "minecraft:cauldron",
+        "minecraft:snow",
         "#bullet_501:detailed/face",
         "#bullet_501:detailed/type",
         "#bullet_501:detailed/facing",
         "#bullet_501:detailed/half",
-        "#bullet_501:detailed/open"
+        "#bullet_501:detailed/open",
+        "#bullet_501:detailed/axis",
+        "#bullet_501:detailed/lower",
+        "#bullet_501:fence_gates",
+        "#bullet_501:fluid",
+        "#bullet_501:lantern",
+        "#minecraft:beds",
+        "#minecraft:doors",
+        "#minecraft:flower_pots",
+        "#minecraft:walls"
     ]
 }

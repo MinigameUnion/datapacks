@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "gun_501:gun/s1897",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{shot:[[12],[{value:14,action:3b}]]}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{animation:{auto:[[{value:12,action:7b}],[{value:14,action:3b}]]}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{status:{speed:60.0d,zeroin:10.0d,cooltime:1}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{status:{ammo:{bullet:0,spread:0}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{firemode:[B;2b]}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{mag:{mag:{Count:0b,tag:{mag:{ammo:[],amount:0,status:{capacity:30}}}},status:{amount:30}}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

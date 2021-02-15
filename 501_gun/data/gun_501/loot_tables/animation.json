@@ -23,7 +23,7 @@
                             "entity": "this",
                             "name": [
                                 {
-                                    "nbt": "Item.tag.501.tag.gun.name",
+                                    "nbt": "Item.tag.501.tag.gun.status.name",
                                     "entity": "@s",
                                     "interpret": true,
                                     "color": "blue",
@@ -35,7 +35,7 @@
                                     "italic": false
                                 },
                                 {
-                                    "nbt": "Item.tag.501.tag.gun.magazine.amount",
+                                    "nbt": "Item.tag.501.tag.gun.amount",
                                     "entity": "@s",
                                     "color": "gray",
                                     "italic": false
@@ -46,7 +46,7 @@
                                     "italic": false
                                 },
                                 {
-                                    "nbt": "Item.tag.501.tag.gun.magazine.data.default",
+                                    "nbt": "Item.tag.501.tag.gun.mag.mag.tag.mag.status.capacity",
                                     "entity": "@s",
                                     "color": "gray",
                                     "italic": false

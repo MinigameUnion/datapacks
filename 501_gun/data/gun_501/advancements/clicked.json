@@ -8,9 +8,15 @@
                     "nbt": "{gun:{}}"
                 }
             }
+        },
+        "auto": {
+            "trigger": "minecraft:impossible"
         }
     },
-    "rewards": {
-        "function": "player_501:clicked"
-    }
+    "requirements": [
+        [
+            "tick",
+            "auto"
+        ]
+    ]
 }

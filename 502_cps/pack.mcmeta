@@ -1,9 +1,15 @@
 {
     "pack": {
         "pack_format": 6,
-        "description": {
-            "text": "クレー射撃",
-            "italic":true
-        }
+        "description": [
+            {
+                "text": "クレー射撃",
+                "italic": true
+            },
+            {
+                "text": " ver β",
+                "italic": false
+            }
+        ]
     }
 }

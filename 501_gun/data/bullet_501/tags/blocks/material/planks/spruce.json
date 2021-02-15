@@ -1,5 +1,7 @@
 {
     "values": [
+        "minecraft:barrel",
+        "minecraft:composter",
         "minecraft:spruce_planks",
         "minecraft:spruce_stairs",
         "minecraft:spruce_slab",

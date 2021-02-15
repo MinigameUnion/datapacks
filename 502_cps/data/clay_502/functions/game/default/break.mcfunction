@@ -1,4 +1,4 @@
-scoreboard players operation @s count_502 = #COUNT_OPTION num_502
+scoreboard players operation @s count_502 = #default count_502
 scoreboard players remove @s set_502 1
 execute if score @s set_502 matches 1.. store result score @a[tag=ticking_502] tick_502 run scoreboard players set @s tick_502 100
 execute if score @s set_502 matches 1.. run title @a[tag=ticking_502] times 10 80 10

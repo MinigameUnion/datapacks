@@ -1,0 +1,1 @@
+execute align xyz run summon falling_block ~ ~ ~ {Time:1,BlockState:{Name:"minecraft:bedrock"},NoGravity:1b,Tags:["bedrock_501","test_501"]}

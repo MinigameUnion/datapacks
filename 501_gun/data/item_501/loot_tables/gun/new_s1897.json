@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "gun_501:gun/s1897",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{mag:{mag:{Count:0b,tag:{mag:{ammo:[],amount:0,status:{capacity:5,ammo:{tag:{ammo:{caliber:\"12gauge\"}}}}}}},status:{amount:1}}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

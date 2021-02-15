@@ -7,7 +7,7 @@ scoreboard players operation #RANDOM num_000 > #Rotation[1]_min num_502
 
 execute store result entity @s Rotation[1] float 0.1 run scoreboard players operation #RANDOM num_000 += #MIN num_502
 execute rotated as @s run function tool_000:get_vector
-summon item ~ ~0.5 ~ {Tags:["summoning_502","clay_502"],Invulnerable:1b,Item:{id:"minecraft:clay_ball",Count:1b,tag:{CustomModelData:5000}},PickupDelay:-32768s,Age:-32768s,OnGround:0b,Passengers:[{id:"minecraft:slime",Tags:["summoning_502","clay_502","target_501"],Size:0,wasOnGround:0b,DeathLootTable:"minecraft:empty",NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}]}]}
+summon item ~ ~0.5 ~ {Tags:["summoning_502","clay_502"],Invulnerable:1b,Item:{id:"minecraft:clay_ball",Count:1b,tag:{CustomModelData:5000}},PickupDelay:-32768s,Age:0s,OnGround:0b,Passengers:[{id:"minecraft:slime",Tags:["summoning_502","clay_502","target_501"],Size:0,wasOnGround:0b,DeathLootTable:"minecraft:empty",NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}]}]}
 execute as @e[type=item,tag=summoning_502,tag=clay_502,sort=nearest,distance=..0.5,limit=1] run function clay_502:clay/motion
 
 scoreboard players operation @e[type=slime,tag=summoning_502,tag=clay_502,sort=nearest,distance=..0.75,limit=1] match_id_502 = #ADMIN match_id_502

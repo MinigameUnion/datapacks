@@ -1,2 +1,2 @@
-tellraw @s [{"text":"[Tutorial] ","color":"gold"},{"text": " ✓ ","color":"green","underlined": false,"bold": true},{"text": "リロード : ","color":"gray","underlined": false},{"keybind": "key.swapHands","color":"white","underlined": true}]
+tellraw @s ["",{"text":"[Tutorial] ","color":"gold"},{"text": " ✓ ","color":"green","underlined": false,"bold": true},{"text": "リロード : ","color":"gray","underlined": false},{"keybind": "key.swapOffhand","color":"white","underlined": true}]
 tag @s add reloaded_502

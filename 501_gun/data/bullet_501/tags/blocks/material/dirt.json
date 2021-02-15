@@ -5,6 +5,7 @@
         "minecraft:coarse_dirt",
         "minecraft:podzol",
         "minecraft:mycelium",
+        "minecraft:farmland",
         "minecraft:grass_path"
     ]
 }

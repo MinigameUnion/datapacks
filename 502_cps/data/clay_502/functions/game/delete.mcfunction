@@ -14,6 +14,8 @@ fill ~32 ~ ~ ~47 ~31 ~15 air
 #X+2,Z+1
 fill ~32 ~ ~16 ~47 ~31 ~31 air
 
+
+execute as @e[type=pig,dx=47,dy=31,dz=31,tag=ticking_502] run data modify entity @s Saddle set value 0b
 kill @e[type=!player,dx=47,dy=31,dz=31,tag=ticking_502]
 
 data remove entity @s ArmorItems[0].tag.match.tag

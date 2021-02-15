@@ -3,8 +3,11 @@
         "minecraft:sand",
         "minecraft:red_sand",
         "minecraft:gravel",
+        "#bullet_501:breakable",
+        "#bullet_501:material/snow",
         "#bullet_501:material/dirt",
         "#bullet_501:material/metal",
-        "#bullet_501:material/planks"
+        "#bullet_501:material/planks",
+        "#bullet_501:soft"
     ]
 }

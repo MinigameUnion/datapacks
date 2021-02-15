@@ -1,7 +1,7 @@
 {
     "values": [
         "minecraft:cave_air",
-        "minecraft:structure_void",
-        "#bullet_501:soft"
+        "minecraft:lava",
+        "minecraft:structure_void"
     ]
 }

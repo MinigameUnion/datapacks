@@ -13,47 +13,47 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{gun:{chamber:0b,ads:0b,reloading:0b,firemode:[B;1b],sound:2,name:\"{\\\"text\\\":\\\"S1897\\\"}\"}}"
+                            "tag": "{gun:{chamber:{},amount:0,ads:0b,reloading:0b,firemode:[B;1b]}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{gun:{magazine:{amount:0,data:{default:5,extend:5,type:0b,ammo:2b}}}}"
+                            "tag": "{gun:{mag:{mag:{Count:0b,tag:{mag:{ammo:[],amount:0,status:{capacity:5}}}},status:{amount:1}}}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{gun:{status:{damage:2.0d,speed:100.0d,range:10.0d,spread:{hip:7,ads:5},type:4b,cooltime:16,amount:9,recoil:[I;5,10]}}}"
+                            "tag": "{gun:{status:{name:\"{\\\"text\\\":\\\"S1897\\\"}\",speed:100.0d,zeroin:10.0d,spread:{hip:7,ads:0},type:4b,cooltime:16,recoil:[[I;5,10]]}}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{animation:{temp:[],base:5000,default:5000}}"
+                            "tag": "{gun:{status:{ammo:{bullet:9,range:10.0d,spread:5,damage:2.0d,cartridge:2b}}}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{animation:{ads:{value:5050,list:[{value:3},{value:4},{value:5},{value:6,action:1b}],hip:[{value:6},{value:5},{value:4},{value:3,action:1b}]}}}"
+                            "tag": "{animation:{playing:[],base:5000,default:5000}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{animation:{shot:[{value:11},{value:12},{value:13},{value:14},{value:15},{value:15,action:2b}]}}"
+                            "tag": "{animation:{ads:{value:5050,list:[[[3],[4],[5],[{value:6,action:1b}]],[[6],[5],[4],[{value:3,action:1b}]]]}}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{animation:{cocking:[{value:16},{value:17},{value:18},{value:19},{value:20,sound:1,action:3b},{value:21},{value:22},{value:23},{value:24},{value:25},{value:25,sound:1}]}}"
+                            "tag": "{animation:{shot:[[11],[12],[13],[14],[15],[{value:15,action:2b}]]}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{animation:{reload:{start:[{value:31},{value:32},{value:33},{value:34}]}}}"
+                            "tag": "{animation:{cocking:[[16],[17],[18],[19],[{value:20,action:3b,sound:1}],[21],[22],[23],[24],[25],[{value:25,sound:1}]]}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{animation:{reload:{loop:[{value:34,skip:2},{value:35},{value:36},{value:37,action:5b,sound:2},{value:35},{value:34,skip:1},{value:34,action:4b}]}}}"
+                            "tag": "{animation:{reload:[[[31],[32],[33],[{value:34,skip:3}]],[[{value:34,skip:3}],[35],[35],[36],[{value:37,action:5b,sound:2}],[35],[{value:34,skip:2}],[{value:34,action:4b}]],[[34],[33],[32],[31]]]}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{animation:{reload:{finish:[{value:34},{value:33},{value:32},{value:31}]}}}"
+                            "tag": "{animation:{pick:[[{value:40,skip:2}],[41],[42],[43],[44],[45],[46],[{value:47,skip:2}]]}}"
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{animation:{pick:[{value:40,skip:2},{value:41},{value:42},{value:43},{value:44},{value:45},{value:46},{value:47,skip:2}]}}"
+                            "tag": "{animation:{sprint:[[[47],[46],[44],[42],[{value:40,action:8b}]],[[41],[43],[45],[47]]]}}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -76,7 +76,7 @@
                             "lore": [
                                 [
                                     {
-                                        "text": "弾薬",
+                                        "text": "口径",
                                         "color": "dark_gray",
                                         "italic": false
                                     },
@@ -87,7 +87,7 @@
                                     },
                                     {
                                         "text": "12gauge",
-                                        "color": "red",
+                                        "color": "gray",
                                         "italic": false
                                     }
                                 ],
@@ -127,7 +127,7 @@
                                 ],
                                 [
                                     {
-                                        "text": "射程",
+                                        "text": "零点",
                                         "color": "dark_gray",
                                         "italic": false
                                     },

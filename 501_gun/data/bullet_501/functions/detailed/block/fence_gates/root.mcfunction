@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #bullet_501:fence_gates[in_wall=false] run function bullet_501:detailed/block/fence_gates/default/loop
+execute if block ~ ~ ~ #bullet_501:fence_gates[in_wall=true] run function bullet_501:detailed/block/fence_gates/in_wall/loop

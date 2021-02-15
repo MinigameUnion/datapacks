@@ -1,12 +1,19 @@
 {
     "values": [
+        "minecraft:dried_kelp_block",
+        "minecraft:gravel",
+        "minecraft:hay_block",
         "minecraft:sand",
         "minecraft:red_sand",
-        "minecraft:gravel",
+        "minecraft:tnt",
         "#minecraft:doors",
         "#minecraft:trapdoors",
+        "#bullet_501:breakable",
+        "#bullet_501:fence_gates",
+        "#bullet_501:immune",
         "#bullet_501:material/dirt",
         "#bullet_501:material/metal",
-        "#bullet_501:immune"
+        "#bullet_501:material/powder",
+        "#bullet_501:soft"
     ]
 }

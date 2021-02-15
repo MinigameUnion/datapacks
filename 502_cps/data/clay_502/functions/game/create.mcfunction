@@ -13,7 +13,14 @@ data modify block 4992 0 2000 Items set from storage clay_502:storage match.play
 
 execute if score #GAME num_502 matches 0 at @s run function clay_502:game/tutorial/create
 execute if score #GAME num_502 matches 1 at @s run function clay_502:game/default/create
+execute if score #GAME num_502 matches 2 at @s run function clay_502:game/quickshot/create
+#execute if score #GAME num_502 matches 3 at @s run function clay_502:game/challenge/create
+
+execute positioned as @s run function clay_502:game/sign/delete_match/create
 
 data modify block 4992 0 2000 Items append from entity @s ArmorItems[0].tag.match
 data modify storage clay_502:storage match.playing set from block 4992 0 2000 Items
 data remove storage clay_502:storage match.list[0]
+
+execute positioned as @s run tag @e[dx=47,dy=31,dz=31,tag=creating_502] remove creating_502
+tag @a[tag=creating_502] remove creating_502

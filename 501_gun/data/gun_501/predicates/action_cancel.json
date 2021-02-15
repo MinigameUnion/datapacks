@@ -1,0 +1,11 @@
+[
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:reference",
+                "name": "player_000:is_sprinting"
+            }
+        ]
+    }
+]

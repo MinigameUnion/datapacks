@@ -7,6 +7,7 @@
         "minecraft:birch_fence_gate",
         "minecraft:birch_door",
         "minecraft:birch_trapdoor",
+        "minecraft:fletching_table",
         "#minecraft:birch_logs"
     ]
 }

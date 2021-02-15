@@ -1,7 +1,11 @@
 {
     "values": [
-        "minecraft:snow",
-        "minecraft:snow_block",
-        "#minecraft:wool"
+        "minecraft:slime_block",
+        "minecraft:sponge",
+        "minecraft:wet_sponge",
+        "minecraft:honey_block",
+        "#minecraft:carpets",
+        "#minecraft:wool",
+        "#bullet_501:material/snow"
     ]
 }
