@@ -13,4 +13,4 @@ jobs:
         with:
           fetch-depth: 0
       - name: Test
-        uses: ChenCMD/datapack-linter@v1.0.0
+        uses: ChenCMD/datapack-linter@v1
