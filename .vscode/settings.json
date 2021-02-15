@@ -1,0 +1,14 @@
+{
+    "datapack.env.cmdVersion": "1.16",
+    "datapack.env.dataVersion": "1.16.4",
+    "datapack.env.jsonVersion": "1.16",
+    "datapack.env.dataSource": "GitHub",
+    "datapack.env.defaultVisibility": "public",
+    "datapack.env.dependsOnVanilla": false,
+    "datapack.lint.eol": "LF",
+    "datapack.lint.strictEnchantmentCheck": [
+        "information",
+        "always"
+    ],
+    "files.eol": "\n"
+}
