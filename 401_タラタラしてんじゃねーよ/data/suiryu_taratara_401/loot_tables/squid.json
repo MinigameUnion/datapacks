@@ -13,7 +13,7 @@
               "tag": "{taratara_squid_401:1}"
             }
           ],
-          "name": "minecraft:squid",
+          "name": "minecraft:ink_sac",
           "conditions": [
             {
               "condition": "minecraft:killed_by_player"
