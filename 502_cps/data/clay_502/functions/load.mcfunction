@@ -42,7 +42,7 @@ scoreboard players set #HIT_min num_502 1
 
 #scoreboard players set #COIN_max num_502 150
 scoreboard players set #COIN_min num_502 14
-scoreboard players set #WIN_BONUS num_502 50
+scoreboard players set #WIN_BONUS num_502 25
 scoreboard players set #PERFECT_BONUS num_502 50
 
 team add collision_502 [{"text":"(502)","color":"green"},{"text":"当たり判定無効化用"}]
