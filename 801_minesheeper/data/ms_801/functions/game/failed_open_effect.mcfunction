@@ -1,0 +1,5 @@
+#地雷が埋まっていた羊が実行者/実行点
+data merge entity @s {CustomName:'"jeb_"',Sheared:0b,Glowing:1b}
+particle minecraft:angry_villager ~ ~ ~ 0.4 0.4 0.4 0 10 force @a[scores={playing_000=801}]
+playsound minecraft:entity.zombie.attack_iron_door master @a[scores={playing_000=801}] ~ ~ ~ 0.5 1 1
+tag @s add Opened_801

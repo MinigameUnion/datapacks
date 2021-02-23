@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{801:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"translate":"item.minecraft.golden_apple","color":"aqua","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"","color":"white","italic":false},{"text":"上下の階層移動"}]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
