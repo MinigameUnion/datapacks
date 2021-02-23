@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wheat",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{801:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {"translate":"item.minecraft.wheat","color":"aqua","italic":false}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"","color":"white","italic":false},{"text":"ゲーム内：旗を立てる"}],
+                                [{"text":"","color":"white","italic":false},{"text":"その他：説明を見る"}]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

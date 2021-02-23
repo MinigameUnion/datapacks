@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "used": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_apple",
+                    "nbt": "{801:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ms_801:trigger/golden_apple"
+    }
+}
