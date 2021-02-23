@@ -43,4 +43,4 @@ tp @e[tag=801] 8000 -100 0
 kill @e[tag=801]
 
 #設定開始
-schedule function ms_801:setting/start 3t
+schedule function ms_801:setting/start 5t
