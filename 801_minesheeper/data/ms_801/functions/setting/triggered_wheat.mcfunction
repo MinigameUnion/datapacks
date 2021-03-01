@@ -12,7 +12,8 @@ execute as 0-0-321-0-b if entity @s[tag=Feeded_801] run tellraw @a[tag=Feeder_80
 execute as 0-0-321-0-c if entity @s[tag=Feeded_801] run tellraw @a[tag=Feeder_801] ["",{"translate":"%1$s：30x16,ハズレ99個","with":[{"text":"ハード","color":"red","bold":true}]}]
 execute as 0-0-321-0-d if entity @s[tag=Feeded_801] run tellraw @a[tag=Feeder_801] ["",{"translate":"%1$s：9x9,ハズレ10個,%2$s","with":[{"text":"ハードコア","color":"light_purple","bold":true},{"text":"開けた羊が動く","color":"red","underlined":true}]}]
 execute as 0-0-321-0-e if entity @s[tag=Feeded_801] run tellraw @a[tag=Feeder_801] ["",{"translate":"%1$s：9x9,ハズレ10個,%2$s","with":[{"text":"ナイトメア","color":"dark_gray","bold":true},{"text":"全ての羊が動く","color":"dark_red","underlined":true}]}]
-
+#ランキング
+execute as 0-0-321-0-14 if entity @s[tag=Feeded_801] run tellraw @a[tag=Feeder_801] ["",{"translate":"%1$s：クリアタイム・MVP(羊毛最多獲得者)を確認できます。","with":[{"text":"ランキング","color":"gold","bold":true}]}]
 
 #後始末
 tag @s remove Feeder_801
