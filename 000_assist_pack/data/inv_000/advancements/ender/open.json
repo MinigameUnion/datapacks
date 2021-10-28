@@ -4,11 +4,15 @@
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "item": {
-                    "item": "minecraft:air"
+                    "items": [
+                        "minecraft:air"
+                    ]
                 },
                 "location": {
                     "block": {
-                        "block": "minecraft:ender_chest"
+                        "blocks": [
+                            "minecraft:ender_chest"
+                        ]
                     }
                 }
             }
@@ -18,7 +22,9 @@
             "conditions": {
                 "location": {
                     "block": {
-                        "block": "minecraft:ender_chest"
+                        "blocks": [
+                            "minecraft:ender_chest"
+                        ]
                     }
                 },
                 "player": [
@@ -39,7 +45,9 @@
                             "predicate": {
                                 "equipment": {
                                     "mainhand": {
-                                        "item": "minecraft:air"
+                                        "items": [
+                                            "minecraft:air"
+                                        ]
                                     }
                                 }
                             }
