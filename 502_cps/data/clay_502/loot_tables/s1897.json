@@ -14,6 +14,7 @@
                         {
                             "function": "minecraft:set_lore",
                             "entity": "this",
+                            "replace": true,
                             "lore": [
                                 [
                                     {
