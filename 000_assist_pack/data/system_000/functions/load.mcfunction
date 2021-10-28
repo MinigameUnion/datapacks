@@ -78,11 +78,11 @@ data merge storage system_000:storage {pos:{admin:{Pos:[0.0d,0.0d,0.0d],Rotation
 data merge storage system_000:storage {pos:{lobby:{Pos:[0.0d,4.0d,0.0d],Rotation:[0.0f,0.0f]}}}
 
 #バージョン管理
-#1.16.5
-scoreboard players set #DataVersion id_000 2586
+#1.17.1
+scoreboard players set #DataVersion id_000 2730
 scoreboard players set #MapVersion id_000 1
 execute unless data storage system_000:storage version.list run data remove storage system_000:storage version
-data modify storage system_000:storage version.minecraft set value '{"text":"1.16.5"}'
+data modify storage system_000:storage version.minecraft set value '{"text":"1.17.1"}'
 function system_000:version
 
 
