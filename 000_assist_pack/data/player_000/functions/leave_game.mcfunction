@@ -14,6 +14,5 @@ effect clear @s
 effect give @s resistance 1000000 4 true
 effect give @s minecraft:instant_health 1 124 true
 scoreboard players set @s food_000 21
-data modify entity 0-0-0-0-0 {} merge from storage system_000:storage pos.lobby
-tp @s 0-0-0-0-0
-data modify entity 0-0-0-0-0 {} merge from storage system_000:storage pos.admin
+data modify storage tool_000:api teleport set from storage system_000:storage pos.lobby
+function tool_000:teleport

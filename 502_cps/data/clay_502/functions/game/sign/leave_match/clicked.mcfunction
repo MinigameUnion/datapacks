@@ -3,9 +3,8 @@ execute as @e[tag=spawned_502,tag=ticking_502] if score @s num_502 = #ID num_502
 
 tellraw @a[tag=ticking_502] [{"selector":"@s","color":"white"},{"text":" が離脱","color":"gray"}]
 
-data modify entity 0-0-1f6-0-0 {} merge from storage clay_502:storage lobby.return
-tp @s 0-0-1f6-0-0
-data modify entity 0-0-1f6-0-0 {} merge from storage clay_502:storage lobby.admin
+data modify storage tool_000:api teleport set from storage clay_502:storage lobby.return
+function tool_000:teleport
 
 function clay_502:player/leave
 
