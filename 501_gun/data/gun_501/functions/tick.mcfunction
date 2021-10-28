@@ -33,7 +33,7 @@ execute as @a[tag=gun_501] run scoreboard players operation @s sis_501 = @s ope_
 
 
 #ENTITY
-execute as @e[type=area_effect_cloud,tag=bullet_501] at @s run function bullet_501:root
+execute as @e[tag=bullet_501] at @s run function bullet_501:root
 execute store result score #KILLED num_501 run kill @e[type=armor_stand,tag=hit_mark_501,nbt={PortalCooldown:0}]
 scoreboard players operation #HITMARK ope_501 -= #KILLED num_501
 kill @e[tag=kill_501]
