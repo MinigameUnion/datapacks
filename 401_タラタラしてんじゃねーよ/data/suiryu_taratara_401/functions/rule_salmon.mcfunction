@@ -5,7 +5,7 @@ tellraw @s {"text":"  スコアが増えるにつれ、タラ以外の魚が出�
 
 tellraw @s {"text":"","color":"white","italic":false}
 
-tellraw @s {"text":"  ・タラ","color":"dark_purple","italic":false}
+tellraw @s {"text":"  ・サケ","color":"dark_purple","italic":false}
 tellraw @s {"text":"    スコアが減少します。","color":"white","italic":false}
 
 tellraw @s {"text":"  ・熱帯魚","color":"dark_purple","italic":false}
