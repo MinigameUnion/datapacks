@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "text": "神経衰弱を開始",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{mem_503:{trigger:1b,clickable:1b,summon:3}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{Invulnerable:1b}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

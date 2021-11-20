@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "piwe": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:item_frame",
+                            "nbt": "{Item:{tag:{mem_503:{clickable:1b}}}}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "mem_503:player/interact"
+    }
+}

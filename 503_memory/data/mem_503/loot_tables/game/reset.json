@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "mem_503:trigger",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{mem_503:{trigger:1b,clickable:1b}}"
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": "this",
+                            "ops": [
+                                {
+                                    "source": "data.mem_503.frame.Item.tag.mem_503",
+                                    "target": "mem_503",
+                                    "op": "replace"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

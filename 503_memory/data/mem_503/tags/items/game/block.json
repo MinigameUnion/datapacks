@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:bookshelf",
+        "minecraft:chest",
+        "minecraft:cobblestone",
+        "minecraft:crafting_table",
+        "minecraft:diamond_ore",
+        "minecraft:ender_chest",
+        "minecraft:furnace",
+        "minecraft:grass_block",
+        "minecraft:gold_block",
+        "minecraft:oak_log",
+        "minecraft:obsidian",
+        "minecraft:sand",
+        "minecraft:stone_bricks"
+    ]
+}
