@@ -6,10 +6,8 @@ execute store result score #FAILED num_502 unless block 4992 0 2000 shulker_box
 execute if score #SUCCESS num_502 matches 0 if score #FAILED num_502 matches 0 run forceload add 4992 2000
 execute if score #SUCCESS num_502 matches 0 if score #FAILED num_502 matches 0 run forceload remove 4992 2000
 
-data modify entity 0-0-1f6-0-0 {} merge from storage clay_502:storage lobby.spawn
-execute at 0-0-1f6-0-0 run tp @s ~ ~ ~ ~ ~
-data modify entity 0-0-1f6-0-0 {} merge from storage clay_502:storage lobby.admin
-
+data modify storage tool_000:api teleport set from storage clay_502:storage lobby.spawn
+function tool_000:teleport
 
 scoreboard players operation #ID num_502 = @s id_000
 execute as @e[x=0.5,y=1.0,z=0.5,distance=..0,tag=storage_000] if score @s id_000 = #ID num_502 if data entity @s Item.tag.502.advancements{tutorial:1b} run scoreboard players set #ID num_502 -1

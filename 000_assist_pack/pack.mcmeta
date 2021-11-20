@@ -1,13 +1,13 @@
 {
     "pack": {
-        "pack_format": 6,
+        "pack_format": 7,
         "description": [
             {
                 "text": "ﾐﾆｹﾞｰﾑ合同管理用ﾃﾞｰﾀﾊﾟｯｸ",
                 "italic":true
             },
             {
-                "text": " ver 0.5.2",
+                "text": " ver 0.6.0",
                 "italic":false
             }
         ]
