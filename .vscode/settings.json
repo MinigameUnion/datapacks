@@ -1,7 +1,7 @@
 {
-    "datapack.env.cmdVersion": "1.16",
-    "datapack.env.dataVersion": "1.16.4",
-    "datapack.env.jsonVersion": "1.16",
+    "datapack.env.cmdVersion": "1.17",
+    "datapack.env.dataVersion": "1.17.1",
+    "datapack.env.jsonVersion": "1.17",
     "datapack.env.dataSource": "GitHub",
     "datapack.env.defaultVisibility": "public",
     "datapack.env.dependsOnVanilla": false,
@@ -10,5 +10,11 @@
         "information",
         "always"
     ],
+    "datapack.lint.strictSoundEventCheck": [
+        "information",
+        "only-default-namespace"
+    ],
+    "datapack.lint.nbtStringQuoteType": null,
+    "datapack.lint.stringQuote": null,
     "files.eol": "\n"
 }
