@@ -42,6 +42,4 @@ team modify 602 friendlyFire false
 
 bossbar add minecraft:0_602 [{"text":"Score : "},{"score":{"name":"$602","objective":"score_602"}}]
 
-teleport @s 6000 64 0 0 0
-#execute positioned as @s run fill ~ 64 ~ ~48 60 ~48 minecraft:gray_concrete
 function ats_602:reset
