@@ -1,5 +1,7 @@
 #GameInfo変更
 scoreboard players set $GameInfo General_801 1
+#スコア設定
+scoreboard players set $UsedFlag General_801 0
 #サイズ等調整
 execute if score $X General_801 matches 31.. run scoreboard players set $X General_801 30
 execute if score $X General_801 matches ..8 run scoreboard players set $X General_801 9
