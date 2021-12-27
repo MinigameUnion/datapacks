@@ -4,7 +4,9 @@
             "trigger": "minecraft:item_durability_changed",
             "conditions": {
                 "item": {
-                    "item": "minecraft:shears",
+                    "items": [
+                        "minecraft:shears"
+                    ],
                     "nbt": "{801:1b}"
                 }
             }

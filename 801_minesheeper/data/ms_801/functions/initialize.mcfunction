@@ -15,6 +15,8 @@ scoreboard players set $Z General_801 9
 scoreboard players set $Mine General_801 10
 #羊が動くか
 scoreboard players set $CanMove General_801 0
+#間隔
+scoreboard players set $IsWide General_801 0
 #難易度
 scoreboard players set $Dif General_801 0
 #難易度履歴(ナイトメア用)

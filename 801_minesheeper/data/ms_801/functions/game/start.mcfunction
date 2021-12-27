@@ -15,6 +15,7 @@ execute if score $Mine General_801 matches ..9 run scoreboard players set $Mine 
 #原点
 summon minecraft:area_effect_cloud 8000 0 0 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, UUID:[I;0,801,1,0]}
 scoreboard players set $Tmp2 General_801 3
+execute if score $IsWide General_801 matches 1 run scoreboard players set $Tmp2 General_801 6
 scoreboard players operation $Tmp General_801 = $X General_801
 scoreboard players operation $Tmp General_801 *= $Tmp2 General_801
 scoreboard players remove $Tmp General_801 32003
