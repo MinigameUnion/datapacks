@@ -1,5 +1,5 @@
 #地雷が埋まっていた羊が実行者/実行点
-data merge entity @s {CustomName:'"jeb_"',Sheared:0b,Glowing:1b}
+data merge entity @s {CustomName:'"jeb_"',Sheared:0b}
 particle minecraft:note ~ ~0.5 ~ 0.4 0.4 0.4 1 10 force @a[scores={playing_000=801}]
 scoreboard players set #RANGE num_000 3
 function tool_000:random

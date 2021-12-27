@@ -4,7 +4,7 @@ bossbar set disp_801 players @a[scores={playing_000=801}]
 bossbar set time_801 players @a[scores={playing_000=801}]
 
 #バグ解消用
-execute unless entity 0-0-321-ffff-ffffffffffff run schedule function ms_801:initialize 2t
+schedule function ms_801:initialize_wait 20t
 clear @s shears{801:1b}
 clear @s wheat{801:1b}
 clear @s golden_apple{801:1b}
