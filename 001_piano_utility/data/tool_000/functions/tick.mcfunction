@@ -1,4 +1,4 @@
-#> system_000:tick
+#> tool_000:tick
 # @within
 #   tag/function minecraft:tick
 
