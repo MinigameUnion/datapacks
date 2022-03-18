@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "pack_format": 7,
+        "description": [
+            {
+                "text": "神経衰弱",
+                "italic":true
+            },
+            {
+                "text": " ver 1.0",
+                "italic":false
+            }
+        ]
+    }
+}

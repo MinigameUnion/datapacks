@@ -1,0 +1,46 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "selector":"@a[tag=winner_503]"
+                                    },
+                                    "の勝利！"
+                                ],
+                                [
+                                    {
+                                        "translate": "%s/%s枚 獲得",
+                                        "with": [
+                                            {
+                                                "score": {
+                                                    "name": "#winner",
+                                                    "objective": "num_503"
+                                                }
+                                            },
+                                            {
+                                                "score": {
+                                                    "name": "#max",
+                                                    "objective": "num_503"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
