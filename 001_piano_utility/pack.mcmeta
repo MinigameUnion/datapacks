@@ -1,13 +1,13 @@
 {
     "pack": {
-        "pack_format": 6,
+        "pack_format": 7,
         "description": [
             {
-                "text": "Chen's Utility",
+                "text": "ピアノ氏作ミニゲ合同用ライブラリ",
                 "italic":true
             },
             {
-                "text": "ver0.1.0",
+                "text": " ver 0.1.0",
                 "italic":false
             }
         ]
