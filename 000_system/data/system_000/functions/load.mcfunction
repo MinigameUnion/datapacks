@@ -43,7 +43,7 @@ execute unless score #playdata id_000 matches -2147483648..2147483647 run functi
 #shulker箱設置
 execute store success score #TEMP num_000 unless block 0 0 0 minecraft:torch
 execute if score #TEMP num_000 matches 0 run forceload add 0 0
-setblock 0 0 0 shulker_box[facing=down]{CustomName:'[{"text":"[破壊厳禁]assist_packで使用します","color":"dark_red"}]',Lock:"?"} replace
+setblock 0 0 0 shulker_box[facing=down]
 setblock 0 1 0 air
 execute unless entity 0-0-0-0-0 run summon minecraft:marker 0.0 0.0 0.0 {UUID:[I;0,0,0,0],Tags:["admin_000"]}
 execute unless entity 0-0-0-0-1 run summon minecraft:marker 0.0 0.0 0.0 {UUID:[I;0,0,0,1]}
