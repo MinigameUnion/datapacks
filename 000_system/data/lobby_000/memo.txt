@@ -1,0 +1,16 @@
+# 一時ロビーの看板
+
+/setblock ~ ~1 ~ minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"101","clickEvent":{"action":"run_command","value":"/scoreboard players set @s playing_000 101"}}',Text2:'{"text":"Space Invaders","clickEvent":{"action":"run_command","value":"/tp @s 999 61 0 90 0"}}',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"/function player_000:join_game"}}'} replace
+
+/setblock ~ ~1 ~ minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"102","clickEvent":{"action":"run_command","value":"/scoreboard players set @s playing_000 102"}}',Text2:'{"text":"PacMan","clickEvent":{"action":"run_command","value":"/tp @s 992 118 1001 -90 0"}}',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"/function player_000:join_game"}}'} replace
+
+/setblock ~ ~1 ~ minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"401","clickEvent":{"action":"run_command","value":"/function suiryu_taratara_401:login_game"}}',Text2:'{"text":"タラタラしてんじゃねーよ！"}'} replace
+
+/setblock ~ ~1 ~ minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"502","clickEvent":{"action":"run_command","value":"/scoreboard players set @s playing_000 502"}}',Text2:'{"text":"クレー射撃","clickEvent":{"action":"run_command","value":"/tp @s 5001 2 2032 -90 0"}}',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"/function player_000:join_game"}}'} replace
+
+/setblock ~ ~1 ~ minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"601","clickEvent":{"action":"run_command","value":"/scoreboard players set @s playing_000 502"}}',Text2:'{"text":"どうぶつ","clickEvent":{"action":"run_command","value":"/tp @s 5001 2 2032 -90 0"}}',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"/function player_000:join_game"}}'} replace
+
+/setblock ~ ~1 ~ minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"502","clickEvent":{"action":"run_command","value":"/scoreboard players set @s playing_000 502"}}',Text2:'{"text":"クレー射撃","clickEvent":{"action":"run_command","value":"/tp @s 5001 2 2032 -90 0"}}',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"/function player_000:join_game"}}'} replace
+
+
+/setblock ~ ~1 ~ minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"000","clickEvent":{"action":"run_command","value":"/function player_000:leave_game"}}',Text2:'{"text":"Lobby","clickEvent":{"action":"run_command","value":"/tp @s 8 14 -24 180 0"}}'} replace
