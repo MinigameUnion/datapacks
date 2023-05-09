@@ -60,7 +60,7 @@ data merge storage system_000:storage {pos:{lobby:{Pos:[0.0d,4.0d,0.0d],Rotation
 
 #バージョン管理
 #1.19.4
-scoreboard players set #DataVersion id_000 3332
+scoreboard players set #DataVersion id_000 3337
 scoreboard players set #MapVersion id_000 1
 execute unless data storage system_000:storage version.list run data remove storage system_000:storage version
 data modify storage system_000:storage version.minecraft set value '{"text":"1.19.4"}'
