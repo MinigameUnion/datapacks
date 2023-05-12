@@ -12,9 +12,6 @@
     #declare objective remove_coin_000 次の#tickでcoin_000にこのスコアの値が減算されます。 player_000:remove_coin を実行すると即座にメッセージが流れcoin_000に適用されます。
     #alias entity ItemStorage @e[x=0.5,y=1.0,z=0.5,distance=..0,tag=storage_000]
 
-#vanillaデータパック無効化
-datapack disable "vanilla"
-
 #ゲームルール
 function system_000:gamerule
 

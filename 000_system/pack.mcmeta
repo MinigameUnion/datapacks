@@ -3,11 +3,11 @@
         "pack_format": 12,
         "description": [
             {
-                "text": "ﾐﾆｹﾞｰﾑ合同管理用ﾃﾞｰﾀﾊﾟｯｸ",
+                "text": "Chen's Utility",
                 "italic":true
             },
             {
-                "text": " ver 0.6.0",
+                "text": "ver0.1.0",
                 "italic":false
             }
         ]
