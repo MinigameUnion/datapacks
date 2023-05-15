@@ -1,0 +1,6 @@
+{
+    "values": [
+        "player_000:login",
+        "#minecraft:handler/000_leave_game"
+    ]
+}
