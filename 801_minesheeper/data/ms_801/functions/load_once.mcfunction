@@ -5,6 +5,10 @@ scoreboard objectives add Count_801 dummy
 #team宣言
 team add 801
 team modify 801 collisionRule never
+team modify 801 nametagVisibility never
+team add 801_visible
+team modify 801_visible collisionRule never
+team modify 801_visible nametagVisibility always
 
 #bossbar追加
 bossbar add disp_801 ""

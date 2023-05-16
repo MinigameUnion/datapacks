@@ -48,7 +48,9 @@ bossbar set disp_801 name [{"translate":"ハズレ数：%1$s  クリアまであ
 bossbar set time_801 visible true
 bossbar set time_801 name {"text":"経過時間：000"}
 #強制終了用
-summon sheep 8000.0 20 5.0 {CustomName:'{"text":"ゲーム終了","bold":true}',Color:15,Rotation:[180f,0f],UUID:[I;0,801,-1,0],CustomNameVisible:1b,NoAI:1b,Invulnerable:1b,DeathTime:19s,Team:"801",Tags:["801","Game_801","End_801"]}
+summon sheep 8000.0 20 5.0 {Color:15,Rotation:[180f,0f],UUID:[I;0,801,-1,0],NoAI:1b,Invulnerable:1b,DeathTime:19s,Team:"801",Tags:["801","Game_801","End_801"]}
+execute positioned 8000.0 20 0.0 rotated 0.0 0 run summon text_display ^ ^1.5 ^5 {text:'{"text":"ゲーム終了","bold":true}',billboard:"center",Tags:["801","Game_801"]}
+
 #後始末
 kill 0-0-321-0-100000000
 scoreboard players reset $Tmp General_801
