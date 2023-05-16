@@ -1,13 +1,13 @@
 #effect give @s glowing 1 0 true
 #ID処理の壁開始--------------------------------------------------
-scoreboard players operation @e[type=area_effect_cloud,tag=Marker_801] ID_801 -= @s ID_801
+scoreboard players operation @e[type=marker,tag=Marker_801] ID_801 -= @s ID_801
 #Queue_801持ってたら消す
-tag @e[type=area_effect_cloud,tag=Marker_801,scores={ID_801=0},tag=Queue_801] remove Queue_801
+tag @e[type=marker,tag=Marker_801,scores={ID_801=0},tag=Queue_801] remove Queue_801
 #開放済みtag
-tag @e[type=area_effect_cloud,tag=Marker_801,scores={ID_801=0}] add Opened_801
+tag @e[type=marker,tag=Marker_801,scores={ID_801=0}] add Opened_801
 #地雷0の場合連鎖処理予約
-execute if entity @s[scores={Count_801=0}] at @e[type=area_effect_cloud,tag=Marker_801,scores={ID_801=0}] run tag @e[type=area_effect_cloud,tag=Marker_801,tag=!Opened_801,distance=0.05..0.15] add Queue_801
-scoreboard players operation @e[type=area_effect_cloud,tag=Marker_801] ID_801 += @s ID_801
+execute if entity @s[scores={Count_801=0}] at @e[type=marker,tag=Marker_801,scores={ID_801=0}] run tag @e[type=marker,tag=Marker_801,tag=!Opened_801,distance=0.05..0.15] add Queue_801
+scoreboard players operation @e[type=marker,tag=Marker_801] ID_801 += @s ID_801
 #ID処理の壁終了--------------------------------------------------
 
 #Queue_801持ってたら消す
@@ -41,4 +41,4 @@ execute if entity @s[scores={Count_801=-1}] run function ms_801:game/failed
 execute if entity @s[scores={Count_801=0..}] unless entity @e[type=sheep,tag=Board_801,tag=!Opened_801,scores={Count_801=0..}] run function ms_801:game/succeeded
 
 #連鎖処理予約処理(多重処理回避のため一つずつ回していく)
-execute as @e[type=area_effect_cloud,tag=Marker_801,tag=Queue_801,limit=1] run function ms_801:open/queue
+execute as @e[type=marker,tag=Marker_801,tag=Queue_801,limit=1] run function ms_801:open/queue
