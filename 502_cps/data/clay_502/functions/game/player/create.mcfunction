@@ -1,6 +1,6 @@
-#> clay_502:game/player
-scoreboard players operation @s match_id_502 = #CREATING match_id_502
-scoreboard players operation @s type_502 = #GAME num_502
+#> clay_502:game/player/create
+# @within
+#   function clay_502:game/**/player
 
 tp @s @e[dx=47,dy=31,dz=31,tag=creating_502,tag=spawn_player_502,tag=!spawned_502,sort=random,limit=1]
 

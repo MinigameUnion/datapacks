@@ -1,3 +1,6 @@
+#> clay_502:load
+# @within
+#   tag/function minecraft:load
 
 #>
 # @within
