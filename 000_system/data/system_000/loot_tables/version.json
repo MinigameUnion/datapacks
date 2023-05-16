@@ -12,25 +12,10 @@
                             "entity": "this",
                             "name": [
                                 {
-                                    "nbt": "version.array[0]",
+                                    "nbt": "version.array[]",
                                     "storage": "system_000:storage",
-                                    "interpret": true
-                                },
-                                {
-                                    "text": "."
-                                },
-                                {
-                                    "nbt": "version.array[1]",
-                                    "storage": "system_000:storage",
-                                    "interpret": true
-                                },
-                                {
-                                    "text": "."
-                                },
-                                {
-                                    "nbt": "version.array[2]",
-                                    "storage": "system_000:storage",
-                                    "interpret": true
+                                    "interpret": true,
+                                    "separator": "."
                                 }
                             ]
                         }

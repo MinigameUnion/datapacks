@@ -1,6 +1,7 @@
 #> player_000:login
 # @within
-#   function player_000:**
+#   function player_000:first_login
+#   tag/function minecraft:handler:000_login
 
 execute store result score #TEMP num_000 run data get entity @s DataVersion
 execute unless score #DataVersion id_000 = #TEMP num_000 run function system_000:warning/minecraft_version
