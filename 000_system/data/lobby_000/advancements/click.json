@@ -1,0 +1,91 @@
+{
+    "criteria": {
+        "000":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.000_000\"]}"
+                }
+            }
+        },
+        "001":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.001_000\"]}"
+                }
+            }
+        },
+        "101":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.101_000\"]}"
+                }
+            }
+        },
+        "102":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.102_000\"]}"
+                }
+            }
+        },
+        "401":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.401_000\"]}"
+                }
+            }
+        },
+        "502":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.502_000\"]}"
+                }
+            }
+        },
+        "602":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.602_000\"]}"
+                }
+            }
+        },
+        "801":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.801_000\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "000",
+            "001",
+            "101",
+            "102",
+            "401",
+            "502",
+            "602",
+            "801"
+        ]
+    ],
+    "rewards": {
+        "function": "lobby_000:click"
+    }
+}
