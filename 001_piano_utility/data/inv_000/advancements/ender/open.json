@@ -67,7 +67,8 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "player": {
+                                    "type_specific": {
+                                        "type": "player",
                                         "advancements": {
                                             "inv_000:ender/open": {
                                                 "without_item": true
@@ -80,7 +81,8 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "player": {
+                                    "type_specific": {
+                                        "type": "player",
                                         "advancements": {
                                             "inv_000:ender/open": {
                                                 "with_item": true

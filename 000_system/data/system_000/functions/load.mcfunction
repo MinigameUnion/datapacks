@@ -48,9 +48,10 @@ execute unless entity 0-0-0-0-2 run summon minecraft:marker 0.0 0.0 0.0 {UUID:[I
 
 #>
 # @within
-#   function system_000:load
-#   function system_000:version
-#declare storage system_000:storage
+#   function system_000:**
+#   function player_000:**
+#   function playdata_000:**
+    #declare storage system_000:storage
 data modify storage system_000:storage string.coin set value '{"text":"ミニ"}'
 data merge storage system_000:storage {pos:{admin:{Pos:[0.0d,0.0d,0.0d],Rotation:[0.0f,0.0f]}}}
 data merge storage system_000:storage {pos:{lobby:{Pos:[8.5d,40.0d,57.5d],Rotation:[180.0f,0.0f]}}}
