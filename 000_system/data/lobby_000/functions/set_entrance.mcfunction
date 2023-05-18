@@ -1,5 +1,5 @@
-#> lobby_000:set
-### ロビーのセット
+#> lobby_000:set_entrance
+### ロビー、ゲーム入口のセット
 
 ## ロビー
     place template lobby_000:entrance -1 39 33
