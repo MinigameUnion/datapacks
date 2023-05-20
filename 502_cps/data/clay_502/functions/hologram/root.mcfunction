@@ -1,4 +1,5 @@
 #tellraw @s ["",{"text":"clicked : "},{"score": {"name": "@s","objective": "hologram_id_001"}}]
+execute as @e[type=minecraft:item,tag=hologram_001,scores={hologram_id_001=5000..5999}] on vehicle run function tool_000:entity/delete
 kill @e[tag=hologram_001,scores={hologram_id_001=5000..5999}]
 playsound minecraft:ui.button.click neutral @s ~ ~ ~ 0.5 1 0
 
