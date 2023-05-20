@@ -12,8 +12,12 @@
     #declare tag extinguish_000 このタグが付与されているEntityは、常に炎上がキャンセルされます
     #declare tag entity_block_000 このタグが付与されているfalling_blockは、自然消滅しなくなります
     #declare storage tool_000:api
+#>
+# @within
+#   function tool_000:**
+    #declare storage tool_000:
 
-#スコア
+##スコア
 scoreboard objectives add foodLevel_000 food {"text":"(000)foodLevel"}
 scoreboard objectives add food_000 dummy {"text":"(000)満腹度"}
 scoreboard objectives add XpLevel_000 level {"text":"(000)XpLevel"}
