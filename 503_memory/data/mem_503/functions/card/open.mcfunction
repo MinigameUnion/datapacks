@@ -8,5 +8,5 @@ data modify entity @s Item set from entity @s Item.tag.mem_503.card
 data modify entity @s Invisible set value 0b
 data modify entity @s Fixed set value 1b
 
-playsound entity.player.attack.sweep master @a ~ ~ ~ 1 1 0
+playsound entity.player.attack.sweep master @a ~ ~ ~ 0.5 1 0
 particle sweep_attack ^ ^0.1 ^ 0 0 0 0 1
