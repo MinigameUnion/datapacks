@@ -21,17 +21,21 @@ gamerule doWeatherCycle false
 #gamerule drowningDamage true
 gamerule fallDamage false
 #gamerule fireDamage true
+#gamerule forgiveDeadPlayers true
+#gamerule freezeDamage true
 gamerule keepInventory true
 #gamerule logAdminCommands false
 #gamerule maxCommandChainLength 65536
 gamerule maxEntityCramming 0
 gamerule mobGriefing false
 #gamerule naturalRegeneration true
+#gamerule playersSleepingPercentage 100
 gamerule randomTickSpeed 0
 #gamerule reducedDebugInfo true
 #gamerule sendCommandFeedback false
 gamerule showDeathMessages false
 gamerule spawnRadius 0
 gamerule spectatorsGenerateChunks false
+#gamerule universalAnger false
 
-#"logAdminCommands","reduceDebugInfo","sendCommandFeedback"はリリース時にでもアンコメントしておきます
+#TODO"logAdminCommands","reduceDebugInfo","sendCommandFeedback"はリリース時にアンコメント
