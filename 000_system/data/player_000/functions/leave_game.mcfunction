@@ -7,6 +7,7 @@ execute as @e[x=0.5,y=1.0,z=0.5,distance=..0,tag=storage_000] if score @s id_000
 function inv_000:ender/get
 execute as @e[x=0.5,y=1.0,z=0.5,distance=..0,tag=storage_000] if score @s id_000 = #ID num_000 run data modify entity @s Item.tag.000.EnderItems set from storage inv_000:api EnderItems
 
+#プレイヤーをデフォルトの状態に戻す
 gamemode adventure @s
 experience set @s 0 levels
 experience set @s 0 points

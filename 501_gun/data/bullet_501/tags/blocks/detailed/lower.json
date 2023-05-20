@@ -6,7 +6,7 @@
         "minecraft:farmland",
         "minecraft:dirt_path",
         "minecraft:stonecutter",
-        "#bullet_501:redstones",
-        "#minecraft:carpets"
+        "#bullet_501:carpets",
+        "#bullet_501:redstones"
     ]
 }

@@ -1,8 +1,8 @@
 #開示処理
 tag @s add Shearer_801
-scoreboard players operation @e[type=area_effect_cloud,tag=Marker_801] ID_801 -= @e[type=sheep,tag=Board_801,tag=Sheared_801,limit=1] ID_801
-tag @e[type=area_effect_cloud,tag=Marker_801,scores={ID_801=0}] add Sheared_801
-scoreboard players operation @e[type=area_effect_cloud,tag=Marker_801] ID_801 += @e[type=sheep,tag=Board_801,tag=Sheared_801,limit=1] ID_801
+scoreboard players operation @e[type=marker,tag=Marker_801] ID_801 -= @e[type=sheep,tag=Board_801,tag=Sheared_801,limit=1] ID_801
+tag @e[type=marker,tag=Marker_801,scores={ID_801=0}] add Sheared_801
+scoreboard players operation @e[type=marker,tag=Marker_801] ID_801 += @e[type=sheep,tag=Board_801,tag=Sheared_801,limit=1] ID_801
 execute if score $GameInfo General_801 matches 1 run function ms_801:open/first
 execute if score $GameInfo General_801 matches 2 as @e[type=sheep,tag=Board_801,tag=Sheared_801,tag=!Flagged_801] at @s run function ms_801:open/open
 execute if score $GameInfo General_801 matches 2 as @e[type=sheep,tag=Board_801,tag=Sheared_801,tag=Flagged_801] at @s run data merge entity @s {Sheared:0b}

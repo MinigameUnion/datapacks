@@ -15,7 +15,7 @@ scoreboard players operation $Tmp General_801 *= $Tmp2 General_801
 execute if score $Mine General_801 > $Tmp General_801 run scoreboard players operation $Mine General_801 = $Tmp General_801
 execute if score $Mine General_801 matches ..9 run scoreboard players set $Mine General_801 10
 #原点
-summon minecraft:area_effect_cloud 8000 0 0 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, UUID:[I;0,801,1,0]}
+summon minecraft:marker 8000 0 0 {UUID:[I;0,801,1,0]}
 scoreboard players set $Tmp2 General_801 3
 execute if score $IsWide General_801 matches 1 run scoreboard players set $Tmp2 General_801 6
 scoreboard players operation $Tmp General_801 = $X General_801
@@ -48,7 +48,9 @@ bossbar set disp_801 name [{"translate":"ハズレ数：%1$s  クリアまであ
 bossbar set time_801 visible true
 bossbar set time_801 name {"text":"経過時間：000"}
 #強制終了用
-summon sheep 8000.0 20 5.0 {CustomName:'{"text":"ゲーム終了","bold":true}',Color:15,Rotation:[180f,0f],UUID:[I;0,801,-1,0],CustomNameVisible:1b,NoAI:1b,Invulnerable:1b,DeathTime:19s,Team:"801",Tags:["801","Game_801","End_801"]}
+summon sheep 8000.0 20 5.0 {Color:15,Rotation:[180f,0f],UUID:[I;0,801,-1,0],NoAI:1b,Invulnerable:1b,DeathTime:19s,Team:"801",Tags:["801","Game_801","End_801"]}
+execute positioned 8000.0 20 0.0 rotated 0.0 0 run summon text_display ^ ^1.5 ^5 {text:'{"text":"ゲーム終了","bold":true}',billboard:"center",Tags:["801","Game_801"]}
+
 #後始末
 kill 0-0-321-0-100000000
 scoreboard players reset $Tmp General_801

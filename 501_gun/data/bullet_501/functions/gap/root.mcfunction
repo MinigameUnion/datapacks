@@ -1,5 +1,5 @@
 # positioned 進む前の座標 ~
-execute if entity @a[tag=owner_501,tag=debug_501] unless entity @a[tag=owner_501,distance=..2] run particle barrier ~ ~ ~ 0 0 0 0 1 force @a[tag=owner_501]
+execute if entity @a[tag=owner_501,tag=debug_501] unless entity @a[tag=owner_501,distance=..2] run particle block_marker barrier ~ ~ ~ 0 0 0 0 1 force @a[tag=owner_501]
 
 scoreboard players operation #X pos_501 = #x pos_501
 scoreboard players operation #Y pos_501 = #y pos_501

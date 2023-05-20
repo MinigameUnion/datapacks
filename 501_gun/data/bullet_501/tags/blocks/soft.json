@@ -4,7 +4,7 @@
         "minecraft:sponge",
         "minecraft:wet_sponge",
         "minecraft:honey_block",
-        "#minecraft:carpets",
+        "#bullet_501:carpets",
         "#minecraft:wool",
         "#bullet_501:material/snow"
     ]
