@@ -57,13 +57,9 @@ team modify cps_player_502 seeFriendlyInvisibles true
 
 execute store result score #SUCCESS num_502 if block 4992 0 2000 shulker_box
 execute store result score #FAILED num_502 unless block 4992 0 2000 shulker_box
-execute if score #SUCCESS num_502 matches 0 if score #FAILED num_502 matches 0 run forceload add 4992 2000
-execute if score #SUCCESS num_502 matches 0 if score #FAILED num_502 matches 0 run forceload remove 4992 2000
-
-execute if score #SUCCESS num_502 matches 0 positioned 4992 0 2000 run function clay_502:structure/lobby
-execute if score #SUCCESS num_502 matches 0 run setblock 4992 0 2000 shulker_box{Lock:"?",CustomName:'{"text":"clay_502"}'}
-execute if score #SUCCESS num_502 matches 0 run function clay_502:hologram/sandbag
-execute if score #SUCCESS num_502 matches 0 run function clay_502:hologram/start
+execute if score #SUCCESS num_502 matches 0 if score #FAILED num_502 matches 0 positioned 4992 0 2000 run forceload add ~ ~ ~48 ~48
+execute if score #SUCCESS num_502 matches 0 if score #FAILED num_502 matches 0 positioned 4992 0 2000 if block 4992 0 2000 shulker_box run forceload remove ~ ~ ~48 ~48
+execute if score #SUCCESS num_502 matches 0 unless block 4992 0 2000 shulker_box run schedule function clay_502:structure/schedule 1t
 execute unless entity 0-0-1f6-0-0 run summon armor_stand 4992.0 0.0 2000.0 {UUID:[I; 0, 502, 0, 0],Tags:["clay_502","admin_502"],Invulnerable:1b,Marker:1b,Invisible:1b,Small:1b}
 #0-0-1f6-0-0
 
