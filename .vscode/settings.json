@@ -1,7 +1,7 @@
 {
-    "datapack.env.cmdVersion": "1.17",
-    "datapack.env.dataVersion": "1.17.1",
-    "datapack.env.jsonVersion": "1.17",
+    "datapack.env.cmdVersion": "1.19.4",
+    "datapack.env.dataVersion": "1.19.4",
+    "datapack.env.jsonVersion": "1.19.4",
     "datapack.env.dataSource": "GitHub",
     "datapack.env.defaultVisibility": "public",
     "datapack.env.dependsOnVanilla": false,

@@ -1,6 +1,15 @@
 {
     "pack":{
-        "pack_format":6,
-        "description":"SAF"
+        "pack_format": 12,
+        "description":[
+            {
+                "text": "パックマン",
+                "italic":true
+            },
+            {
+                "text": " ver 1.0",
+                "italic":false
+            }
+        ]
     }
 }

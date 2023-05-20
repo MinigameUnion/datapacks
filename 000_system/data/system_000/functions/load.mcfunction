@@ -12,9 +12,6 @@
     #declare objective remove_coin_000 次の#tickでcoin_000にこのスコアの値が減算されます。 player_000:remove_coin を実行すると即座にメッセージが流れcoin_000に適用されます。
     #alias entity ItemStorage @e[x=0.5,y=1.0,z=0.5,distance=..0,tag=storage_000]
 
-#vanillaデータパック無効化
-datapack disable "vanilla"
-
 #ゲームルール
 function system_000:gamerule
 
@@ -51,19 +48,20 @@ execute unless entity 0-0-0-0-2 run summon minecraft:marker 0.0 0.0 0.0 {UUID:[I
 
 #>
 # @within
-#   function system_000:load
-#   function system_000:version
-#declare storage system_000:storage
+#   function system_000:**
+#   function player_000:**
+#   function playdata_000:**
+    #declare storage system_000:storage
 data modify storage system_000:storage string.coin set value '{"text":"ミニ"}'
 data merge storage system_000:storage {pos:{admin:{Pos:[0.0d,0.0d,0.0d],Rotation:[0.0f,0.0f]}}}
-data merge storage system_000:storage {pos:{lobby:{Pos:[0.0d,4.0d,0.0d],Rotation:[0.0f,0.0f]}}}
+data merge storage system_000:storage {pos:{lobby:{Pos:[8.5d,40.0d,57.5d],Rotation:[180.0f,0.0f]}}}
 
 #バージョン管理
-#1.17.1
-scoreboard players set #DataVersion id_000 2730
+#1.19.4
+scoreboard players set #DataVersion id_000 3337
 scoreboard players set #MapVersion id_000 1
 execute unless data storage system_000:storage version.list run data remove storage system_000:storage version
-data modify storage system_000:storage version.minecraft set value '{"text":"1.17.1"}'
+data modify storage system_000:storage version.minecraft set value '{"text":"1.19.4"}'
 function system_000:version
 
 
