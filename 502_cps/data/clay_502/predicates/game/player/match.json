@@ -1,0 +1,42 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "match_id_502": {
+            "min": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#CREATING"
+                },
+                "score": "match_id_502"
+            },
+            "max": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#CREATING"
+                },
+                "score": "match_id_502"
+            }
+        },
+        "type_502": {
+            "min": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#GAME"
+                },
+                "score": "num_502"
+            },
+            "max": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#GAME"
+                },
+                "score": "num_502"
+            }
+        }
+    }
+}

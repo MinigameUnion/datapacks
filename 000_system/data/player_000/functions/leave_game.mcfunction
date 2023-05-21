@@ -12,7 +12,7 @@ gamemode adventure @s
 experience set @s 0 levels
 experience set @s 0 points
 effect clear @s
-effect give @s resistance 1000000 4 true
+effect give @s resistance infinite 4 true
 effect give @s minecraft:instant_health 1 124 true
 scoreboard players set @s food_000 21
 data modify storage tool_000:api teleport set from storage system_000:storage pos.lobby
