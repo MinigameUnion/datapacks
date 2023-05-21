@@ -30,7 +30,7 @@ tag @e[type=sheep,tag=801,nbt={Sheared:1b},distance=..8] add Sheared_801
 
 # 分岐
 execute if score $GameInfo General_801 matches 0 if entity @e[type=sheep,tag=Sheared_801,tag=Setting_801] run function ms_801:setting/triggered_shears
-execute if score $GameInfo General_801 matches 1..2 if entity @e[type=sheep,tag=Sheared_801,tag=Board_801] run function ms_801:open/triggered
+execute if score $GameInfo General_801 matches 1..2 if entity @e[type=sheep,tag=Sheared_801,tag=Board_801] run function ms_801:game/open/triggered
 execute if score $GameInfo General_801 matches 1.. if entity @e[type=sheep,tag=Sheared_801,tag=End_801] run function ms_801:game/end_triggered
 execute if score $GameInfo General_801 matches -1 if entity @e[type=sheep,tag=Sheared_801,tag=Game_801] run function ms_801:game/end_triggered
 execute if entity @e[type=sheep,tag=Sheared_801,tag=Exit_801] run function ms_801:leave

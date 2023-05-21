@@ -1,4 +1,4 @@
-#> ms_801:open/open
+#> ms_801:game/open/open
 # マスのオープン処理
 # @internal
 
@@ -48,4 +48,4 @@ execute if entity @s[scores={Count_801=-1}] run function ms_801:game/failed/root
 execute if entity @s[scores={Count_801=0..}] unless entity @e[type=sheep,tag=Board_801,tag=!Opened_801,scores={Count_801=0..}] run function ms_801:game/succeeded/root
 
 # 連鎖オープン予約処理
-execute as @e[type=marker,tag=Marker_801,tag=Queue_801,limit=1] run function ms_801:open/queue
+execute as @e[type=marker,tag=Marker_801,tag=Queue_801,limit=1] run function ms_801:game/open/queue

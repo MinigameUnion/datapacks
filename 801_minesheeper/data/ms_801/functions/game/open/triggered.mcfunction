@@ -1,4 +1,4 @@
-#> ms_801:open/triggered
+#> ms_801:game/open/triggered
 # マスのオープン処理
 # @internal
 
@@ -11,10 +11,10 @@ tag @e[type=marker,tag=Marker_801,scores={ID_801=0}] add Sheared_801
 scoreboard players operation @e[type=marker,tag=Marker_801] ID_801 += @e[type=sheep,tag=Board_801,tag=Sheared_801,limit=1] ID_801
 
 # 初回オープン
-execute if score $GameInfo General_801 matches 1 run function ms_801:open/first
+execute if score $GameInfo General_801 matches 1 run function ms_801:game/open/first
 
 # 2回目以降オープン
-execute if score $GameInfo General_801 matches 2 as @e[type=sheep,tag=Board_801,tag=Sheared_801,tag=!Flagged_801] at @s run function ms_801:open/open
+execute if score $GameInfo General_801 matches 2 as @e[type=sheep,tag=Board_801,tag=Sheared_801,tag=!Flagged_801] at @s run function ms_801:game/open/open
 execute if score $GameInfo General_801 matches 2 as @e[type=sheep,tag=Board_801,tag=Sheared_801,tag=Flagged_801] at @s run data merge entity @s {Sheared:0b}
 
 # bossbar設定

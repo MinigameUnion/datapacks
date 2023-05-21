@@ -12,7 +12,7 @@ tag @e[type=sheep,tag=801,nbt=!{InLove:0},distance=..8] add Feeded_801
 
 # 分岐
 execute if score $GameInfo General_801 matches 0 run function ms_801:setting/triggered_wheat
-execute if score $GameInfo General_801 matches 1..2 run function ms_801:flag/triggered
+execute if score $GameInfo General_801 matches 1..2 run function ms_801:game/flag/triggered
 execute unless score $GameInfo General_801 matches 0..2 as @e[type=sheep,tag=Feeded_801] run data merge entity @s {InLove:0}
 
 # 後始末
