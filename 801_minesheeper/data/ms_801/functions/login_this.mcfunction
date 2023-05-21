@@ -1,9 +1,13 @@
-#誰かがloginしたときに実行
-#bossbar設定
+#> ms_801:login_this
+# このゲームをプレイ中(だった)プレイヤーのlogin時に実行
+# 実行者はそのプレイヤー
+# @internal
+
+# bossbar設定
 bossbar set disp_801 players @a[scores={playing_000=801}]
 bossbar set time_801 players @a[scores={playing_000=801}]
 
-#バグ解消用
+# バグ回避用
 schedule function ms_801:initialize_wait 20t
 clear @s shears{801:1b}
 clear @s wheat{801:1b}

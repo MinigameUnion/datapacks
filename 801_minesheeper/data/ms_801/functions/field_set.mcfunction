@@ -1,4 +1,6 @@
-#フィールド作成
+#> ms_801:field_set
+# フィールド作成
+
 setblock 7999 0 0 bedrock
 setblock 8000 0 0 oak_wall_sign[facing=east]
 

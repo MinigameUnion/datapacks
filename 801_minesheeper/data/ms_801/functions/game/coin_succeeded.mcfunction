@@ -1,4 +1,7 @@
-#成功時通貨計算・付与
+#> ms_801:game/coin_succeeded
+# 付与コイン計算(クリア時)
+# @internal
+
 scoreboard players set $Tmp General_801 5
 scoreboard players operation @a[scores={playing_000=801}] add_coin_000 *= $Tmp General_801
 tellraw @a[scores={playing_000=801}] ["",{"translate":"・クリアボーナス： x%1$s00%%","with":[{"score":{"name":"$Tmp","objective":"General_801"}}]}]

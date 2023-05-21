@@ -1,4 +1,7 @@
-#記録表示
+#> ms_801:setting/record/show/hard
+# 記録表示
+# @internal
+
 data merge entity 0-0-321-0-1a {text:'[{"text":"","bold":true},{"text":"ランキング："},{"text":"ハード","color":"red"}]'}
 
 execute store result score $Tmp General_801 run data get storage ms_801:record Hard[0].Time 0.05
