@@ -1,3 +1,8 @@
+#> clay_502:game/quickshot/start
+# @within
+#   function clay_502:game/quickshot/tick
+#   function clay_502:game/quickshot/action
+
 kill @e[dx=47,dy=31,dz=31,tag=gun_stand_502,tag=ticking_502]
 
 title @a[tag=ticking_502] times 5 55 20

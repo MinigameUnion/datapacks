@@ -16,12 +16,27 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:slime",
+                    "type": "#utility_001:hologram_util/sandbag",
+                    "nbt": "{Tags:[\"hologram_sandbag_001\"]}"
+                }
+            }
+        },
+        "onInteract": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#utility_001:hologram_util/interact",
                     "nbt": "{Tags:[\"hologram_sandbag_001\"]}"
                 }
             }
         }
     },
+    "requirements": [
+        [
+            "onAttack",
+            "onInteract"
+        ]
+    ],
     "rewards": {
         "function": "utility_001:hologram_util/core/cursor/select"
     }
