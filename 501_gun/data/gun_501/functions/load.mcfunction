@@ -9,36 +9,36 @@
 #   player_501:**
 #declare storage gun_501:temp
 
-#declare tag gun_501 [/tag ����̕t�^�֎~] gun_501:join �����s���ĕt�^����tick�����̃^�O
-#declare tag target_501 type=#gun_501:target�Ɋ܂܂��G���e�B�e�B�ɂ���Ɣ�e�\�ɂȂ�
-#declare tag enemy_501 tag=target_501�����G���e�B�e�B�ɂ���Ɣ�e����Health����������悤�ɂȂ�
-#declare tag owner_501 [�ǂݎ���p] ���̏e�e�𔭖C�����v���C���[���w��ł���(#gun_501:{hit_entity,hit_block}��)
-#declare tag team_501 [�ǂݎ���p] ���̏e�e�̔��C�҂Ɠ��`�[���̃v���C���[���w��ł���(#gun_501:{hit_entity,hit_block}��)
+#declare tag gun_501 [/tag からの付与禁止] gun_501:join を実行して付与するtick条件のタグ
+#declare tag target_501 type=#gun_501:targetに含まれるエンティティにつけると被弾可能になる
+#declare tag enemy_501 tag=target_501を持つエンティティにつけると被弾時にHealthが減少するようになる
+#declare tag owner_501 [読み取り専用] その銃弾を発砲したプレイヤーを指定できる(#gun_501:{hit_entity,hit_block}内)
+#declare tag team_501 [読み取り専用] その銃弾の発砲者と同チームのプレイヤーを指定できる(#gun_501:{hit_entity,hit_block}内)
 
-scoreboard objectives add num_501 dummy {"text":"(501)���l"}
-scoreboard objectives add min_501 dummy {"text":"(501)�ŏ��l"}
-scoreboard objectives add max_501 dummy {"text":"(501)�ő�l"}
-#scoreboard objectives add option_501 dummy {"text":"(501)�ݒ�"}
-scoreboard objectives add ope_501 dummy {"text":"(501)�v�Z�p"}
+scoreboard objectives add num_501 dummy {"text":"(501)数値"}
+scoreboard objectives add min_501 dummy {"text":"(501)最小値"}
+scoreboard objectives add max_501 dummy {"text":"(501)最大値"}
+#scoreboard objectives add option_501 dummy {"text":"(501)設定"}
+scoreboard objectives add ope_501 dummy {"text":"(501)計算用"}
 scoreboard objectives add pos_501 dummy {"text":"(501)Pos"}
-scoreboard objectives add x_vec_501 dummy {"text":"(501)�޸��x"}
-scoreboard objectives add y_vec_501 dummy {"text":"(501)�޸��y"}
-scoreboard objectives add z_vec_501 dummy {"text":"(501)�޸��z"}
-scoreboard objectives add speed_501 dummy {"text":"(501)ٰ�ߐ�"}
-scoreboard objectives add damage_501 dummy {"text":"(501)��Ұ��"}
-scoreboard objectives add gravity_501 dummy {"text":"(501)�d��"}
-scoreboard objectives add in_501 dummy {"text":"(501)�؍ݒ��u���b�N"}
+scoreboard objectives add x_vec_501 dummy {"text":"(501)ﾍﾞｸﾄﾙx"}
+scoreboard objectives add y_vec_501 dummy {"text":"(501)ﾍﾞｸﾄﾙy"}
+scoreboard objectives add z_vec_501 dummy {"text":"(501)ﾍﾞｸﾄﾙz"}
+scoreboard objectives add speed_501 dummy {"text":"(501)ﾙｰﾌﾟ数"}
+scoreboard objectives add damage_501 dummy {"text":"(501)ﾀﾞﾒｰｼﾞ"}
+scoreboard objectives add gravity_501 dummy {"text":"(501)重力"}
+scoreboard objectives add in_501 dummy {"text":"(501)滞在中ブロック"}
 #scoreboard objectives add rot_501 dummy {"text":"(501)Rotation"}
-scoreboard objectives add drop_501 minecraft.custom:minecraft.drop {"text":"(501)�������m"}
-scoreboard objectives add pick_cb_501 minecraft.picked_up:minecraft.crossbow {"text":"(501)�۽�޳�E�����m"}
-scoreboard objectives add walk_501 minecraft.custom:minecraft.walk_one_cm {"text":"(501)�������m"}
-scoreboard objectives add skip_anime_501 dummy {"text":"(501)��Ұ��ݒ�~����"}
+scoreboard objectives add drop_501 minecraft.custom:minecraft.drop {"text":"(501)投げ検知"}
+scoreboard objectives add pick_cb_501 minecraft.picked_up:minecraft.crossbow {"text":"(501)ｸﾛｽﾎﾞｳ拾い検知"}
+scoreboard objectives add walk_501 minecraft.custom:minecraft.walk_one_cm {"text":"(501)歩き検知"}
+scoreboard objectives add skip_anime_501 dummy {"text":"(501)ｱﾆﾒｰｼｮﾝ停止時間"}
 scoreboard objectives add sis_501 dummy {"text":"(501)SelectedItemSlot"}
-scoreboard objectives add gun_id_501 dummy {"text":"(501)Selected�eID"}
-scoreboard objectives add cooltime_501 dummy {"text":"(501)���ˊԊu"}
-scoreboard objectives add sneaking_501 dummy {"text":"(501)���Ⴊ�ݎ���"}
-scoreboard objectives add team_id_501 dummy {"text":"(501)���id"}
-scoreboard objectives add property_501 dummy {"text":"(501)�v���p�e�B"}
+scoreboard objectives add gun_id_501 dummy {"text":"(501)Selected銃ID"}
+scoreboard objectives add cooltime_501 dummy {"text":"(501)発射間隔"}
+scoreboard objectives add sneaking_501 dummy {"text":"(501)しゃがみ時間"}
+scoreboard objectives add team_id_501 dummy {"text":"(501)ﾁｰﾑid"}
+scoreboard objectives add property_501 dummy {"text":"(501)プロパティ"}
 
 scoreboard objectives add spread_501 dummy
 
