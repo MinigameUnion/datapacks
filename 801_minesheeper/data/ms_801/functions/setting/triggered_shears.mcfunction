@@ -4,11 +4,11 @@ tag @s add Shearer_801
 #ゲーム開始
 execute as 0-0-321-0-0 if entity @s[tag=Sheared_801] run function ms_801:setting/end
 #難易度設定
-execute as 0-0-321-0-a if entity @s[tag=Sheared_801] run function ms_801:setting/dif_easy
-execute as 0-0-321-0-b if entity @s[tag=Sheared_801] run function ms_801:setting/dif_normal
-execute as 0-0-321-0-c if entity @s[tag=Sheared_801] run function ms_801:setting/dif_hard
-execute as 0-0-321-0-d if entity @s[tag=Sheared_801] run function ms_801:setting/dif_hardcore
-execute as 0-0-321-0-e if entity @s[tag=Sheared_801] run function ms_801:setting/dif_nightmare
+execute as 0-0-321-0-a if entity @s[tag=Sheared_801] run function ms_801:setting/difficulty/easy
+execute as 0-0-321-0-b if entity @s[tag=Sheared_801] run function ms_801:setting/difficulty/normal
+execute as 0-0-321-0-c if entity @s[tag=Sheared_801] run function ms_801:setting/difficulty/hard
+execute as 0-0-321-0-d if entity @s[tag=Sheared_801] run function ms_801:setting/difficulty/hardcore
+execute as 0-0-321-0-e if entity @s[tag=Sheared_801] run function ms_801:setting/difficulty/nightmare
 
 #ナイトメア処理
 scoreboard players set $Tmp General_801 10
