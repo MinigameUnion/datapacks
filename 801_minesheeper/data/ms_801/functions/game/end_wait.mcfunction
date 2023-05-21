@@ -28,6 +28,9 @@ tag @a[tag=MVP_801] remove MVP_801
 # 終了待機
 scoreboard players set $GameInfo General_801 -1
 
+# 終了強調
+data merge entity 0-0-321-ffff-ffff00000000 {Glowing:1b}
+
 # 後処理
 scoreboard players reset $Tmp General_801
 scoreboard players reset $Tmp2 General_801

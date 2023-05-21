@@ -20,6 +20,9 @@ loot give @s loot ms_801:shears
 loot give @s loot ms_801:wheat
 loot give @s loot ms_801:golden_apple
 
+# メッセージ
+tellraw @s ["",{"text":"[MineSheeper] もし羊が表示されない場合は再ログインしてみてください。"}]
+
 # bossbar設定
 bossbar set disp_801 players @a[scores={playing_000=801}]
 bossbar set time_801 players @a[scores={playing_000=801}]
