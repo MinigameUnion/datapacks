@@ -1,4 +1,4 @@
-###
+#> spaceinvaders_101:tick
 ###常時実行
 ###
 
