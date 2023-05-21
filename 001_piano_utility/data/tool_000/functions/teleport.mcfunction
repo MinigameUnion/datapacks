@@ -1,12 +1,8 @@
 #> tool_000:teleport
 # @public
+# @input
+#   css `entity`, `dimension`
+#   storage `tool_000:api teleport{Pos:[<double>,<double>,<double>],Rotation:[<float>,<float>]}`
 
-tag @s add teleport_000
-execute as 0-0-0-0-1 positioned as @s run function tool_000:teleport/uuid
-tag @s remove teleport_000
-
-#>
-# @within
-#   function tool_000:teleport
-#   function tool_000:teleport/uuid
-    #declare tag teleport_000
+data modify storage tool_000: temp.teleport.target set from entity @s UUID
+execute if entity @s summon minecraft:snowball run function tool_000:teleport/store

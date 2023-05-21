@@ -3,7 +3,7 @@
 #   function clay_502:game/create
 
 scoreboard players operation @e[dx=47,dy=31,dz=31,tag=creating_502] match_id_502 = #CREATING match_id_502
-execute as @e[dx=47,dy=31,dz=31,tag=creating_502,tag=gun_stand_502] run loot replace entity @s container.0 loot clay_502:s1897_frame
+execute as @e[dx=47,dy=31,dz=31,tag=creating_502,tag=gun_stand_502] run loot replace entity @s container.0 loot clay_502:game/quickshot/s1897
 execute as @e[dx=47,dy=31,dz=31,tag=creating_502,tag=gun_stand_502] run data remove entity @s Item.tag.display.Name
 
 data modify storage clay_502:storage match.player set value []

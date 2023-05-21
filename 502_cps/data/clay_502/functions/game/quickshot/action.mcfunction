@@ -1,3 +1,7 @@
+#> clay_502:game/quickshot/action
+# @within
+#   function clay_502:game/quickshot/tick
+
 scoreboard players reset @s tick_502
 
 execute if score @s progress_502 matches 6 run function clay_502:game/quickshot/start

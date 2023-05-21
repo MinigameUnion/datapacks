@@ -5,6 +5,8 @@
 
 #プレイヤーの状態の変更
 gamemode adventure @s
+experience set @s 0 levels
+experience set @s 0 points
 effect clear @s
 
 #紐づけアイテム君を探査
