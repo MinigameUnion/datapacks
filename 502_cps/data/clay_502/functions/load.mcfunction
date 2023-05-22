@@ -52,8 +52,10 @@ team add collision_502 [{"text":"(502)","color":"green"},{"text":"当たり判�
 team modify collision_502 collisionRule never
 team add cps_player_502 [{"text":"(502)","color":"green"},{"text":"CPSプレイヤー"}]
 team modify cps_player_502 friendlyFire false
-team modify cps_player_502 seeFriendlyInvisibles true
 #team modify cps_player_502 prefix [{"text":"[CPS] ","color": "gold"}]
+team add cps_spectator_502 [{"text":"(502)","color":"green"},{"text":"CPS観戦者"}]
+team modify cps_spectator_502 friendlyFire false
+team modify cps_spectator_502 nametagVisibility hideForOtherTeams
 
 execute store result score #SUCCESS num_502 if block 4992 0 2000 shulker_box
 execute store result score #FAILED num_502 unless block 4992 0 2000 shulker_box
