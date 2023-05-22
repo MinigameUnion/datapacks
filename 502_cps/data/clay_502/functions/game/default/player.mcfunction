@@ -2,9 +2,11 @@
 # @within
 #   function clay_502:game/default/create
 
-tellraw @s ["",{"text":"[Standard] ","color":"blue"},{"text":"15個のクレー","color":"reset"},{"text":"を","color":"gray"},{"text":"3セット","color":"reset"},{"text":"に分け,","color":"gray"},{"text":"5個ずつ","color":"gray"},{"text":"クレーを撃つモード です","color":"gray"}]
-tellraw @s ["",{"text":"[Standard] ","color":"blue"},{"text":"撃ちぬいたクレーの数","color":"reset"},{"text":" , ","color":"gray"},{"text":"発射からヒットするまでの時間","color":"reset"},{"text":" によって","color":"gray"}]
-tellraw @s ["",{"text":"[Standard] ","color":"blue"},{"text":"獲得できるミニが決定","color":"reset"},{"text":"します","color":"gray"}]
-tellraw @s ["",{"text":"[Standard] ","color":"blue"},{"text":"銃を手に取って","color":"reset"},{"text":"スタートします","color":"gray"}]
+tellraw @s ["",{"text":"[Standard] ","color":"blue"},{"text":"クレー射撃 スタンダード","color":"white"}]
+
+tellraw @s {"translate":"計%sを%sで撃つモードです","color":"gray","with":[{"text":"15個のクレー","color":"white"},{"text":"5個ずつ3セット","color":"white"}]}
+tellraw @s {"translate":"%sと%sで","color":"gray","with":[{"text":"撃ちぬいたクレーの数","color":"white"},{"text":"クレー射出からヒットまでの時間","color":"white"}]}
+tellraw @s {"translate":"獲得できるミニが決定します","color":"gray","with":[]}
+tellraw @s {"translate":"%sスタートします","color":"gray","with":[{"text":"銃を手に取って","color":"white"}]}
 
 function clay_502:game/player/create
