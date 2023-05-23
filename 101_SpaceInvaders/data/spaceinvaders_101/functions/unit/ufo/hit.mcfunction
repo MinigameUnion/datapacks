@@ -1,17 +1,16 @@
-###
-###UFO被弾
-###
+#> spaceinvaders_101:unit/ufo/hit
+### UFO被弾
 
 #撃墜演出用エンティティ
-summon minecraft:area_effect_cloud ~ ~ ~ {Age: -2147483648, Duration: 100, WaitTime: -2147483648, Tags: [UFO_beated_101,Entity_101,temp]}
-scoreboard players operation @e[tag=temp] Id_101 = @s Id_101
-tag @e[tag=temp] remove temp
+summon minecraft:area_effect_cloud ~ ~ ~ {Age:0, Duration: 60, WaitTime:0, Tags: [UFO_beated_101,Entity_101,temp]}
+scoreboard players operation @e[tag=temp,type=area_effect_cloud] Id_101 = @s Id_101
+tag @e[tag=temp,type=area_effect_cloud] remove temp
 
 #消滅
 kill @s
 
 ##弾の処理
-tag @e[tag=BulletOfPlayer_101,scores={Group_101=1}] add hitted_101
+tag @e[tag=BulletOfPlayer_101,type=item_display,scores={Group_101=1}] add hitted_101
 
 ##得点の処理
 scoreboard players operation #ufo_point operation_101 = @a[scores={Group_101=1,playing_000=101}] ShotCount_101

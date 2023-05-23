@@ -23,7 +23,7 @@ execute if entity @s[tag=Creeper_101,scores={HP_101=0}] run playsound minecraft:
 execute if entity @s[scores={HP_101=0}] run kill @s
 
 ##弾の処理
-tag @e[tag=BulletOfPlayer_101,scores={Group_101=1}] add hitted_101
+tag @e[tag=BulletOfPlayer_101,type=item_display,scores={Group_101=1}] add hitted_101
 
 ##ヒットストップ処理
 scoreboard players add @a[scores={Group_101=1,playing_000=101}] Timer_101 2
