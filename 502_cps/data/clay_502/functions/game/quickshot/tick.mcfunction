@@ -1,3 +1,7 @@
+#> clay_502:game/quickshot/tick
+# @within
+#   function clay_502:game/tick/playing
+
 execute store result score #PLAYER num_502 if entity @a[tag=playing_502,tag=ticking_502]
 execute if entity @a[tag=ticking_502,tag=debug_502] run scoreboard players set #PLAYER num_502 2
 

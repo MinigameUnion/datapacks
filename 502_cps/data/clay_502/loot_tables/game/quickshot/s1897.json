@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "clay_502:s1897",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:5000}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "text": "S1897",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "text": " 5 / 5",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{amount:5}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{mag:{mag: {Count: 0b, tag: {mag: {amount: 4, ammo: [{Count: 1, tag: {ammo: {damage: 2.0d, range: 10.0d, cartridge: 2b, bullet: 9, spread: 4}}}, {Count: 1, tag: {ammo: {damage: 2.0d, range: 10.0d, cartridge: 2b, bullet: 9, spread: 4}}}, {Count: 1, tag: {ammo: {damage: 2.0d, range: 10.0d, cartridge: 2b, bullet: 9, spread: 4}}}, {Count: 1, tag: {ammo: {damage: 2.0d, range: 10.0d, cartridge: 2b, bullet: 9, spread: 4}}}], status: {capacity: 5}}}}, status: {amount: 1}}}}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{gun:{chamber:{tag: {ammo: {damage: 2.0d, range: 10.0d, cartridge: 2b, bullet: 9, spread: 4}}}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

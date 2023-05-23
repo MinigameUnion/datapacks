@@ -11,15 +11,11 @@
                             "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
-                                    "name": "random",
-                                    "attribute": "generic.luck",
+                                    "attribute": "minecraft:generic.luck",
                                     "operation": "addition",
-                                    "amount": {
-                                        "min": 0,
-                                        "max": 21474836.47
-                                    },
+                                    "amount": 0.0,
                                     "slot": "mainhand",
-                                    "id": "0-0-0-0-1"
+                                    "name": "tool_000:random"
                                 }
                             ]
                         }

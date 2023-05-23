@@ -18,6 +18,8 @@ summon area_effect_cloud ~ ~-0.35 ~ {Tags:["init_503"],Duration:100,CustomNameVi
 execute positioned ~ ~-0.35 ~ run data modify entity @e[tag=init_503,distance=..0.5,limit=1] CustomName set from entity @e[type=item,y=-64,distance=..0.5,limit=1] Item.tag.display.Lore[1]
 tag @e[tag=init_503,distance=..0.5,limit=1] remove init_503
 
+scoreboard players operation # id_503 = @s id_503
+execute as @e[tag=card_503] if score # id_503 = @s id_503 run data modify entity @s Fixed set value 1b
 kill @e[type=item,y=-64,distance=..0.5]
 
 tag @a[tag=winner_503] remove winner_503
