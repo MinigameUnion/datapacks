@@ -7,10 +7,10 @@
 
 ## id同期
     scoreboard players operation #_id Id_101 = @s id_000
-    execute as @e[tag=Entity_101] store success score @s Group_101 if score @s Id_101 = #_id Id_101
+    execute as @e[tag=Entity_101,type=#spaceinvaders_101:all] store success score @s Group_101 if score @s Id_101 = #_id Id_101
 
 ## プレイヤーの移動
-    tp @s @e[tag=StagePoint_101,scores={Group_101=1},limit=1]
+    tp @s @e[tag=StagePoint_101,type=marker,scores={Group_101=1},limit=1]
 
 ## 初期設定
     scoreboard players set @s Stage_101 0

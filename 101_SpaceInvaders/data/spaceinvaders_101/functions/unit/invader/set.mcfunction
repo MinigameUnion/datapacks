@@ -8,7 +8,7 @@
 
 ## 召喚
     # 既存の敵機を削除
-    kill @e[tag=Invader_101,type=item_display,scores={Group_101=1}]
+    kill @e[tag=Invader_101,type=item_display,type=item_display,scores={Group_101=1}]
     # 1段
     execute at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] run summon item_display ~-6 73.8 -46 {Tags:[Invader_101,Zombie_101,Entity_101,temp],Rotation:[0.0f,0.0f],item:{id:"minecraft:zombie_head",Count:1b}}
     execute at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] run summon item_display ~-4.8 73.8 -46 {Tags:[Invader_101,Zombie_101,Entity_101,temp],Rotation:[0.0f,0.0f],item:{id:"minecraft:zombie_head",Count:1b}}

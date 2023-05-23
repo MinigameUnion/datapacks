@@ -7,7 +7,7 @@
 
 ## 召喚
     # 既存のUFOを削除
-    kill @e[tag=UFO_101,type=item_display,scores={Group_101=1,Timer_101=1..}]
+    kill @e[tag=UFO_101,type=item_display,type=item_display,scores={Group_101=1,Timer_101=1..}]
     # 召喚
     execute at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] run summon item_display ~10 82 -46 {Tags:[UFO_101,Entity_101,temp],Rotation:[0.0f,0.0f],item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"MHF_MushroomCow"}}}
     # タイムのセット
