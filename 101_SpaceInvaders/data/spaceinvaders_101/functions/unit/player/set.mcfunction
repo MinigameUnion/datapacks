@@ -10,7 +10,7 @@
     # 既存の自機を削除
     kill @e[tag=Player_101,type=item_display,scores={Group_101=1}]
     # 召喚
-    summon item_display ~ 62 -46 {Tags:[Player_101,Entity_101,temp]}
+    summon item_display ~ 64 -46 {Tags:[Player_101,Entity_101,temp]}
     loot replace entity @e[tag=temp,type=item_display] container.0 loot player_000:head
     # idの設定
     scoreboard players operation @e[tag=temp,type=item_display] Id_101 = @s id_000
