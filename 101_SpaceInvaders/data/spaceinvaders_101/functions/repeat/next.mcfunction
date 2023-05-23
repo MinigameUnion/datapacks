@@ -80,3 +80,4 @@
     execute if score @s Timer_101 matches 100 at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] positioned ~-10000 ~ -46 as @e[tag=Invader_101,type=item_display,limit=55,sort=nearest] run data modify entity @s ArmorItems[3] set from entity @s ArmorItems[0]
 
     execute if score @s Timer_101 matches 100 run function spaceinvaders_101:unit/player/set
+    execute if score @s Timer_101 matches 100 run function spaceinvaders_101:unit/ufo/set

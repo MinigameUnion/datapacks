@@ -1,6 +1,5 @@
-###
-###スコアボード関連の設定
-###
+#> spaceinvaders_101:scoreboard
+### スコアボード関連の設定
 
 ## 得点
 scoreboard objectives add Point_101 dummy

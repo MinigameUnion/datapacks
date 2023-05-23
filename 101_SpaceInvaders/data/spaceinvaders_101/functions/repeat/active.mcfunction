@@ -31,7 +31,7 @@
     execute if entity @s[scores={Timer_101=0,Direction_101=1}] if predicate spaceinvaders_101:invader/shot at @e[tag=Invader_101,type=item_display,scores={Group_101=1},limit=1,sort=random] positioned ~-0.5 ~-10 ~-0.5 at @e[tag=Invader_101,type=item_display,scores={Group_101=1},limit=1,sort=nearest,dx=0,dy=15,dz=0] run function spaceinvaders_101:unit/invader/shot
 
 ## UFO
-    # 移動 インベーダーが8体以上いるときに、
+    # 移動 インベーダーが8体以上いるとき
     execute store result score @s operation_101 if entity @e[tag=Invader_101,type=item_display,scores={Group_101=1}]
     execute if score @s operation_101 matches 8.. run scoreboard players remove @e[tag=UFO_101,type=item_display,scores={Group_101=1}] Timer_101 1
     execute if score @s operation_101 matches 8.. if entity @e[tag=UFO_101,type=item_display,scores={Group_101=1,Timer_101=0}] run function spaceinvaders_101:unit/ufo/set
