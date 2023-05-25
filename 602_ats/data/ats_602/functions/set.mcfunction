@@ -1,8 +1,21 @@
-#define bossbar minecraft:0_602 スコア表記
-#define objective playing_000 参加ゲームID
-#define objective num_000
-#define storage ats_602:item
-#define storage ats_602:text
+#declare bossbar minecraft:0_602 スコア表記
+#declare bossbar minecraft:1_602 予約
+#declare objective playing_000 参加ゲームID
+#declare objective num_000
+#declare storage ats_602:main
+#declare storage ats_602:item
+#declare storage ats_602:text
+#declare storage ats_602:unit
+#declare storage ats_602:error
+
+#declare score_holder $602
+#declare score_holder $-1_602 a_602
+#declare score_holder $gen602
+#declare score_holder $result_602 a_602= result_timer
+#declare score_holder $Ope_A_602 a_602= Operation // b_602= HitType // e_602= List Elements Max Count // e1_602= List Elements Count
+#declare score_holder $Ope_B_602 a_602= Operation // e1_602= This Count // e2_602= This Count Ope
+#declare score_holder $Ope_C_602 a / a1 / a2_602= Operation
+
 
 
 
@@ -33,6 +46,7 @@ scoreboard objectives add gamemode_602 dummy {"text":"gamemode_602","color":"lig
 scoreboard objectives add click_602 trigger {"text":"click_602","color":"light_purple"}
 
 scoreboard players set $602 chaos_602 0
+scoreboard players set $-1_602 a_602 -1
 
 scoreboard objectives add vs_602 dummy {"text":"vs_602","color":"light_purple"}
 scoreboard objectives add pId_602 dummy {"text":"pId_602","color":"light_purple"}

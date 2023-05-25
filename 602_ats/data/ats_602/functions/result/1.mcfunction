@@ -1,4 +1,4 @@
-execute as @e[limit=1,tag=tile_602] run function ats_602:result/1_0
+data modify storage ats_602:unit List[-1].Result set value 1b
 
-execute if entity @e[tag=tile_602] run schedule function ats_602:result/1 1s append
-execute unless entity @e[tag=tile_602] run schedule function ats_602:result/2 2s append
+execute if data storage ats_602:unit List[-1] run schedule function ats_602:result/1 1s append
+execute unless data storage ats_602:unit List[-1] run schedule function ats_602:result/finish 2s append

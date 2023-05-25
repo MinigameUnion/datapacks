@@ -1,5 +1,5 @@
-summon minecraft:armor_stand ~ ~ ~ {Tags:["tile_602","start_602"],NoGravity:1b,Invisible:1b,ArmorItems:[{},{},{},{Count:1b,id:"minecraft:slime_ball",tag:{CustomModelData:602000,mul_602:"x1.0"}}]}
-execute as @e[sort=nearest,limit=1,tag=tile_602,tag=!go_602] run function ats_602:tile/summon/0
+data modify storage ats_602:main ItemClip set from entity @s SelectedItem.tag
+execute summon minecraft:item_display run function ats_602:unit/init
 playsound minecraft:entity.item.pickup player @s ~ ~ ~ 1.0 1.0 0.0
 item replace entity @s weapon.mainhand with minecraft:air
 

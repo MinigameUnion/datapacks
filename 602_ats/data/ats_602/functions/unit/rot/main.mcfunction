@@ -6,23 +6,23 @@ execute unless block ~ ~ ~-0.3 minecraft:air run scoreboard players add @s c_602
 execute unless block ~0.3 ~ ~ minecraft:air run scoreboard players add @s c_602 4
 execute unless block ~-0.3 ~ ~ minecraft:air run scoreboard players add @s c_602 8
 
-execute if entity @s[scores={c_602=5}] run function ats_602:rot/5
-execute if entity @s[scores={c_602=6}] run function ats_602:rot/6
-execute if entity @s[scores={c_602=9}] run function ats_602:rot/9
-execute if entity @s[scores={c_602=10}] run function ats_602:rot/10
-execute if entity @s[scores={c_602=15}] run function ats_602:rot/15
+execute if entity @s[scores={c_602=5}] run function ats_602:unit/rot/5
+execute if entity @s[scores={c_602=6}] run function ats_602:unit/rot/6
+execute if entity @s[scores={c_602=9}] run function ats_602:unit/rot/9
+execute if entity @s[scores={c_602=10}] run function ats_602:unit/rot/10
+execute if entity @s[scores={c_602=15}] run function ats_602:unit/rot/15
 #up
-execute if entity @s[scores={c_602=1}] run function ats_602:rot/90
-execute if entity @s[scores={c_602=13}] run function ats_602:rot/90
+execute if entity @s[scores={c_602=1}] run function ats_602:unit/rot/90
+execute if entity @s[scores={c_602=13}] run function ats_602:unit/rot/90
 #down
-execute if entity @s[scores={c_602=2}] run function ats_602:rot/270
-execute if entity @s[scores={c_602=14}] run function ats_602:rot/270
+execute if entity @s[scores={c_602=2}] run function ats_602:unit/rot/270
+execute if entity @s[scores={c_602=14}] run function ats_602:unit/rot/270
 #left
-execute if entity @s[scores={c_602=8}] run function ats_602:rot/180
-execute if entity @s[scores={c_602=11}] run function ats_602:rot/180
+execute if entity @s[scores={c_602=8}] run function ats_602:unit/rot/180
+execute if entity @s[scores={c_602=11}] run function ats_602:unit/rot/180
 #right
-execute if entity @s[scores={c_602=4}] run function ats_602:rot/0
-execute if entity @s[scores={c_602=7}] run function ats_602:rot/0
+execute if entity @s[scores={c_602=4}] run function ats_602:unit/rot/0
+execute if entity @s[scores={c_602=7}] run function ats_602:unit/rot/0
 
 #score
 execute if entity @s[tag=silverfish_602] unless entity @s[scores={mulScore1_602=6}] if block ^ ^ ^0.9 minecraft:gray_concrete run function ats_602:tile/type/silverfish/1
