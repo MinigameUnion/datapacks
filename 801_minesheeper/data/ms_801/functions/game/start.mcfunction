@@ -6,6 +6,8 @@
 scoreboard players set $GameInfo General_801 1
 # 旗使用フラグ
 scoreboard players set $UsedFlag General_801 0
+# 成功判定
+scoreboard players set $Succeeded General_801 0
 # サイズ等調整
 execute if score $X General_801 matches 31.. run scoreboard players set $X General_801 30
 execute if score $X General_801 matches ..8 run scoreboard players set $X General_801 9
@@ -34,6 +36,7 @@ execute store result entity 0-0-321-0-100000000 Pos[2] double -0.25 run scoreboa
 scoreboard players operation $Tmp2 General_801 = $Z General_801
 scoreboard players set $Tmp3 General_801 0
 execute at 0-0-321-0-100000000 run function ms_801:game/summon/sheep_z
+execute as @e[type=sheep,tag=Board_801] run function ms_801:game/summon/random_rotate
 # 羊tp予約
 tag @e[type=sheep,tag=Board_801,scores={ID_801=0}] add BoardTp_801
 function ms_801:game/start_tp

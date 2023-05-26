@@ -26,7 +26,7 @@ bossbar set time_801 value 1
 execute unless data storage ms_801:record Data run data merge storage ms_801:record {Data:{Time:0,Player:""},Easy:[{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"}],Normal:[{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"}],Hard:[{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"}],Hardcore:[{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"}],Nightmare:[{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"},{Time:100000,Player:"No Name"}]}
 
 # 変数等初期化
-function ms_801:initialize
+function ms_801:init
 
 # 以下各種定義
 #> ゲーム退出

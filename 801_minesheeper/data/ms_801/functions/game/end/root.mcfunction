@@ -1,4 +1,4 @@
-#> ms_801:game/end
+#> ms_801:game/end/root
 # ゲーム終了処理
 # @internal
 
@@ -11,12 +11,12 @@ clear @a[scores={playing_000=801}] white_wool{801:1b}
 kill @e[type=item,nbt={Item:{tag:{801:1b}}}]
 
 # 予約キャンセル
-schedule clear ms_801:game/end_wait
+schedule clear ms_801:game/end/wait
 schedule clear ms_801:game/failed/open
 schedule clear ms_801:game/succeeded/open
 
 # 演出
-tellraw @a[scores={playing_000=801}] {"text":"MineSheeperを終了します..."}
+tellraw @a[scores={playing_000=801}] {"text":"[MineSheeper] 終了します..."}
 
 # 設定フェーズへ
 function ms_801:setting/start

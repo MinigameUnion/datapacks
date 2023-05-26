@@ -1,10 +1,8 @@
-#> ms_801:initialize
+#> ms_801:init
 # ゲーム初期化処理
 # @internal
 
 # Score設定
-## プレイヤー数
-scoreboard players set $PlayerCount General_801 0
 ## ゲームの状態
 ## -1:ゲーム終了待機
 ## 0:難易度選択中
@@ -12,17 +10,8 @@ scoreboard players set $PlayerCount General_801 0
 ## 2:ゲーム進行中
 ## 3:終了演出中
 scoreboard players set $GameInfo General_801 0
-## 盤面大きさ
-scoreboard players set $X General_801 9
-scoreboard players set $Z General_801 9
-## 地雷個数
-scoreboard players set $Mine General_801 10
-## 羊が動くか
-scoreboard players set $CanMove General_801 0
-## 羊同士の間隔を広くするか
-scoreboard players set $IsWide General_801 0
-## 選択中の難易度
-scoreboard players set $Dif General_801 0
+## 難易度(-1の場合はsetting開始時に自動で0に)
+scoreboard players set $Dif General_801 -1
 ## 難易度履歴(ナイトメア用)
 scoreboard players set $DifHistory General_801 0
 ## タイマー

@@ -20,7 +20,6 @@ tag @s[tag=Queue_801] remove Queue_801
 tag @s add Opened_801
 
 # 羊色変更,地雷時は別途処理
-execute if score $CanMove General_801 matches 1 run data merge entity @s {Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.1d}]}
 execute if score @s Count_801 matches 0 run data merge entity @s {Sheared:0b,Age:-2147483648,Color:0}
 execute if score @s Count_801 matches 1 run data merge entity @s {Sheared:0b,Age:-2147483648,CustomName:'{"text":"1","bold":true,"color":"aqua"}',Color:3}
 execute if score @s Count_801 matches 2 run data merge entity @s {Sheared:0b,Age:-2147483648,CustomName:'{"text":"2","bold":true,"color":"green"}',Color:5}
@@ -31,6 +30,9 @@ execute if score @s Count_801 matches 6 run data merge entity @s {Sheared:0b,Age
 execute if score @s Count_801 matches 7 run data merge entity @s {Sheared:0b,Age:-2147483648,CustomName:'{"text":"7","bold":true,"color":"black"}',Color:15}
 execute if score @s Count_801 matches 8 run data merge entity @s {Sheared:0b,Age:-2147483648,CustomName:'{"text":"8","bold":true,"color":"gray"}',Color:8}
 execute if score @s Count_801 matches 0.. run team join 801_visible @s
+
+# 開けたら移動 地雷は除く
+execute if score $CanMove General_801 matches 1 run data merge entity @s[scores={Count_801=0..}] {Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.1d}]}
 
 # 演出
 playsound entity.sheep.ambient master @a[scores={playing_000=801}] ~ ~ ~ 1 1.2 1

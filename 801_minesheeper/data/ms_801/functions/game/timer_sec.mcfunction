@@ -1,4 +1,4 @@
-#> ms_801:timer_sec
+#> ms_801:game/timer_sec
 # タイマー/1秒経過時
 # @internal
 

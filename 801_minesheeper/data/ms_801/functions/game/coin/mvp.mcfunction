@@ -1,4 +1,4 @@
-#> ms_801:game/coin_mvp
+#> ms_801:game/coin/mvp
 # MVP(獲得コイン最大)計算
 # @internal
 

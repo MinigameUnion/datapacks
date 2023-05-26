@@ -1,4 +1,4 @@
-#> ms_801:game/coin_noflag
+#> ms_801:game/coin/noflag
 # 付与コイン計算(旗なしボーナス)
 # @internal
 

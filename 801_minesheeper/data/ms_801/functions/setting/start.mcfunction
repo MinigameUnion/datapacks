@@ -5,6 +5,9 @@
 # 状態変更
 scoreboard players set $GameInfo General_801 0
 
+# もし $Dif が -1 なら 0 に
+execute if score $Dif General_801 matches -1 run function ms_801:setting/difficulty/easy
+
 # 入力召喚
 summon sheep 8000.0 20 5.0 {CustomName:'"jeb_"',Color:0,Rotation:[180f,0f],UUID:[I;0,801,0,0],CustomNameVisible:0b,NoAI:1b,Invulnerable:1b,DeathTime:19s,Team:"801",Tags:["801","Setting_801"]}
 execute positioned 8000.0 20 0.0 rotated 0.0 0 run summon text_display ^ ^1.5 ^5 {text:'{"text":"ゲーム開始/ゲーム説明","bold":true}',billboard:"center",Tags:["801","Setting_801"]}
