@@ -13,3 +13,7 @@ scoreboard players set $IsWide General_801 0
 # Glowing変更
 execute as @e[type=sheep,tag=SettingDif_801] run data merge entity @s {Glowing:0b}
 data merge entity @s {Glowing:1b,Sheared:0b}
+
+# ランキング変更
+scoreboard players set $RecordDif General_801 0
+function ms_801:setting/record/show
