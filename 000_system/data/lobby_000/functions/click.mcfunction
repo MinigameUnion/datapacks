@@ -6,7 +6,7 @@
     execute if entity @s[advancements={lobby_000:click={101=true}}] run function spaceinvaders_101:join
     execute if entity @s[advancements={lobby_000:click={102=true}}] run function pac_man_102:join
     execute if entity @s[advancements={lobby_000:click={201=true}}] run function reversi_201:join
-    execute if entity @s[advancements={lobby_000:click={401=true}}] run function suiryu_taratara_401:login_game
+    execute if entity @s[advancements={lobby_000:click={401=true}}] run function suiryu_taratara_401:join
     execute if entity @s[advancements={lobby_000:click={502=true}}] run function clay_502:join
     execute if entity @s[advancements={lobby_000:click={602=true}}] run function ats_602:join
     execute if entity @s[advancements={lobby_000:click={801=true}}] run function ms_801:join

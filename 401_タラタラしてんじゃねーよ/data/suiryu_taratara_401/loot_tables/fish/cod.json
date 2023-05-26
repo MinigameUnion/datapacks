@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "op": "append",
+                  "source": "Air",
+                  "target": "AirBonus_401"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{suiryu_taratara_401_cod:1}"
+            }
+          ],
+          "name": "minecraft:cod",
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "bypasses_armor": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
