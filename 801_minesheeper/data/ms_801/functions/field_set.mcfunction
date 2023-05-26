@@ -1,4 +1,6 @@
-#フィールド作成
+#> ms_801:field_set
+# フィールド作成
+
 setblock 7999 0 0 bedrock
 setblock 8000 0 0 oak_wall_sign[facing=east]
 
@@ -22,3 +24,6 @@ setblock 7987 11 -33 air
 setblock 7987 11 -33 redstone_block
 setblock 7987 11 -33 air
 setblock 7987 12 -33 air
+
+setblock 7999 10 -24 minecraft:dark_oak_wall_sign[facing=south]{Text1:'{"text":"ゲーム退出","color":"dark_green","bold":true,"clickEvent":{"action":"run_command","value":"function ms_801:leave"}}',GlowingText:1b}
+setblock 8000 10 -24 minecraft:dark_oak_wall_sign[facing=south]{Text1:'{"text":"初期化","color":"dark_red","bold":true,"clickEvent":{"action":"run_command","value":"function ms_801:init_sign"}}',GlowingText:1b}
