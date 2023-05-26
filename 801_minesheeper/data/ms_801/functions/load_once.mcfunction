@@ -27,23 +27,3 @@ execute unless data storage ms_801:record Data run data merge storage ms_801:rec
 
 # 変数等初期化
 function ms_801:init
-
-# 以下各種定義
-#> ゲーム退出
-#declare entity 0-0-321-ffff-ffffffffffff
-#> ゲーム開始
-#declare entity 0-0-321-0-0
-#> 難易度設定：イージー
-#declare entity 0-0-321-0-a
-#> 難易度設定：ノーマル
-#declare entity 0-0-321-0-b
-#> 難易度設定：ハード
-#declare entity 0-0-321-0-c
-#> 難易度設定：ハードコア
-#declare entity 0-0-321-0-d
-#> 難易度設定：ナイトメア
-#declare entity 0-0-321-0-e
-#> ランキング
-#declare entity 0-0-321-0-14
-#> ゲーム終了
-#declare entity 0-0-321-ffff-ffff00000000
