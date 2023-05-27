@@ -11,6 +11,11 @@
 #declare score_holder $602
 #declare score_holder $-1_602 a_602
 #declare score_holder $gen602
+
+#declare score_holder $gm1_mini_602 score_602
+#declare score_holder $gm2_mini_602 score_602
+
+
 #declare score_holder $Ope_A_602 a_602= Operation //
 #declare score_holder $Ope_B_602 a_602= Operation //
 #declare score_holder $Ope_C_602 a / a1 / a2_602= Operation
