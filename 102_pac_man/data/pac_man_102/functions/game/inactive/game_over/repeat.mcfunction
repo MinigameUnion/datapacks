@@ -27,8 +27,4 @@ function pac_man_102:mobs/player/pos
 execute if score @s _Timer_102 matches 3 if score @s coin_000 matches 300.. run function pac_man_102:game/inactive/continue/init
 
 #ゲームのリセット
-execute if score @s _Timer_102 matches 0 run scoreboard players operation #mini_102 _Point_102 = @s _Point_102
-execute if score @s _Timer_102 matches 0 run scoreboard players operation #mini_102 _Point_102 /= #operation_10_102 _Operation_102
-execute if score @s _Timer_102 matches 0 run tellraw @s {"translate":"--%s%s-%s%s%s%s---\nあなたの得点 : %s\n獲得ミニ : %s\n---------------------","with":[{"text":"●","color":"yellow","bold":true},{"text":"●","color":"white"},{"text":"●","color":"red","bold":true},{"text":"●","color":"light_purple","bold":true},{"text":"●","color":"gold","bold":true},{"text":"●","color":"aqua","bold":true},{"score":{"name":"@s","objective": "_Point_102"}},{"score":{"name":"#mini_102","objective": "_Point_102"}}]}
-execute if score @s _Timer_102 matches 0 run scoreboard players operation @s add_mini_000 = #mini_102 _Point_102
 execute if score @s _Timer_102 matches 0 run function pac_man_102:reset

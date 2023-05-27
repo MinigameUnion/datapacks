@@ -31,6 +31,8 @@ scoreboard objectives add _Stop_102 dummy
 scoreboard objectives add _Operation_102 dummy
 #演算用
 
+# 定数
+
 #ボスバー
 bossbar add pac_man_102:pre_start {"text":"ゲーム開始まで","color":"gold","bold":true}
 bossbar set pac_man_102:pre_start color yellow

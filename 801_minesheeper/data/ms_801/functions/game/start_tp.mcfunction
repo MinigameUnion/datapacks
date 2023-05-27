@@ -1,3 +1,7 @@
+#> ms_801:game/start_tp
+# ゲーム開始時羊tpループ
+# @internal
+
 execute unless score $IsWide General_801 matches 1 at @e[type=sheep,tag=Board_801,tag=BoardTp_801] run tag @e[type=sheep,tag=Board_801,tag=!BoardTp_801,distance=1..1.6] add BoardTpNext_801
 execute if score $IsWide General_801 matches 1 at @e[type=sheep,tag=Board_801,tag=BoardTp_801] run tag @e[type=sheep,tag=Board_801,tag=!BoardTp_801,distance=1..3.2] add BoardTpNext_801
 execute as @e[type=sheep,tag=Board_801,tag=BoardTp_801] at @s run tp @s ~ 10 ~

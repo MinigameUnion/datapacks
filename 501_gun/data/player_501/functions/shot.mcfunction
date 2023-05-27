@@ -1,6 +1,5 @@
 data modify storage gun_501:temp tag set from entity @s SelectedItem.tag
 
-execute store result score #TYPE num_501 run data get storage gun_501:temp tag.gun.status.type 1
 execute store result score @s cooltime_501 run data get storage gun_501:temp tag.gun.status.cooltime 1
 execute store result score #SPEED num_501 run data get storage gun_501:temp tag.gun.status.speed 2.5
 execute store result score #ZEROIN num_501 run data get storage gun_501:temp tag.gun.status.zeroin 5000.0
@@ -22,7 +21,10 @@ execute if score #spread spread_501 matches 1.. run function gun_501:spread/set
 
 execute anchored eyes positioned ^ ^ ^ anchored feet run function gun_501:shot
 
-execute if score #TYPE num_501 matches 4 anchored eyes positioned ^ ^ ^0.5 anchored feet run function gun_501:sound/sg/shot
+data modify storage gun_501:api sound set value {}
+data modify storage gun_501:api sound merge from storage gun_501:temp tag.gun.status.sound
+
+execute if data storage gun_501:api sound.profile anchored eyes positioned ^ ^ ^0.5 anchored feet run function #gun_501:sound/shot
 
 execute store result score #RECOIL[0] num_501 run data get storage gun_501:temp tag.gun.status.recoil[0][0] 100
 execute store result score #RECOIL[1] num_501 run data get storage gun_501:temp tag.gun.status.recoil[0][1] 100

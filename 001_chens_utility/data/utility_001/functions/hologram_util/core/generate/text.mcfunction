@@ -1,5 +1,5 @@
 #> utility_001:hologram_util/core/generate/text
-# @internal
+# @within function utility_001:hologram_util/core/generate/base
 
 #ベース召喚summon
     summon armor_stand ~ ~ ~ {CustomName:"\"\"",CustomNameVisible:1b,Marker:1b,Invisible:1b,Tags:[hologram_001,hologram_char_001]}
