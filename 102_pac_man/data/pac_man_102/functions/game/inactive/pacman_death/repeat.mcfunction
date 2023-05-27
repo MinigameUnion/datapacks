@@ -8,17 +8,17 @@
 scoreboard players remove @s _Timer_102 1
 
 #モデル演出
-execute if score @s _Timer_102 matches 51 run data merge entity @e[tag=PacMan_base_102,limit=1] {Pose:{Head:[0.0f,180.0f,0.0f]}}
-execute if score @s _Timer_102 matches 51 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1007
-execute if score @s _Timer_102 matches 47 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1008
-execute if score @s _Timer_102 matches 43 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1009 
-execute if score @s _Timer_102 matches 39 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1010
-execute if score @s _Timer_102 matches 35 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1011
-execute if score @s _Timer_102 matches 31 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1012
-execute if score @s _Timer_102 matches 27 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1013
-execute if score @s _Timer_102 matches 23 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1014
-execute if score @s _Timer_102 matches 19 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1015
-execute if score @s _Timer_102 matches 15 run data modify entity @e[tag=PacMan_base_102,limit=1] ArmorItems[3].tag.CustomModelData set value 1016
+execute if score @s _Timer_102 matches 51 run data merge entity @e[tag=PacMan_body_102,type=item_display,limit=1] {transformation:{left_rotation:{axis:[0f,1f,0f],angle:3.14115f}}}
+execute if score @s _Timer_102 matches 51 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1007
+execute if score @s _Timer_102 matches 47 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1008
+execute if score @s _Timer_102 matches 43 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1009 
+execute if score @s _Timer_102 matches 39 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1010
+execute if score @s _Timer_102 matches 35 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1011
+execute if score @s _Timer_102 matches 31 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1012
+execute if score @s _Timer_102 matches 27 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1013
+execute if score @s _Timer_102 matches 23 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1014
+execute if score @s _Timer_102 matches 19 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1015
+execute if score @s _Timer_102 matches 15 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1016
 
 #サウンド
 execute if score @s _Timer_102 matches 55 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.07

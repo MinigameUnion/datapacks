@@ -13,5 +13,5 @@ kill @e[tag=Ghost_102]
 #残機の減少
 scoreboard players remove @s _HP_102 1
 #表示の変更
-execute as @e[tag=PacMan_Health_102] if score @s _Operation_102 > @a[tag=Playing_102,limit=1] _HP_102 run data merge entity @s {ArmorItems:[{},{},{},{}]}
-execute as @e[tag=PacMan_Health_102] if score @s _Operation_102 <= @a[tag=Playing_102,limit=1] _HP_102 run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b,tag:{CustomModelData:1003}}]}
+execute as @e[tag=PacMan_Health_102,type=item_display] if score @s _Operation_102 > @a[tag=Playing_102,limit=1] _HP_102 run data modify entity @s item set value {}
+execute as @e[tag=PacMan_Health_102,type=item_display] if score @s _Operation_102 <= @a[tag=Playing_102,limit=1] _HP_102 run data modify entity @s item set value {id:"minecraft:yellow_concrete",Count:1b,tag:{CustomModelData:1003}}

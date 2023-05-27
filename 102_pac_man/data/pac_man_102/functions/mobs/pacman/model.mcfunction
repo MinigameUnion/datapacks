@@ -1,15 +1,15 @@
 #モデルアニメーション
 
 #info
-# as,at:@e[tag=PacMan_102]
+# as,at:@e[tag=PacMan_102,type=item_display]
 
 #モデル設定
-execute unless data entity @s ArmorItems[3].id run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:yellow_concrete",Count:1b,tag:{CustomModelData:1001}}]}
+    execute on passengers unless data entity @s item{id:"minecraft:yellow_concrete"} run data merge entity @s {item:{id:"minecraft:yellow_concrete",Count:1b,tag:{CustomModelData:1001}}}
 
 #モデルアニメーション
-scoreboard players add @s _Model_102 1
-data modify entity @s[scores={_Model_102=1}] ArmorItems[3].tag.CustomModelData set value 1001
-data modify entity @s[scores={_Model_102=2}] ArmorItems[3].tag.CustomModelData set value 1002
-data modify entity @s[scores={_Model_102=3}] ArmorItems[3].tag.CustomModelData set value 1003
-data modify entity @s[scores={_Model_102=4}] ArmorItems[3].tag.CustomModelData set value 1002
-scoreboard players set @s[scores={_Model_102=4}] _Model_102 0
+    scoreboard players add @s _Model_102 1
+    execute if score @s _Model_102 matches 1 on passengers run data modify entity @s item.tag.CustomModelData set value 1001
+    execute if score @s _Model_102 matches 2 on passengers run data modify entity @s item.tag.CustomModelData set value 1002
+    execute if score @s _Model_102 matches 3 on passengers run data modify entity @s item.tag.CustomModelData set value 1003
+    execute if score @s _Model_102 matches 4 on passengers run data modify entity @s item.tag.CustomModelData set value 1002
+    scoreboard players set @s[scores={_Model_102=4}] _Model_102 0

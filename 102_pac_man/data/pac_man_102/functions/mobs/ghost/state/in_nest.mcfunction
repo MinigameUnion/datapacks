@@ -1,4 +1,5 @@
-#巣のなかにいる
+#> pac_man_102:mobs/ghost/state/in_nest
+### 巣のなかにいる
 
 #info
 # as,at:@e[tag=Ghost_102](scores={_State_102=1})
@@ -19,4 +20,9 @@ execute if score @s _Count_102 matches 0 run scoreboard players set @s _State_10
 
 #モデル適応
     #体
-    data modify entity @s ArmorItems[3] set from entity @s ArmorItems[0]
+    execute if entity @s[tag=Blinky_102] on passengers if entity @s[tag=Ghost_body_102] unless data entity @s item{id:"minecraft:red_concrete"} run data modify entity @s item.id set value "red_concrete"
+    execute if entity @s[tag=Pinky_102] on passengers if entity @s[tag=Ghost_body_102] unless data entity @s item{id:"minecraft:pink_concrete"} run data modify entity @s item.id set value "pink_concrete"
+    execute if entity @s[tag=Inky_102] on passengers if entity @s[tag=Ghost_body_102] unless data entity @s item{id:"minecraft:cyan_concrete"} run data modify entity @s item.id set value "cyan_concrete"
+    execute if entity @s[tag=Clyde_102] on passengers if entity @s[tag=Ghost_body_102] unless data entity @s item{id:"minecraft:orange_concrete"} run data modify entity @s item.id set value "orange_concrete"
+    # 目
+    execute on passengers if entity @s[tag=Ghost_eye_102] unless data entity @s item{id:"minecraft:stone_button"} run data modify entity @s item.id set value "stone_button"
