@@ -66,6 +66,9 @@
     execute if score #health_add_102 _Timer_102 matches 31 if score @s _Point_102 matches 10000.. run scoreboard players set #health_add_102 _Timer_102 30
     execute if score #health_add_102 _Timer_102 matches 1..30 run function pac_man_102:mobs/pacman/health_add
 
+## 得点更新
+    execute as @e[tag=Point_102,type=text_display,limit=1] run data modify entity @s text set value '{"translate":"               \\n%s","bold":true,"with":[{"score":{"name":"@a[tag=Playing_102,limit=1]","objective":"_Point_102"}}]}'
+
 ## ステージクリア判定
     execute if score #pellet_102 _Count_102 matches ..0 run function pac_man_102:game/inactive/stage_clear/init
 

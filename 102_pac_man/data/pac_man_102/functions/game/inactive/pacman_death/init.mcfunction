@@ -9,9 +9,8 @@ scoreboard players set @s _Timer_102 80
 
 #ゴーストの削除
 kill @e[tag=Ghost_102]
+# 残留思念の削除
+    kill @e[tag=Point_Display_102,type=text_display]
 
 #残機の減少
 scoreboard players remove @s _HP_102 1
-#表示の変更
-execute as @e[tag=PacMan_Health_102,type=item_display] if score @s _Operation_102 > @a[tag=Playing_102,limit=1] _HP_102 run data modify entity @s item set value {}
-execute as @e[tag=PacMan_Health_102,type=item_display] if score @s _Operation_102 <= @a[tag=Playing_102,limit=1] _HP_102 run data modify entity @s item set value {id:"minecraft:yellow_concrete",Count:1b,tag:{CustomModelData:1003}}

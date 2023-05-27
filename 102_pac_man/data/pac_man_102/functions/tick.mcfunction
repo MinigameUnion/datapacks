@@ -1,4 +1,4 @@
-#> pac_man_102:repeat
+#> pac_man_102:tick
 ### 常時実行
 
 #info

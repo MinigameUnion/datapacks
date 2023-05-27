@@ -9,8 +9,7 @@ scoreboard players remove #health_add_102 _Timer_102 1
 #残機の増加
 execute if score #health_add_102 _Timer_102 matches 29 run scoreboard players add @s _HP_102 1
 #表示の変更
-execute if score #health_add_102 _Timer_102 matches 29 as @e[tag=PacMan_Health_102,type=item_display] if score @s _Operation_102 > @a[tag=Playing_102,limit=1] _HP_102 run data modify entity @s item set value {}
-execute if score #health_add_102 _Timer_102 matches 29 as @e[tag=PacMan_Health_102,type=item_display] if score @s _Operation_102 <= @a[tag=Playing_102,limit=1] _HP_102 run data modify entity @s item set value {id:"minecraft:yellow_concrete",Count:1b,tag:{CustomModelData:1003}}
+execute if score #health_add_102 _Timer_102 matches 29 as @e[tag=PacMan_HP_102,type=item_display] run function pac_man_102:objects/hp/update
 
 #サウンド
 execute if score #health_add_102 _Timer_102 matches 29 run playsound minecraft:entity.player.levelup voice @a ~ ~ ~ 2 2

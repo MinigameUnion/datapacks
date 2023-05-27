@@ -8,7 +8,7 @@
 scoreboard players remove @s _Timer_102 1
 
 #モデル演出
-execute if score @s _Timer_102 matches 51 run data merge entity @e[tag=PacMan_body_102,type=item_display,limit=1] {transformation:{left_rotation:{axis:[0f,1f,0f],angle:3.14115f}}}
+execute if score @s _Timer_102 matches 51 run data merge entity @e[tag=PacMan_body_102,type=item_display,limit=1] {transformation:{left_rotation:{axis:[0f,1f,0f],angle:0f}}}
 execute if score @s _Timer_102 matches 51 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1007
 execute if score @s _Timer_102 matches 47 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1008
 execute if score @s _Timer_102 matches 43 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1009 
@@ -48,6 +48,7 @@ execute if score @s _Timer_102 matches 17 run playsound minecraft:block.note_blo
 
 execute if score @s _Timer_102 matches 15 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.2
 execute if score @s _Timer_102 matches 10 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.2
+execute if score @s _Timer_102 matches 10 as @e[tag=PacMan_HP_102,type=item_display] run function pac_man_102:objects/hp/update
 
 #モード移行
     #残機があるとき 再スタート

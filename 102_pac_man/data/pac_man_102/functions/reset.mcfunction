@@ -4,6 +4,12 @@
 #info
 # as,at:free
 
+## スコアの付与
+    scoreboard players operation #mini_102 _Point_102 = @a[tag=Playing_102,limit=1] _Point_102
+    scoreboard players operation #mini_102 _Point_102 /= #20 num_000
+    tellraw @a[tag=Playing_102,limit=1] {"translate":"--%s%s-%s%s%s%s---\nあなたの得点 : %s\n獲得ミニ : %s\n---------------------","with":[{"text":"●","color":"yellow","bold":true},{"text":"●","color":"white"},{"text":"●","color":"red","bold":true},{"text":"●","color":"light_purple","bold":true},{"text":"●","color":"gold","bold":true},{"text":"●","color":"aqua","bold":true},{"score":{"name":"@s","objective": "_Point_102"}},{"score":{"name":"#mini_102","objective": "_Point_102"}}]}
+    scoreboard players operation @a[tag=Playing_102,limit=1] add_coin_000 = #mini_102 _Point_102
+
 ## スコアのリセット
     scoreboard players reset @a[scores={_Game_102=1..}] _Game_102
     tag @a[tag=Playing_102] remove Playing_102
@@ -11,7 +17,7 @@
 ## エンティティリセット
     # 削除
         kill @e[tag=Entity_102]
-        execute positioned 1000 118 1001 run kill @e[type=item,nbt={Item:{tag:{Continue:1b}}},distance=..30]
+        execute positioned 1000 118 1001 run kill @e[type=item,nbt={Item:{id:"minecraft:apple"}},distance=..30]
         clear @a golden_apple{Continue:1b}
         clear @a apple{PreStart:1b}
     # マーカー
