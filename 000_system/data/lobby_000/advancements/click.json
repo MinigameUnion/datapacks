@@ -36,6 +36,15 @@
                 }
             }
         },
+        "201":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"click.201_000\"]}"
+                }
+            }
+        },
         "401":{
             "trigger": "player_interacted_with_entity",
             "conditions": {
