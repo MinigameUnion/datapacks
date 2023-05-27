@@ -8,6 +8,6 @@ execute as @e[dx=47,dy=31,dz=31,tag=creating_502,tag=gun_stand_502] run loot rep
 data remove storage clay_502:storage match.player[]
 execute as @a[scores={playing_000=502},tag=creating_502,predicate=clay_502:game/player/match,limit=1] run function clay_502:game/tutorial/player
 
-data modify entity @s ArmorItems[0].tag.match.tag set from storage clay_502:storage match.games[0].tag
+data modify entity @s ArmorItems[0].tag.match.tag set from storage clay_502:storage match.games[{name:"tutorial"}].tag
 
 data modify entity @s ArmorItems[0].tag.match.tag.player set from storage clay_502:storage match.player

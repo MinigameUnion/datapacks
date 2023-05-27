@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{gun:{status:{speed:150.0d,ammo:{damage:2.0d,range:10.0d,cartridge:2b,bullet:9,spread:4}}}}"
+                            "tag": "{gun:{status:{speed:150.0d,ammo:{damage:2.0d,range:10.0d,cartridge:2b,bullet:9,spread:4},sound:{profile:\"clay_502:s1897\"}}}}"
                         },
                         {
                             "function": "minecraft:set_lore",
