@@ -11,7 +11,4 @@ title @a[team=602] title [{"text":"Score:"},{"color":"yellow","score":{"name":"$
 execute as @a[team=602] positioned as @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1.0 2.0
 execute as @a[team=602] positioned as @s run playsound minecraft:entity.firework_rocket.twinkle_far player @s ~ ~ ~ 1.0 1.0
 
-data remove storage ats_602:unit List[-1]
-
-#test
 kill @s

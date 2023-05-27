@@ -43,9 +43,6 @@ scoreboard players reset $Ope_A_602
 scoreboard players reset $Ope_B_602
 scoreboard players reset $Ope_C_602
 
-data modify storage ats_602:unit List set value []
-data modify storage ats_602:unit Post set value []
-data modify storage ats_602:unit Queue set value []
-
+data remove storage ats_602:unit *
 data modify storage ats_602:error Type set value {}
 data remove storage ats_602:error Trigger

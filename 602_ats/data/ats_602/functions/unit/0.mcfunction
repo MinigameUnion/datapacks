@@ -1,3 +1,6 @@
+execute store result score @s e_602 run tag @e[sort=nearest,tag=tile_602,tag=!execute_602,distance=..1.0] add c_execute_602
+execute if score @s e_602 matches 2.. run tag @e[sort=nearest,tag=tile_602,distance=..1.0] add crowed_602
+
 execute if score $602 gamemode_602 matches 1 run function ats_602:unit/type/grass_eater
 execute if score $602 gamemode_602 matches 2..3 run function ats_602:unit/type/generic
 execute if entity @s[tag=!stop_602] if score @s e1_602 = @s e2_602 run function ats_602:unit/hit/main

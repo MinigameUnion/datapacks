@@ -11,9 +11,8 @@
 #declare score_holder $602
 #declare score_holder $-1_602 a_602
 #declare score_holder $gen602
-#declare score_holder $result_602 a_602= result_timer
-#declare score_holder $Ope_A_602 a_602= Operation // b_602= HitType // e_602= List Elements Max Count // e1_602= List Elements Count
-#declare score_holder $Ope_B_602 a_602= Operation // e1_602= This Count // e2_602= This Count Ope
+#declare score_holder $Ope_A_602 a_602= Operation //
+#declare score_holder $Ope_B_602 a_602= Operation //
 #declare score_holder $Ope_C_602 a / a1 / a2_602= Operation
 
 
