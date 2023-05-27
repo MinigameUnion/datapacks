@@ -4,10 +4,6 @@
 # as,at :@s
 # repeat
 
-#共通エンティティの紐づけ
-scoreboard players operation #temp _Id_102 = @s _Id_102
-execute as @e[tag=Entity_102] store success score @s _Group_102 if score @s _Id_102 = #temp _Id_102
-
 #ステータス
     #巣にいるとき
     execute if score @s _State_102 matches 0 run function pac_man_102:mobs/ghost/state/in_nest

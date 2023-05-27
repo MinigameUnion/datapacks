@@ -12,7 +12,7 @@ execute as @e[tag=Entity_101,type=#spaceinvaders_101:all] store success score @s
 #設置
 execute if score @s Timer_101 matches 19 run function spaceinvaders_101:unit/player/set
 #移動
-tp @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] ~ 62 -46
+tp @e[tag=Player_101,type=item_display,scores={Group_101=1}] ~ 64 -46
 #発射
 execute if score @s Shot_101 matches 1.. run function spaceinvaders_101:unit/player/shot
 

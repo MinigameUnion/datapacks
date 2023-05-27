@@ -30,21 +30,21 @@ execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=
 execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=80}] at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] run clone ~-2 ~-4 ~ ~2 ~-4 ~ ~-2 ~-1 ~-6
 
 ##自機の点滅
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=0}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=5}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=10}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=15}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=20}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=25}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=30}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=35}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=40}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=45}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=50}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=55}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=60}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=65}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=70}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=75}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=80}] run effect give @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
-execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=85}] run effect clear @e[tag=Bullet_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=0}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=5}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=10}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=15}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=20}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=25}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=30}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=35}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=40}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=45}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=50}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=55}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=60}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=65}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=70}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=75}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=80}] run effect give @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing
+execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1,Timer_101=85}] run effect clear @e[tag=Player_101,type=item_display,scores={Group_101=1}] minecraft:glowing

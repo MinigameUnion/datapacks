@@ -4,7 +4,7 @@
 # as,at: player
 
 #プレイヤー情報を記録
-scoreboard players operation @e[tag=Center_102,limit=1] _Id_102 = @s id_000
+scoreboard players operation @e[tag=Center_102,type=marker,limit=1] _Id_102 = @s id_000
 
 #参加確認へ移行
 scoreboard players set @s _Game_102 11

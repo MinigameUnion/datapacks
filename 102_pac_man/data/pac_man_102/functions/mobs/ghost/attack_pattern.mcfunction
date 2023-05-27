@@ -13,9 +13,9 @@ execute if score #attack_pattern_102 _State_102 matches 3 run scoreboard players
 
 #ゴーストの視点切り替え
     #スパートではないとき
-    execute if score #spurt_102 _State_102 matches 0 as @e[tag=Ghost_base_102] run function pac_man_102:mobs/ghost/turn/back
+    execute if score #spurt_102 _State_102 matches 0 as @e[tag=Ghost_base_102,type=item_display] run function pac_man_102:mobs/ghost/turn/back
     #スパートしているとき アカベエは反転しない
-    execute if score #spurt_102 _State_102 matches 1.. as @e[tag=Ghost_base_102] unless entity @s[tag=Blinky_102] run function pac_man_102:mobs/ghost/turn/back
+    execute if score #spurt_102 _State_102 matches 1.. as @e[tag=Ghost_base_102,type=item_display] unless entity @s[tag=Blinky_102] run function pac_man_102:mobs/ghost/turn/back
 
 #目的地の切り替え
 execute unless score #spurt_102 _State_102 matches 1.. if score #attack_pattern_102 _State_102 matches 1 run tp @e[tag=Blinky_point_102] 1019 92 1010

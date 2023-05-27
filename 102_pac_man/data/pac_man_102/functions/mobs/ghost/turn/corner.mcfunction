@@ -1,7 +1,7 @@
 #ゴースト 曲がり角に来た時
 
 #info
-# as,at: @e[tag=Ghost_base_102]
+# as,at: @e[tag=Ghost_base_102,type=item_display]
 
 #開いてる道を探す
     #右回り

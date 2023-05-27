@@ -15,6 +15,8 @@
 ## エンティティの処理
     kill @e[tag=Player_101,type=item_display,scores={Group_101=1}]
     kill @e[tag=Bullet_101,type=item_display,scores={Group_101=1}]
+    kill @e[tag=UFO_101,type=item_display,scores={Group_101=1}]
+    kill @e[tag=Invader_101,type=item_display,scores={Group_101=1}]
 
 ## 体力の表示
     execute if score @s HP_101 matches 3 at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] run clone 991 65 -64 995 65 -64 ~-2 ~-1 ~-6
