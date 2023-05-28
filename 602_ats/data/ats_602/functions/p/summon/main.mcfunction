@@ -7,8 +7,6 @@ execute if data entity @s Inventory[{Slot:-106b,id:"minecraft:paper"}] run funct
 
 scoreboard players remove $602 e_602 1
 scoreboard players reset @s sneak_602
-execute store result bossbar 0_602 value run scoreboard players get $602 e_602
 tag @s remove shooter_602
 
-execute if score $602 gamemode_602 matches 1 run schedule function ats_602:m/s 3s append
-execute unless score $602 gamemode_602 matches 1 run schedule function ats_602:m/s 3t append
+execute store result score $timer_602 a_602 run data get storage ats_602:main wait
