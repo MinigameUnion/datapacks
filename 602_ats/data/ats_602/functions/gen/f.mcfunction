@@ -1,7 +1,6 @@
-title @a[team=602] times 10 30 10
-title @a[team=602] title {"text":"GAME START!","bold":true,"color":"gold"}
-execute as @a[team=602] positioned as @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1.0 0.5 0.0
-execute as @a[team=602] positioned as @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1.0 0.75 0.0
+execute as @a[team=GreenTeam] positioned as @s run function ats_602:p/g/intro
+#execute as @a[team=RedTeam] positioned as @s run function ats_602:p/g/intro
+#execute as @a[team=BlueTeam] positioned as @s run function ats_602:p/g/intro
 scoreboard players set $602 a_602 3
 scoreboard players set $602 pId_602 0
 scoreboard players reset $gen602 a_602
