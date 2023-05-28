@@ -18,6 +18,8 @@
 #declare score_holder $ope_B_602 a_602= Operation //
 #declare score_holder $ope_C_602 a / a1 / a2_602= Operation
 
+#declare score_holder $pid_mismatch_602 Error Check
+
 #declare tag join_team_602
 #declare tag join_game_602
 

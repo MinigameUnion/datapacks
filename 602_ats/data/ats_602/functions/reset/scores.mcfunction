@@ -22,3 +22,7 @@ scoreboard players set $602 vs_602 0
 scoreboard players reset $Ope_A_602
 scoreboard players reset $Ope_B_602
 scoreboard players reset $Ope_C_602
+
+scoreboard players reset $pid_mismatch_602
+
+scoreboard players reset * pId_602

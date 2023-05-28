@@ -3,6 +3,7 @@ scoreboard players set $602 gamemode_602 1
 scoreboard players set $602 a_602 1
 scoreboard players set $602 e_602 12
 scoreboard players set $timer_602 a_602 600
+data modify storage ats_602:main wait set value 40
 
 function ats_602:bossbar/set
 

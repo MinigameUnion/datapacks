@@ -1,6 +1,6 @@
 function ats_602:system/g3/pre
-execute if score $602 a_602 matches 3 run function ats_602:unit/starter
 
+execute if score $602 a_602 matches 3 run function ats_602:unit/starter
 execute as @a[tag=join_game_602] run function ats_602:p/play
 
 execute unless score $602 addScore_602 = $602 score_602 run function ats_602:bossbar/0

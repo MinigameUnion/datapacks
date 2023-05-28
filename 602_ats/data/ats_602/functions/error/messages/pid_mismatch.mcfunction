@@ -1,0 +1,2 @@
+tellraw @a [{"text":"[WARNING]","color":"red","bold":true},{"text":" : 参加中のプレイヤーに必要なデータを検知できませんでした。スコアIDが所有されていないか、想定外の値が振られている可能性があります。","color":"red"}]
+data remove storage ats_602:error Type.PidMismatch
