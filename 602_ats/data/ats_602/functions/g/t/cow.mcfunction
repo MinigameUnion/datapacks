@@ -1,1 +1,0 @@
-data modify storage ats_602:item tag set value {602:[3b,10b,15b,1b],mul_602:"x1.5",CustomModelData:602001,Tags:["cow_602"],display:{Name:'{"text":"ウシ","color":"green"}',Lore:['{"text":"Common","color":"green"}']}}
