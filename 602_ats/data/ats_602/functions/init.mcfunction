@@ -19,6 +19,7 @@
 #declare score_holder $ope_C_602 a / a1 / a2_602= Operation
 
 #declare tag join_team_602
+#declare tag join_game_602
 
 #declare bossbar score_602 スコア表示
 #declare bossbar timer_602 タイマー
