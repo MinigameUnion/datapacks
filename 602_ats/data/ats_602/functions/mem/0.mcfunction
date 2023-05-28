@@ -5,5 +5,5 @@ fill 6030 80 15 6033 80 15 minecraft:nether_brick_fence[east=true,west=true]
 fill 6029 81 15 6034 82 15 minecraft:barrier
 
 scoreboard players set $602 a_602 2
-execute if score $602 gamemode_602 matches 1 run function ats_602:gen/grass/set
-execute if score $602 gamemode_602 matches 2..3 run function ats_602:gen/main
+execute if score $602 gamemode_602 matches 1 run function ats_602:block_gen/state_2/grass/pre_set
+execute if score $602 gamemode_602 matches 2..3 run function ats_602:block_gen/state_2/main
