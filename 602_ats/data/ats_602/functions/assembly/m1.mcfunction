@@ -10,5 +10,3 @@ tellraw @a[tag=in_602] [{"text":"[INFO]","color":"aqua","bold":true},{"text":"30
 
 tellraw @a[tag=in_602] [{"text":"//GameMode:","bold":true},{"text":"Program","color":"aqua"}]
 tellraw @a[tag=in_602] [{"text":"//MemberLimit:","bold":true},{"text":"12","color":"white"}]
-
-schedule function ats_602:mem/main 30s append
