@@ -2,9 +2,7 @@ fill 6059 81 13 6061 81 13 minecraft:air
 scoreboard players set $602 gamemode_602 1
 scoreboard players set $602 a_602 1
 scoreboard players set $602 e_602 12
-team add 602 [{"text":"ATS Player"}]
-team modify 602 color aqua
-team modify 602 friendlyFire false
+scoreboard players set $timer_602 a_602 600
 
 function ats_602:bar/set
 
