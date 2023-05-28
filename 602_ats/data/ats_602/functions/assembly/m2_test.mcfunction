@@ -4,7 +4,7 @@ scoreboard players set $602 a_602 1
 scoreboard players set $602 e_602 20
 scoreboard players set $timer_602 a_602 10
 
-function ats_602:bar/set
+function ats_602:bossbar/set
 
 tellraw @a[tag=in_602] [{"text":"[INFO-DEBUG]","color":"black","bold":false},{"text":"アニマル塔戦闘でゲームが始まります。","color":"white"}]
 

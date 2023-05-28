@@ -1,0 +1,2 @@
+bossbar set score_602 name [{"text":"Score : ","color":"yellow"},{"score":{"name":"$602","objective":"score_602"}},{"text":" / "},{"text":"残りターン : ","color":"aqua"},{"score":{"name":"$602","objective":"e_602"}}]
+schedule function ats_602:bossbar/2 2t append
