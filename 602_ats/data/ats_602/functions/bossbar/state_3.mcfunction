@@ -9,3 +9,6 @@ execute if score $timer_602 a_602 matches 0.. run bossbar set timer_602 name [{"
 execute if score $timer_602 a_602 matches -1 run bossbar set timer_602 name [{"text":"ターン : ","color":"blue"},{"selector":"@a[tag=shooter_602]"}]
 
 bossbar set timer_602 color blue
+
+bossbar set score_602 players @a[tag=in_602]
+bossbar set timer_602 players @a[tag=in_602]
