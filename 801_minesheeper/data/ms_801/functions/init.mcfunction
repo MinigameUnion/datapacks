@@ -37,5 +37,8 @@ bossbar set time_801 visible false
 tp @e[tag=801] 8000 -100 0
 kill @e[tag=801]
 
-# 設定フェーズ開始
-schedule function ms_801:setting/start 5t
+# 退出羊召喚
+execute unless entity 0-0-321-ffff-ffffffffffff positioned 8000.0 20 0.0 rotated 180.0 0 run summon sheep ^ ^ ^5 {CustomName:'{"text":"退出する","color":"dark_green","bold":true}',CustomNameVisible:1b,Color:13,Rotation:[0f,0f],UUID:[I;0,801,-1,-1],NoAI:1b,Invulnerable:1b,DeathTime:19s,Team:"801_visible",Tags:["801","Exit_801"]}
+
+# 初期化できたか確認
+schedule function ms_801:init_check 5t
