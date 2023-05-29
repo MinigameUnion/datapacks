@@ -9,7 +9,7 @@
 #declare score_holder $602
 #declare score_holder $-1_602 a_602
 #declare score_holder $gen602
-#declare score_holder $timer_602 a_602
+#declare score_holder $timer_602 a_602= score / a1 , 2 _602= second
 
 #declare score_holder $gm1_mini_602 score_602
 #declare score_holder $gm2_mini_602 score_602

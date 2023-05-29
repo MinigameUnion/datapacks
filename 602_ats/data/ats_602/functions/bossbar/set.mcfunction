@@ -8,5 +8,6 @@ bossbar set timer_602 color green
 execute store result bossbar timer_602 max run scoreboard players get $timer_602 a_602
 execute store result bossbar timer_602 value run scoreboard players get $timer_602 a_602
 
+bossbar set timer_602 players @a[tag=in_602]
 bossbar set score_602 visible true
 bossbar set timer_602 visible true

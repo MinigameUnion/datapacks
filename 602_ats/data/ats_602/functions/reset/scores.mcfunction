@@ -11,7 +11,8 @@ scoreboard players set $0_602 score_602 0
 scoreboard players set $0_602 a_602 2
 scoreboard players set $602 score0_602 10
 
-scoreboard players reset $timer_602 a_602
+scoreboard players reset $timer_602
+scoreboard players set $timer_602 a2_602 20
 
 scoreboard players set $gm1_mini_602 score_602 10
 scoreboard players set $gm2_mini_602 score_602 80
