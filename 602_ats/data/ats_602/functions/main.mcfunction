@@ -1,4 +1,4 @@
-execute if score $Timer_602 a_602 matches 1.. run function ats_602:bossbar/timer_main
+execute if score $timer_602 a_602 matches 1.. run function ats_602:bossbar/timer_main
 execute as @a[tag=in_602] run function ats_602:p/lobby
 
 execute if score $602 a_602 matches 1 run function ats_602:system/state_1_main
