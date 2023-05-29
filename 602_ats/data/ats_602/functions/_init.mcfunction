@@ -83,5 +83,6 @@ team modify RedTeam color red
 team modify BlueTeam color blue
 
 bossbar add minecraft:score_602 [{"text":"placeholder"}]
+bossbar add minecraft:timer_602 [{"text":"placeholder"}]
 
 function ats_602:reset/main
