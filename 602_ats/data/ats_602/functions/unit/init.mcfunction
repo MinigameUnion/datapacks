@@ -15,6 +15,7 @@ execute store result score @s a2_602 run data get storage ats_602:main ItemClip.
 execute store result score @s addScore_602 run data get storage ats_602:main ItemClip.602[1]
 execute store result score @s mulScore0_602 run data get storage ats_602:main ItemClip.602[2]
 execute store result score @s mulScore1_602 run data get storage ats_602:main ItemClip.602[3]
+scoreboard players add @s mulScore1_602 1
 execute if score $602 gamemode_602 matches 1 run scoreboard players set @s a1_602 400
 execute if score $602 gamemode_602 matches 2..3 run scoreboard players set @s a1_602 500
 

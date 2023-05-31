@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Common","color":"green"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"4 ","color":"aqua","bold":true},{"text":"x1.0 ","color":"light_purple","bold":true},{"text":"1.1","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"停止状態から動物と接触するとヒットスコアの量を2倍にする","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],                                
+                                [{"text":"Class:Mammalia / Order:Artiodactyla / Suborder:Ruminantia","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Bovidae / Subfamily:Caprinae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Ovis / Species:O. aries","color":"dark_gray"}],
+                                [{"text":"Binomial:Ovis aries","color":"dark_gray","bold": true}],
+
+                                [{"text":"ヒツジの目の瞳孔は横長で、視野は300度ほども視覚を確保できる。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"ヒツジ","color":"green","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[4b,10b,11b,1b],item602:1b,mul_602:\"x1.1\",mul1_602:\"1.1\",CustomModelData:6003,Tags:[\"sheep_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/bee"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/cod"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/fox"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/house"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/llama"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/panda"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/polar_bear"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/salmon"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/silverfish"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/turtle"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/villager"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/rare/wolf"}
+            ]
+        }
+    ]
+}

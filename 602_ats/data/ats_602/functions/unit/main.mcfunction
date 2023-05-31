@@ -14,7 +14,6 @@ execute if entity @s[scores={a_602=3..,a1_602=61..100}] run scoreboard players s
 execute if entity @s[scores={a_602=2..,a1_602=1..60}] run scoreboard players set @s a_602 1
 execute if entity @s[scores={a1_602=..0}] run tag @s add stop_602
 
-#execute if entity @s[tag=stop_602,tag=hit_602] positioned as @s run function ats_602:unit/1
 execute if entity @s[scores={a_602=1..,a1_602=..0}] run scoreboard players set @s a_602 0
 
 execute if score @s score_602 > $0_602 score_602 run scoreboard players operation $0_602 score_602 = @s score_602

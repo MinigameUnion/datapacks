@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/bat"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/chicken"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/cow"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/pig"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/rabbit"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/sheep"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/spider"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/squid"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/common/tropical_fish"}
+            ]
+        }
+    ]
+}

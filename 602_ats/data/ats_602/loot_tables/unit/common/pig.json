@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Common","color":"green"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"5 ","color":"aqua","bold":true},{"text":"x1.2 ","color":"light_purple","bold":true},{"text":"1.0","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"ぶひぶひ","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Cetartiodactyla / Suborder:Suina","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Suidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Sus / Species:S. scrofa","color":"dark_gray"}],
+                                [{"text":"Subspecies:S. scrofa domesticus","color":"dark_gray"}],
+                                [{"text":"Binomial:Sus scrofa domesticus","color":"dark_gray","bold": true}],
+                                [{"text":"ブタの知能は高く、鏡に映った自分を自分自身として認識が可能。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"ブタ","color":"green","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[5b,10b,12b,0b],item602:1b,mul_602:\"x1.2\",mul1_602:\"1.0\",CustomModelData:6004,Tags:[\"pig_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

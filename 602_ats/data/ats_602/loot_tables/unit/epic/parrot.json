@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Epic","color":"light_purple"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"6 ","color":"aqua","bold":true},{"text":"x2.0 ","color":"light_purple","bold":true},{"text":"1.2","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"一度だけ1.2よりも高いスコア加算倍率を持った動物と接触すると、その動物のスコア加算倍率になる","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Aves / Order:Psittaciformes","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Psittacidae / Subfamily:Psittacinae / Tride:Arini","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Ara / Species:A. macao","color":"dark_gray"}],
+                                [{"text":"Binomial:Ara macao","color":"dark_gray","bold":true}],
+                                [{"text":"一部の地域でのオウム(コンゴウインコ)は","color":"gray","italic": false}],
+                                [{"text":"食べるものの毒素を中和するために粘土を食べる。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"オウム (コンゴウインコ)","color":"light_purple","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[6b,10b,20b,3b],item602:1b,mul_602:\"x2.0\",mul1_602:\"1.2\",CustomModelData:6026,Tags:[\"parrot_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

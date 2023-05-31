@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Rare","color":"blue"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"5 ","color":"aqua","bold":true},{"text":"x1.4 ","color":"light_purple","bold":true},{"text":"1.0","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"最速(5)中、スコアの入手量が1.2倍","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Carnivora / Family:Canidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Vulpes / Species:V. vulpes","color":"dark_gray"}],
+                                [{"text":"Binomial:Vulpes vulpes","color":"dark_gray","bold":true}],
+                                [{"text":"キツネ(アカギツネ)は磁気を読むことができる説があり","color":"gray","italic": false}],
+                                [{"text":"それで雪中の獲物に飛び込む狩りをすると言われている。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"キツネ (アカギツネ)","color":"blue","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[5b,10b,14b,0b],item602:1b,mul_602:\"x1.4\",mul1_602:\"1.4\",CustomModelData:6028,Tags:[\"fox_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

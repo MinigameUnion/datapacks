@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Rare","color":"blue"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"2 ","color":"aqua","bold":true},{"text":"x1.8 ","color":"light_purple","bold":true},{"text":"1.2","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"一度だけ停止状態中に子供のカメを生み出す","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Reptilia / Order:Testudines","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Cheloniidae / Subfamily:Cheloniinae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Chelonia / Species:C. mydas","color":"dark_gray"}],
+                                [{"text":"Binomial:Chelonia mydas","color":"dark_gray","bold":true}],
+                                [{"text":"和名のアオウミガメと、英名のGreen Sea Turtleの由来は","color":"gray","italic": false}],
+                                [{"text":"体脂肪の色が青(緑)色なところから来ている。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"カメ (アオウミガメ)","color":"blue","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[2b,10b,18b,2b],item602:1b,mul_602:\"x1.8\",mul1_602:\"1.2\",CustomModelData:6017,Tags:[\"turtle_602\"]}"
+                        }
+                    ]
+
+                }
+            ]
+        }
+    ]
+}

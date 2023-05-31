@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Rare","color":"blue"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"4 ","color":"aqua","bold":true},{"text":"x1.3 ","color":"light_purple","bold":true},{"text":"1.2","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"一度だけ近くの停止状態の動物に対して唾を吹きかけて活性化させる","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Artiodactyla / Suborder:Tylopoda","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Camelidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Lama / Species:L. glama","color":"dark_gray"}],
+                                [{"text":"Binomial:Lama glama","color":"dark_gray","bold":true}],
+                                [{"text":"ラマが吹きかけてくるものは、つばというより胃液である。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"ラマ","color":"blue","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[4b,10b,13b,2b],item602:1b,mul_602:\"x1.3\",mul1_602:\"1.2\",CustomModelData:6009,Tags:[\"llama_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

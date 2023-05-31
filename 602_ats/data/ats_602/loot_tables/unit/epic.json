@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {"type": "minecraft:loot_table","name": "ats_602:unit/epic/dolphin"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/epic/donkey"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/epic/mooshroom"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/epic/ocelot"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/epic/paffer_fish"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/epic/parrot"}
+            ]
+        }
+    ]
+}
