@@ -25,7 +25,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"熱帯魚 (プリステラ)","color":"green","bold": true,"italic": false}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{602:[5b,10b,10b,1b],item602:1b,mul_602:\"x1.0\",mul1_602:\"1.1\",CustomModelData:6018,Tags:[\"tropical_fish_602\"]}"
+                            "tag": "{602:[5b,10b,10b,1b],item602:1b,UnitItem602:1b,mul_602:\"x1.0\",mul1_602:\"1.1\",CustomModelData:6018,Tags:[\"tropical_fish_602\"]}"
                         }
                     ]
                 }

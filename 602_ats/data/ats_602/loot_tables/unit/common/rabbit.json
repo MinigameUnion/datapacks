@@ -24,7 +24,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"ウサギ (ユキウサギ)","color":"green","bold": true,"italic": false}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{602:[5b,10b,10b,2b],item602:1b,mul_602:\"x1.0\",mul1_602:\"1.2\",CustomModelData:6014,Tags:[\"rabbit_602\"]}"
+                            "tag": "{602:[5b,10b,10b,2b],item602:1b,UnitItem602:1b,mul_602:\"x1.0\",mul1_602:\"1.2\",CustomModelData:6014,Tags:[\"rabbit_602\"]}"
                         }
                     ]
                 }

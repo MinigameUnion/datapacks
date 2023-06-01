@@ -24,7 +24,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"キツネ (アカギツネ)","color":"blue","bold": true,"italic": false}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{602:[5b,10b,14b,0b],item602:1b,mul_602:\"x1.4\",mul1_602:\"1.4\",CustomModelData:6028,Tags:[\"fox_602\"]}"
+                            "tag": "{602:[5b,10b,14b,0b],item602:1b,UnitItem602:1b,mul_602:\"x1.4\",mul1_602:\"1.4\",CustomModelData:6028,Tags:[\"fox_602\"]}"
                         }
                     ]
                 }

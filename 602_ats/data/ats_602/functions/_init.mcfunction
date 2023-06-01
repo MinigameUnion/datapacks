@@ -7,7 +7,10 @@
 #declare storage ats_602:error
 
 #declare score_holder $602
+#declare score_holder $2_602 a_602
 #declare score_holder $-1_602 a_602
+#declare score_holder $10_602 a_602
+#declare score_holder $12_602 a_602
 #declare score_holder $gen602
 #declare score_holder $timer_602 a_602= score / a1 , 2 _602= second
 
@@ -22,6 +25,10 @@
 
 #declare tag join_team_602
 #declare tag join_game_602
+#declare tag hit_602
+#declare tag hit_self_602
+#declare tag hit_partner_602
+#declare tag skill_changed_602
 
 #declare bossbar score_602 スコア表示
 #declare bossbar timer_602 タイマー
@@ -61,7 +68,6 @@ scoreboard objectives add gamemode_602 dummy {"text":"gamemode_602","color":"lig
 scoreboard objectives add click_602 trigger {"text":"click_602","color":"light_purple"}
 
 scoreboard players set $602 chaos_602 0
-scoreboard players set $-1_602 a_602 -1
 
 scoreboard objectives add vs_602 dummy {"text":"vs_602","color":"light_purple"}
 scoreboard objectives add pId_602 dummy {"text":"pId_602","color":"light_purple"}

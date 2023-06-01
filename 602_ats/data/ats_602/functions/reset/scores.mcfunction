@@ -10,6 +10,11 @@ scoreboard players set $602 score_602 0
 scoreboard players set $0_602 score_602 0
 scoreboard players set $0_602 a_602 2
 scoreboard players set $602 score0_602 10
+scoreboard players set $-1_602 a_602 -1
+scoreboard players set $2_602 a_602 2
+scoreboard players set $10_602 a_602 10
+scoreboard players set $12_602 a_602 12
+
 
 scoreboard players reset $timer_602
 scoreboard players set $timer_602 a2_602 20

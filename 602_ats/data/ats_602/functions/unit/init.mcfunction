@@ -25,6 +25,5 @@ scoreboard players add $602 e1_602 1
 scoreboard players operation @s e2_602 = $602 e1_602
 scoreboard players set @s a_602 5
 execute store result score @s b_602 run data get entity @s Rotation[0] 100
-#tag @s add tile_602
-#tag @s add start_602
+
 tag @s add go_602

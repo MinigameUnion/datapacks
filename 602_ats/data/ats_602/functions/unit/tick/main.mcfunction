@@ -1,8 +1,8 @@
-execute store result score @s e_602 if entity @e[sort=nearest,tag=tile_602,distance=..3.0]
-execute if score @s e_602 matches 3.. run tag @e[sort=nearest,tag=tile_602,tag=!stop_602,distance=..3.0] add crowding_602
-execute unless entity @s[tag=hit_self_602] unless entity @s[tag=hit_partner_602] unless entity @s[tag=stop_602] if score @s e_602 matches 2 run function ats_602:unit/hit_pair
+execute store result score @s e_602 if entity @e[sort=nearest,tag=tile_602,tag=!other_602,distance=..3.0]
+execute if score @s e_602 matches 3.. run tag @e[sort=nearest,tag=tile_602,tag=!other_602,tag=!stop_602,distance=..3.0] add crowding_602
+execute unless entity @s[tag=other_602] unless entity @s[tag=hit_self_602] unless entity @s[tag=hit_partner_602] unless entity @s[tag=stop_602] if score @s e_602 matches 2 run function ats_602:unit/hit_pair
 
-execute unless entity @s[tag=hit_602] run function ats_602:unit/hit/main
+execute unless entity @s[tag=other_602] unless entity @s[tag=hit_602] run function ats_602:unit/hit/main
 
 execute store result entity @s Rotation[0] float 0.01 run scoreboard players get @s b_602
 

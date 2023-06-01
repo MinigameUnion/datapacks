@@ -24,7 +24,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"ラバ","color":"gold","bold": true,"italic": false}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{602:[7b,10b,18b,5b],item602:1b,mul_602:\"x2.0\",mul1_602:\"1.5\",CustomModelData:6008,Tags:[\"mule_602\"]}"
+                            "tag": "{602:[7b,10b,18b,5b],item602:1b,UnitItem602:1b,mul_602:\"x1.8\",mul1_602:\"1.5\",CustomModelData:6008,Tags:[\"mule_602\"]}"
                         }
                     ]
                 }

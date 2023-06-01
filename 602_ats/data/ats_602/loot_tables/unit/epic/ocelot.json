@@ -24,7 +24,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"オセロット","color":"light_purple","bold": true,"italic": false}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{602:[6b,10b,15b,0b],item602:1b,mul_602:\"x1.5\",mul1_602:\"1.0\",CustomModelData:6012,Tags:[\"ocelot_602\"]}"
+                            "tag": "{602:[6b,10b,15b,0b],item602:1b,UnitItem602:1b,mul_602:\"x1.5\",mul1_602:\"1.0\",CustomModelData:6012,Tags:[\"ocelot_602\"]}"
                         }
                     ]
 

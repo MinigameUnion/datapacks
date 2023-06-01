@@ -25,7 +25,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"サケ (ベニザケ)","color":"blue","bold": true,"italic": false}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{602:[5b,10b,14b,0b],item602:1b,mul_602:\"x1.4\",mul1_602:\"1.0\",CustomModelData:6020,Tags:[\"salmon_602\"]}"
+                            "tag": "{602:[5b,10b,14b,0b],item602:1b,UnitItem602:1b,mul_602:\"x1.4\",mul1_602:\"1.0\",CustomModelData:6020,Tags:[\"salmon_602\"]}"
                         }
                     ]
                 }

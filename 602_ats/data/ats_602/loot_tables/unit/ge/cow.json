@@ -18,7 +18,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"ウシ(グラスイーターの姿)","color":"dark_green","bold": true,"italic": false}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{602:[3b],item602:1b,mul_602:\"x1.5\",CustomModelData:6001,Tags:[\"cow_602\"]}"
+                            "tag": "{602:[3b],item602:1b,UnitItem602:1b,mul_602:\"x1.5\",CustomModelData:6001,Tags:[\"cow_602\"]}"
                         }
                     ]
                 }

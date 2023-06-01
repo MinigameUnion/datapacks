@@ -24,7 +24,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"ムーシュルーム","color":"light_purple","bold": true,"italic": false}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{602:[4b,10b,15b,8b],item602:1b,mul_602:\"x1.5\",mul1_602:\"1.8\",CustomModelData:6030,Tags:[\"mooshroom_602\"]}"
+                            "tag": "{602:[4b,10b,15b,8b],item602:1b,UnitItem602:1b,mul_602:\"x1.5\",mul1_602:\"1.8\",CustomModelData:6030,Tags:[\"mooshroom_602\"]}"
                         }
                     ]
                 }
