@@ -12,6 +12,11 @@ tag @s[y=10,dy=5] add YLow_801
 tag @s[y=20,dy=5] add YHigh_801
 tp @s[tag=YLow_801] ~ 21 ~
 tp @s[tag=YHigh_801] ~ 11 ~
+
+# すごいハサミ
+execute if score $GameInfo General_801 matches 2 if entity @s[tag=YHigh_801] run loot give @s loot ms_801:shears_super
+execute if entity @s[tag=YLow_801] run clear @s shears{801:1b,801Super:1b}
+
 tag @s[tag=YLow_801] remove YLow_801
 tag @s[tag=YHigh_801] remove YHigh_801
 

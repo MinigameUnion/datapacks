@@ -9,6 +9,7 @@ scoreboard players set $Z General_801 16
 scoreboard players set $Mine General_801 99
 scoreboard players set $CanMove General_801 0
 scoreboard players set $IsWide General_801 0
+scoreboard players set $SuperLimit General_801 3
 
 # Glowing変更
 execute as @e[type=sheep,tag=SettingDif_801] run data merge entity @s {Glowing:0b}

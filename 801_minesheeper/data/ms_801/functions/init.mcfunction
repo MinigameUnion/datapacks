@@ -24,6 +24,8 @@ scoreboard players set $Opened General_801 0
 scoreboard players set $Succeeded General_801 0
 ## 記録を表示する難易度
 scoreboard players set $RecordDif General_801 0
+## すごいハサミ使用可能回数
+scoreboard players set $SuperLimit General_801 0
 
 # bossbar設定
 bossbar set disp_801 name {"text":"Mine Sheeper"}

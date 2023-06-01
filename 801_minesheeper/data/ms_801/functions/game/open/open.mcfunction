@@ -36,18 +36,20 @@ execute if score $CanMove General_801 matches 1 run data merge entity @s[scores=
 
 # 演出
 playsound entity.sheep.ambient master @a[scores={playing_000=801}] ~ ~ ~ 1 1.2 1
+execute if entity @s[tag=SuperSheared_801] run particle minecraft:entity_effect ~ ~0.5 ~ 0.3 0.3 0.3 2.0 10
+execute if entity @s[tag=SuperSheared_801] run playsound minecraft:block.brewing_stand.brew master @a[scores={playing_000=801}] ~ ~ ~ 1 1.4
 
 # score変更
 scoreboard players add $Opened General_801 1
 scoreboard players remove $Remain General_801 1
 
 # 得点用wool
-execute if entity @s[scores={Count_801=0..}] run loot give @a[tag=Shearer_801,limit=1] loot ms_801:wool
+execute if score @s Count_801 matches 0.. run loot give @a[tag=Shearer_801,limit=1] loot ms_801:wool
 
 # 地雷なら終了
-execute if entity @s[scores={Count_801=-1}] run function ms_801:game/failed/root
+execute if score @s Count_801 matches -1 run function ms_801:game/failed/root
 # 全部開いたら終了
-execute if entity @s[scores={Count_801=0..}] unless entity @e[type=sheep,tag=Board_801,tag=!Opened_801,scores={Count_801=0..}] run function ms_801:game/succeeded/root
+execute if score @s Count_801 matches 0.. unless entity @e[type=sheep,tag=Board_801,tag=!Opened_801,scores={Count_801=0..}] run function ms_801:game/succeeded/root
 
 # 連鎖オープン予約処理
 execute as @e[type=marker,tag=Marker_801,tag=Queue_801,limit=1] run function ms_801:game/open/queue
