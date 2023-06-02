@@ -10,4 +10,5 @@ scoreboard players remove $602 e_602 1
 scoreboard players reset @s sneak_602
 tag @s remove shooter_602
 
+scoreboard players set $pause_602 a_602 0
 execute store result score $timer_602 a_602 run data get storage ats_602:main wait

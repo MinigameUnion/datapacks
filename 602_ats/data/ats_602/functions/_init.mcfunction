@@ -13,6 +13,7 @@
 #declare score_holder $12_602 a_602
 #declare score_holder $gen602
 #declare score_holder $timer_602 a_602= score / a1 , 2 _602= second
+#declare score_holder $pause_602 a_602= pause flag
 
 #declare score_holder $gm1_mini_602 score_602
 #declare score_holder $gm2_mini_602 score_602
@@ -90,5 +91,9 @@ team modify BlueTeam color blue
 
 bossbar add minecraft:score_602 [{"text":"placeholder"}]
 bossbar add minecraft:timer_602 [{"text":"placeholder"}]
+
+function ats_602:block_gen/sign/0
+function ats_602:block_gen/sign/1
+function ats_602:block_gen/sign/2
 
 function ats_602:reset/main
