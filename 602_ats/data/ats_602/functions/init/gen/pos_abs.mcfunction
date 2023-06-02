@@ -1,3 +1,3 @@
 data modify storage ats_602:main pre_pos set from entity @s Pos
 tellraw @s [{"text":"[ATS-M] ","color":"aqua"},{"text":"ミニゲーム合同の規則に従った位置にミニゲーム:ATS(602)のストラクチャーブロックを生成します。(x=6000,y=64.5,z=0)※生成後実行者はテレポートされます。","color":"yellow"}]
-tellraw @s [{"text":"[生成]","bold": true,"color": "blue","clickEvent": {"action":"run_command","value":"/execute positioned 6000 60.5 0 run function ats_602:area_gen/pre_gen"}},{"text":"[キャンセル]","bold": true,"color": "red","clickEvent": {"action":"run_command","value":"/function ats_602:area_gen/cancel"}}]
+tellraw @s [{"text":"[生成]","bold": true,"color": "blue","clickEvent": {"action":"run_command","value":"/execute positioned 6000 60.5 0 run function ats_602:init/gen/pre_gen"}},{"text":"[キャンセル]","bold": true,"color": "red","clickEvent": {"action":"run_command","value":"/function ats_602:init/gen/cancel"}}]

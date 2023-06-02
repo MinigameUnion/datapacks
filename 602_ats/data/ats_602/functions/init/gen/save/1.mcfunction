@@ -1,0 +1,12 @@
+fill ~32 ~64 ~32 ~32 ~65 ~32 minecraft:air
+fill ~0 ~64 ~32 ~0 ~65 ~32 minecraft:air
+fill ~32 ~64 ~0 ~32 ~65 ~0 minecraft:air
+fill ~0 ~64 ~0 ~0 ~65 ~0 minecraft:air
+fill ~32 ~32 ~32 ~32 ~33 ~32 minecraft:air
+fill ~0 ~32 ~32 ~0 ~33 ~32 minecraft:air
+fill ~32 ~32 ~0 ~32 ~33 ~0 minecraft:air
+fill ~0 ~32 ~0 ~0 ~33 ~0 minecraft:air
+fill ~32 ~0 ~32 ~32 ~1 ~32 minecraft:air
+fill ~0 ~0 ~32 ~0 ~1 ~32 minecraft:air
+fill ~32 ~0 ~0 ~32 ~1 ~0 minecraft:air
+fill ~0 ~0 ~0 ~0 ~1 ~0 minecraft:air

@@ -1,0 +1,12 @@
+setblock ~32 ~64 ~32 minecraft:structure_block{mode:"SAVE",name:"ats_602:121",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~0 ~64 ~32 minecraft:structure_block{mode:"SAVE",name:"ats_602:021",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~32 ~64 ~0 minecraft:structure_block{mode:"SAVE",name:"ats_602:120",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~0 ~64 ~0 minecraft:structure_block{mode:"SAVE",name:"ats_602:020",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~32 ~32 ~32 minecraft:structure_block{mode:"SAVE",name:"ats_602:111",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~0 ~32 ~32 minecraft:structure_block{mode:"SAVE",name:"ats_602:011",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~32 ~32 ~0 minecraft:structure_block{mode:"SAVE",name:"ats_602:110",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~0 ~32 ~0 minecraft:structure_block{mode:"SAVE",name:"ats_602:010",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~32 ~0 ~32 minecraft:structure_block{mode:"SAVE",name:"ats_602:101",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~0 ~0 ~32 minecraft:structure_block{mode:"SAVE",name:"ats_602:001",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~32 ~0 ~0 minecraft:structure_block{mode:"SAVE",name:"ats_602:100",sizeX:32,sizeY:32,sizeZ:32}
+setblock ~0 ~0 ~0 minecraft:structure_block{mode:"SAVE",name:"ats_602:000",sizeX:32,sizeY:32,sizeZ:32}
