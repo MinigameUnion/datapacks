@@ -22,4 +22,5 @@ tag @e[tag=target_plate_502,tag=hit_502,tag=ticking_502] remove target_501
 
 scoreboard players remove @a[tag=ticking_502,scores={tick_502=1..}] tick_502 1
 execute if entity @a[tag=playing_502,tag=ticking_502] run scoreboard players remove @s[scores={tick_502=1..}] tick_502 1
+execute if entity @s[tag=delete_502] run function clay_502:game/delete
 tag @e[dx=47,dy=31,dz=31,tag=ticking_502] remove ticking_502

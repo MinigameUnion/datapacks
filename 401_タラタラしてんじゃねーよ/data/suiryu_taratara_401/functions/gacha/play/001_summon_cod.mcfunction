@@ -25,5 +25,8 @@
 # アイテム消去
   kill @e[type=item,x=3999.0,y=51.0,z=11.0,dx=0,dy=0,dz=0]
 
+# スコアセット
+  scoreboard players set #GachaPlaying suiryu_taratara_401.trigger 1
+
 # アイテム確認
   schedule function suiryu_taratara_401:gacha/play/002_check_item 2t

@@ -36,7 +36,7 @@
   bossbar set taratara_fever_401 players @a[predicate=suiryu_taratara_401:location/stage_and_audience]
 
 # プレイヤー以外の人がステージに入ったらロビーへ
-  execute as @a[predicate=suiryu_taratara_401:location/stage] unless score @s id_000 = #PlayingID suiryu_taratara_401.trigger run tp @s 3999.50 50.00 4.50 0 0
+  execute as @a[predicate=suiryu_taratara_401:location/stage] unless score @s id_000 = #PlayingID suiryu_taratara_401.trigger run function suiryu_taratara_401:not_player
 
 # プレイヤー確認
 

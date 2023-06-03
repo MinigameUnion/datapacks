@@ -1,4 +1,5 @@
-execute positioned as @s if block ~ 79 ~ minecraft:glass positioned ~ 64.5 ~ rotated as @s rotated ~ 0 run function ats_602:p/line
+execute if score $602 gamemode_602 matches 1 positioned as @s if block ~ 79 ~ minecraft:glass positioned ~ 64.5 ~ rotated as @s rotated ~ 0 run function ats_602:p/guide/line
+execute if score $602 gamemode_602 matches 2..3 positioned as @s if block ~ 79 ~ minecraft:glass positioned ~ 64.5 ~ rotated as @s rotated ~ 0 run function ats_602:p/guide/circle
 execute if predicate player_000:is_sneaking run scoreboard players add @s sneak_602 1
 execute unless predicate player_000:is_sneaking run scoreboard players reset @s sneak_602
 execute if entity @s[scores={sneak_602=30..}] if data entity @s SelectedItem.tag.602 positioned as @s if block ~ 79 ~ minecraft:glass rotated as @s positioned ~ 64 ~ run function ats_602:tile/summon/main

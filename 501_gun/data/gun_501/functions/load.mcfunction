@@ -7,13 +7,16 @@
 #   bullet_501:**
 #   gun_501:**
 #   player_501:**
-#declare storage gun_501:temp
+    #declare storage gun_501:temp
 
-#declare tag gun_501 [/tag からの付与禁止] gun_501:join を実行して付与するtick条件のタグ
-#declare tag target_501 type=#gun_501:targetに含まれるエンティティにつけると被弾可能になる
-#declare tag enemy_501 tag=target_501を持つエンティティにつけると被弾時にHealthが減少するようになる
-#declare tag owner_501 [読み取り専用] その銃弾を発砲したプレイヤーを指定できる(#gun_501:{hit_entity,hit_block}内)
-#declare tag team_501 [読み取り専用] その銃弾の発砲者と同チームのプレイヤーを指定できる(#gun_501:{hit_entity,hit_block}内)
+#>
+# @api
+    #declare storage gun_501:api
+    #declare tag gun_501 [/tag からの付与禁止] gun_501:join を実行して付与するtick条件のタグ
+    #declare tag target_501 type=#gun_501:targetに含まれるエンティティにつけると被弾可能になる
+    #declare tag enemy_501 tag=target_501を持つエンティティにつけると被弾時にHealthが減少するようになる
+    #declare tag owner_501 [読み取り専用] その銃弾を発砲したプレイヤーを指定できる(#gun_501:{hit_entity,hit_block}内)
+    #declare tag team_501 [読み取り専用] その銃弾の発砲者と同チームのプレイヤーを指定できる(#gun_501:{hit_entity,hit_block}内)
 
 scoreboard objectives add num_501 dummy {"text":"(501)数値"}
 scoreboard objectives add min_501 dummy {"text":"(501)最小値"}

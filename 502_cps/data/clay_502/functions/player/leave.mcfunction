@@ -1,3 +1,8 @@
+#> clay_502:player/leave
+# @within
+#   function clay_502:player/finish
+#   function clay_502:game/sign/leave_match/clicked
+
 effect clear @s
 clear @s
 function player_000:experience/reset
@@ -17,3 +22,5 @@ tag @s remove winner_502
 tag @a remove reloaded_502
 tag @a remove shot_502
 tag @a remove ads_502
+
+team join cps_player_502 @s
