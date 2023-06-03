@@ -1,4 +1,5 @@
 kill @e[tag=tile_602]
+execute as @e[type=minecraft:item] if data entity @s item.tag.UnitItem602 run kill @s
 
 function ats_602:reset/blocks
 

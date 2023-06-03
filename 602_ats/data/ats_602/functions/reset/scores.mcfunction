@@ -1,6 +1,7 @@
 scoreboard players reset $602 gamemode_602
 scoreboard players reset $602 a_602
 scoreboard players reset $602 a1_602
+scoreboard players reset $602 addScore_602
 scoreboard players reset $gen602 a_602
 scoreboard players reset $gen602 a1_602
 scoreboard players set $602 pId_602 0

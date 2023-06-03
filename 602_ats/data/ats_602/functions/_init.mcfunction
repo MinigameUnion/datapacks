@@ -22,10 +22,20 @@
 #declare score_holder $ope_B_602 a_602= Operation //
 #declare score_holder $ope_C_602 a / a1 / a2_602= Operation
 
+#declare score_holder $g_chaos_602 a_602= chaos mode unlocked / a1_602= chaos mode cost
+
+#declare score_holder $o_0_602 a_602= real time unlocked / a1_602= real time cost
+#declare score_holder $o_1_602 a_602= blind mode unlocked / a1_602= blind mode cost
+#declare score_holder $o_2_602 a_602= no consumption unlocked / a1_602= no consumption cost
+#declare score_holder $o_3_602 a_602= quick item unlocked / a1_602= quick item cost
+#declare score_holder $o_4_602 a_602= chaooos level / a1_602= chaooos cost memory
+#declare score_holder $o_5_602 a_602= wait time / a1_602= wait time cost
+
 #declare score_holder $pid_mismatch_602 Error Check
 
 #declare tag join_team_602
 #declare tag join_game_602
+#declare tag play_area_602
 #declare tag hit_602
 #declare tag hit_self_602
 #declare tag hit_partner_602
@@ -39,6 +49,31 @@
 #declare team BlueTeam 〃
 
 
+
+scoreboard objectives remove a_602
+scoreboard objectives remove a1_602
+scoreboard objectives remove a2_602
+scoreboard objectives remove b_602
+scoreboard objectives remove c_602
+scoreboard objectives remove d_602
+scoreboard objectives remove e_602
+scoreboard objectives remove e1_602
+scoreboard objectives remove e2_602
+
+scoreboard objectives remove z1_602
+#scoreboard objectives remove z2_602
+#scoreboard objectives remove z3_602
+
+scoreboard objectives remove score_602
+scoreboard objectives remove score0_602
+scoreboard objectives remove addScore_602
+scoreboard objectives remove sneak_602
+
+scoreboard objectives remove mulScore0_602
+scoreboard objectives remove mulScore1_602
+
+scoreboard objectives remove gamemode_602
+scoreboard objectives remove click_602
 
 
 
@@ -64,11 +99,23 @@ scoreboard objectives add sneak_602 dummy {"text":"sneak_602","color":"gold"}
 scoreboard objectives add mulScore0_602 dummy {"text":"mulScore0_602","color":"aqua"}
 scoreboard objectives add mulScore1_602 dummy {"text":"mulScore1_602","color":"aqua"}
 
-scoreboard objectives add chaos_602 dummy {"text":"chaos_602","color":"dark_blue"}
 scoreboard objectives add gamemode_602 dummy {"text":"gamemode_602","color":"light_purple"}
 scoreboard objectives add click_602 trigger {"text":"click_602","color":"light_purple"}
 
-scoreboard players set $602 chaos_602 0
+scoreboard players set $g_chaos_602 a1_602 500
+
+scoreboard players set $o_0_602 a1_602 30
+
+scoreboard players set $o_1_602 a1_602 30
+
+scoreboard players set $o_2_602 a1_602 1000
+
+scoreboard players set $o_3_602 a1_602 400
+
+scoreboard players set $o_4_602 a1_602 0
+
+scoreboard players set $o_5_602 a1_602 1600
+
 
 scoreboard objectives add vs_602 dummy {"text":"vs_602","color":"light_purple"}
 scoreboard objectives add pId_602 dummy {"text":"pId_602","color":"light_purple"}
@@ -88,6 +135,9 @@ team modify BlueTeam collisionRule never
 team modify GreenTeam color green
 team modify RedTeam color red
 team modify BlueTeam color blue
+
+data modify storage ats_602:main ChaosOptions set value {}
+data modify storage ats_602:main ChaosOptions.Cost set value {L1:1000,L2:3000,L3:6000}
 
 bossbar add minecraft:score_602 [{"text":"placeholder"}]
 bossbar add minecraft:timer_602 [{"text":"placeholder"}]

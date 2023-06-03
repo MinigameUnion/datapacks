@@ -8,8 +8,6 @@ data modify storage ats_602:unit List.item.tag.mul_602 set value "x1.4"
 data modify storage ats_602:unit List.item.tag.mul1_602 set value "1.2"
 data modify storage ats_602:unit List.item.tag.CustomModelData set value 6031
 
-tellraw @a [{"nbt":"List","storage":"ats_602:unit"}]
-
 data modify entity @s Tags set from storage ats_602:unit List.Tags
 data modify entity @s item set from storage ats_602:unit List.item
 data modify entity @s transformation merge from storage ats_602:unit List.transformation
