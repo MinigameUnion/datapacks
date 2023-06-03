@@ -19,7 +19,7 @@
     # 発射
     execute if score @s Shot_101 matches 1.. run function spaceinvaders_101:unit/player/shot
     # ダメージ演出
-    execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1}] run function spaceinvaders_101:unit/player/damaged
+    execute as @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1}] run function spaceinvaders_101:unit/player/damaged
 
 ## 敵
     # 敵用タイマー,発射処理

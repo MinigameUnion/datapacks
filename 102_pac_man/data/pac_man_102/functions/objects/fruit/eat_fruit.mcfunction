@@ -12,7 +12,7 @@ scoreboard players operation @s _Point_102 += #fruit_102 _Point_102
 
 #得点の表示
 loot replace block 1001 89 1001 container.0 loot pac_man_102:fruit/point
-execute as @a[tag=Playing_102] anchored eyes at @s facing entity @e[tag=PacMan_base_102,type=item_display,limit=1] feet positioned ^ ^ ^5 run summon text_display ~ ~1 ~ {Tags:[Entity_102,Point_Display_102],text:'{"score": {"name":"#fruit_102","objective": "_Point_102"},"bold":true}',billboard:"center",background:0}
+summon text_display ~ ~1 ~ {Tags:[Entity_102,Point_Display_102],text:'{"score": {"name":"#fruit_102","objective": "_Point_102"},"bold":true}',billboard:"center",background:0,transformation:[5f,0f,0f,0f, 0f,5f,0f,0f, 0f,0f,5f,0f, 0f,0f,0f,1f]}
 
 #サウンド
 execute as @a[scores={playing_000=102}] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~ 0.5 0.1
