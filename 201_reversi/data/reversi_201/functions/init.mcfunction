@@ -102,6 +102,7 @@ data modify storage reversi_201:menu Default.Setting append value {Offset:[2.2f,
     scoreboard objectives add StoneSkin_201 dummy {"text":"石の見た目の選択"}
     team add NoCollision_201
 
+execute unless score $isPlay ReversiData_201 = $isPlay ReversiData_201 run scoreboard players set $isPlay ReversiData_201 0
 execute unless score #CurrentSkin StoneSkin_201 = #CurrentSkin StoneSkin_201 run scoreboard players set #CurrentSkin StoneSkin_201 2000
 execute unless score $sheep ReversiData_201 = $sheep ReversiData_201 run scoreboard players set $sheep ReversiData_201 0
 execute unless score $vsAI ReversiData_201 = $vsAI ReversiData_201 run scoreboard players set $vsAI ReversiData_201 -1
