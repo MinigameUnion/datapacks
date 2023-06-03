@@ -2,7 +2,7 @@
 # すごいハサミで地雷を開けたとき
 # @internal
 
-# 旗
+# 目印
 scoreboard players set $UsedFlag General_801 1
 tag @s add Flagged_801
 data merge entity @s {CustomName:'{"text":"▼","color":"dark_red","bold":true}',Color:14,Sheared:0b}

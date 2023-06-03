@@ -19,7 +19,7 @@
                         {
                             "function": "minecraft:set_lore",
                             "lore": [
-                                [{"text":"","color":"white","italic":false},{"text":"ハズレの羊の毛を刈ろうとした場合、刈る代わりに旗を立てる"}]
+                                [{"text":"","color":"white","italic":false},{"text":"ハズレの羊の毛を刈ろうとした場合、刈る代わりに目印をつける"}]
                             ]
                         }
                     ]

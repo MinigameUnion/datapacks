@@ -19,7 +19,7 @@
                         {
                             "function": "minecraft:set_lore",
                             "lore": [
-                                [{"text":"","color":"white","italic":false},{"text":"ゲーム内：旗を立てる"}],
+                                [{"text":"","color":"white","italic":false},{"text":"ゲーム内：目印をつける"}],
                                 [{"text":"","color":"white","italic":false},{"text":"その他：説明を見る"}]
                             ]
                         }

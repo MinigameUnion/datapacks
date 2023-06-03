@@ -5,6 +5,7 @@
 # scoreboard宣言
 scoreboard objectives add ID_801 dummy
 scoreboard objectives add Count_801 dummy
+scoreboard objectives add InfoTrigger_801 trigger
 
 # team宣言
 team add 801
