@@ -9,5 +9,5 @@
 tag @s remove hologram_operator_001
 tag @s remove Player_White_201
 tag @s remove Player_Black_201
-function reversi_201:menu/action/main._overlay
+execute if entity @e[type=armor_stand,tag=hologram.overlay.0_201,distance=..0.0001,x=2070.37,y=41.1,z=38.8] run function reversi_201:menu/action/main._overlay
 function player_000:leave_game
