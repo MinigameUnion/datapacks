@@ -15,7 +15,7 @@ clear @s apple{Gate:1b}
 give @s apple{PreStart:1b}
 
 #演出
-playsound entity.generic.eat voice @a ~ ~ ~ 2 1
+playsound entity.generic.eat voice @a[scores={playing_000=102}] ~ ~ ~ 2 1
 particle item apple ~ ~1 ~ 0.2 0.2 0.2 0.1 15
 
 #ボスバー

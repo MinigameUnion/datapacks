@@ -12,4 +12,4 @@ execute as @e[tag=Entity_101,type=#spaceinvaders_101:all] store success score @s
 execute if score @s Timer_101 matches 60 run function spaceinvaders_101:game/next
 
 ##サウンド演出
-execute if score @s Timer_101 matches 0 run playsound entity.player.levelup voice @a ~ ~ ~ 2 1.7
+execute if score @s Timer_101 matches 0 run playsound entity.player.levelup voice @a[scores={playing_000=101}] ~ ~ ~ 2 1.7

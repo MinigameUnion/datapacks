@@ -20,10 +20,10 @@
 ## サウンド演出
     scoreboard players add @s Count_101 1
     scoreboard players set @s[scores={Count_101=4}] Count_101 0
-    execute if entity @s[scores={Count_101=0}] run playsound minecraft:block.note_block.bass voice @a ~ ~ ~ 2 0.75
-    execute if entity @s[scores={Count_101=1}] run playsound minecraft:block.note_block.bass voice @a ~ ~ ~ 2 0.66
-    execute if entity @s[scores={Count_101=2}] run playsound minecraft:block.note_block.bass voice @a ~ ~ ~ 2 0.61
-    execute if entity @s[scores={Count_101=3}] run playsound minecraft:block.note_block.bass voice @a ~ ~ ~ 2 0.57
+    execute if entity @s[scores={Count_101=0}] run playsound minecraft:block.note_block.bass voice @a[scores={playing_000=101}] ~ ~ ~ 2 0.75
+    execute if entity @s[scores={Count_101=1}] run playsound minecraft:block.note_block.bass voice @a[scores={playing_000=101}] ~ ~ ~ 2 0.66
+    execute if entity @s[scores={Count_101=2}] run playsound minecraft:block.note_block.bass voice @a[scores={playing_000=101}] ~ ~ ~ 2 0.61
+    execute if entity @s[scores={Count_101=3}] run playsound minecraft:block.note_block.bass voice @a[scores={playing_000=101}] ~ ~ ~ 2 0.57
 
 ## エンティティの移動用スコア
     scoreboard players set @e[tag=Invader_101,type=item_display,scores={Group_101=1}] Move_101 0
