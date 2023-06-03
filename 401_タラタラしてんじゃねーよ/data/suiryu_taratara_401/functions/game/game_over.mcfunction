@@ -74,7 +74,7 @@
     tellraw @s ["",{"text":"  今回のスコア ","color":"yellow"},{"score":{"name":"#Score","objective":"suiryu_taratara_401.trigger"},"color":"gold","italic":false}]
 
   ## 自己ベスト通知
-    tellraw @a ["",{"text":"  ("},{"text":"自己ベスト"},{"text":" "},{"score":{"name":"#-","objective":"suiryu_taratara_401.trigger"},"italic":false},{"text":")"}]
+    tellraw @s ["",{"text":"  ("},{"text":"自己ベスト"},{"text":" "},{"score":{"name":"#-","objective":"suiryu_taratara_401.trigger"},"italic":false},{"text":")"}]
 
 # ミニ加算
 

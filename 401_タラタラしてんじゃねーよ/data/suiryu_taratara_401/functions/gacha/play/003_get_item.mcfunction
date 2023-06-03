@@ -5,6 +5,9 @@
 #
 # @within function suiryu_taratara_401:gacha/play/002_check_item
 
+# スコアセット
+  scoreboard players set #GachaPlaying suiryu_taratara_401.trigger 0
+
 # 再帰終了
   schedule clear suiryu_taratara_401:gacha/play/002_check_item
 

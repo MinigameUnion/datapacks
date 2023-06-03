@@ -40,4 +40,4 @@
       execute if predicate suiryu_taratara_401:have_bonus_item/nether_star run function suiryu_taratara_401:game/fever/start
 
     ### 消去
-      execute if predicate suiryu_taratara_401:have_bonus_item/nether_star run clear @s nether_star{suiryu_taratara_401_bonus_item:2}
+      execute if predicate suiryu_taratara_401:have_bonus_item/nether_star run clear @s nether_star{suiryu_taratara_401_bonus_item:3}
