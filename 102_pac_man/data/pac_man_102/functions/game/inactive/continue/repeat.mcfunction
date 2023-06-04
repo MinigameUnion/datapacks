@@ -9,8 +9,7 @@ scoreboard players remove @s _Timer_102 1
 
 #演出
 execute store result bossbar pac_man_102:continue value run scoreboard players get @s _Timer_102
-title @s actionbar {"translate":"300ミニでコンティニューができます。 コンティニューを行う場合は%sください(現在%sミニ)","color":"white","with":[{"text":"リンゴを捨てて","color":"red","bold":true},{"score":{"name":"@s","objective":"coin_000"}}]}
-execute if score @s _Timer_102 matches 199 run playsound minecraft:entity.villager.yes voice @s ~ ~ ~ 2 1.2
+title @s actionbar {"translate":"%sとコンティニュー(300ミニ消費)","color":"white","with":[{"text":"リンゴを捨てる","color":"red","bold":true}]}
 execute if score @s _Timer_102 matches 100 run playsound minecraft:block.note_block.bit voice @s ~ ~ ~ 2 1
 execute if score @s _Timer_102 matches 80 run playsound minecraft:block.note_block.bit voice @s ~ ~ ~ 2 1
 execute if score @s _Timer_102 matches 60 run playsound minecraft:block.note_block.bit voice @s ~ ~ ~ 2 1

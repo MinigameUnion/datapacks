@@ -12,5 +12,5 @@
     tag @s add Moving_101
 
 ## サウンド演出
-    execute at @a[scores={Group_101=1,playing_000=101}] run playsound minecraft:block.note_block.banjo voice @a ~ ~ ~ 0.2 0.7
-    execute at @a[scores={Group_101=1,playing_000=101}] run playsound minecraft:block.note_block.banjo voice @a ~ ~ ~ 0.2 0.3
+    execute at @a[scores={Group_101=1,playing_000=101}] run playsound minecraft:block.note_block.banjo voice @a[scores={playing_000=101}] ~ ~ ~ 0.2 0.7
+    execute at @a[scores={Group_101=1,playing_000=101}] run playsound minecraft:block.note_block.banjo voice @a[scores={playing_000=101}] ~ ~ ~ 0.2 0.3

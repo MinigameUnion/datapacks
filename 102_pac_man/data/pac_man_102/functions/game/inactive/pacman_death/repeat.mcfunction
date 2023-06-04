@@ -21,33 +21,33 @@ execute if score @s _Timer_102 matches 19 run data modify entity @e[tag=PacMan_b
 execute if score @s _Timer_102 matches 15 run data modify entity @e[tag=PacMan_body_102,type=item_display,limit=1] item.tag.CustomModelData set value 1016
 
 #サウンド
-execute if score @s _Timer_102 matches 55 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.07
-execute if score @s _Timer_102 matches 53 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.1
-execute if score @s _Timer_102 matches 51 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.07
-execute if score @s _Timer_102 matches 49 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.04
+execute if score @s _Timer_102 matches 55 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.07
+execute if score @s _Timer_102 matches 53 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.1
+execute if score @s _Timer_102 matches 51 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.07
+execute if score @s _Timer_102 matches 49 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.04
 
-execute if score @s _Timer_102 matches 47 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.05
-execute if score @s _Timer_102 matches 45 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.08
-execute if score @s _Timer_102 matches 43 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.05
-execute if score @s _Timer_102 matches 41 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.02
+execute if score @s _Timer_102 matches 47 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.05
+execute if score @s _Timer_102 matches 45 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.08
+execute if score @s _Timer_102 matches 43 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.05
+execute if score @s _Timer_102 matches 41 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.02
 
-execute if score @s _Timer_102 matches 39 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.03
-execute if score @s _Timer_102 matches 37 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.06
-execute if score @s _Timer_102 matches 35 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.03
-execute if score @s _Timer_102 matches 33 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.00
+execute if score @s _Timer_102 matches 39 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.03
+execute if score @s _Timer_102 matches 37 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.06
+execute if score @s _Timer_102 matches 35 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.03
+execute if score @s _Timer_102 matches 33 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.00
 
-execute if score @s _Timer_102 matches 31 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.01
-execute if score @s _Timer_102 matches 29 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.04
-execute if score @s _Timer_102 matches 27 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.01
-execute if score @s _Timer_102 matches 25 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 0.98
+execute if score @s _Timer_102 matches 31 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.01
+execute if score @s _Timer_102 matches 29 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.04
+execute if score @s _Timer_102 matches 27 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.01
+execute if score @s _Timer_102 matches 25 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 0.98
 
-execute if score @s _Timer_102 matches 23 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 0.99
-execute if score @s _Timer_102 matches 21 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.02
-execute if score @s _Timer_102 matches 19 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 0.99
-execute if score @s _Timer_102 matches 17 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 0.96
+execute if score @s _Timer_102 matches 23 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 0.99
+execute if score @s _Timer_102 matches 21 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.02
+execute if score @s _Timer_102 matches 19 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 0.99
+execute if score @s _Timer_102 matches 17 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 0.96
 
-execute if score @s _Timer_102 matches 15 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.2
-execute if score @s _Timer_102 matches 10 run playsound minecraft:block.note_block.harp voice @a ~ ~ ~ 2 1.2
+execute if score @s _Timer_102 matches 15 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.2
+execute if score @s _Timer_102 matches 10 run playsound minecraft:block.note_block.harp voice @a[scores={playing_000=102}] ~ ~ ~ 2 1.2
 execute if score @s _Timer_102 matches 10 as @e[tag=PacMan_HP_102,type=item_display] run function pac_man_102:objects/hp/update
 
 #モード移行

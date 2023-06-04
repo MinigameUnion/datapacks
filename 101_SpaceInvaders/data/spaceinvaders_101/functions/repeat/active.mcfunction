@@ -19,7 +19,7 @@
     # 発射
     execute if score @s Shot_101 matches 1.. run function spaceinvaders_101:unit/player/shot
     # ダメージ演出
-    execute if entity @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1}] run function spaceinvaders_101:unit/player/damaged
+    execute as @e[tag=Player_damaged_101,type=item_display,scores={Group_101=1}] run function spaceinvaders_101:unit/player/damaged
 
 ## 敵
     # 敵用タイマー,発射処理
@@ -40,7 +40,7 @@
     execute as @e[tag=UFO_beated_101,type=area_effect_cloud,scores={Group_101=1}] at @s run function spaceinvaders_101:unit/ufo/beated
 
 ## ステージクリア
-    execute unless entity @e[tag=Invader_101,type=item_display,scores={Group_101=1}] run function spaceinvaders_101:game/clear
+    execute if loaded ~ 64 -46 unless entity @e[tag=Invader_101,type=item_display,scores={Group_101=1}] run function spaceinvaders_101:game/clear
 
 ## ゲームオーバー
     execute at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] positioned ~-10 ~ -46.5 if entity @e[tag=Invader_101,type=item_display,scores={Group_101=1},dx=19,dy=1,dz=1] run function spaceinvaders_101:game/fail

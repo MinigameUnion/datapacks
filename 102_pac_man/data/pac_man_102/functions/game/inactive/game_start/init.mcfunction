@@ -23,7 +23,11 @@
     # 残機設置
     function pac_man_102:objects/hp/set
     # 得点
-    function pac_man_102:objects/point/set
+    kill @e[tag=Point_102,type=text_display]
+    summon text_display 1014.5 93.00 1004.5 {Tags:[Entity_102,Point_102],text:'{"translate":"               \\n%s","bold":true,"with":[{"score":{"name":"@a[tag=Playing_102,limit=1]","objective":"_Point_102"}}]}',see_through:true,background:0,alignment:"right",Rotation:[90f,-70f],transformation:[1f,0f,0f,0f, 0f,1f,0f,0f, 0f,0f,1f,0f, 0f,0f,0f,0.12f]}
+    # 表示
+    kill @e[tag=Display_102,type=text_display]
+    summon text_display 1002.5 95 1001.0 {Tags:[Entity_102,Display_102],Rotation:[90f,-90f],background:0,transformation:[1f,0f,0f,0f, 0f,1f,0f,0f, 0f,0f,1f,0f, 0f,0f,0f,0.12f]}
 
 ## パターンのセット
     function pac_man_102:set_pattern

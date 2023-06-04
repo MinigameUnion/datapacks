@@ -17,7 +17,7 @@ scoreboard players set @s _Operation_102 0
     #加算
     scoreboard players operation @a[tag=Playing_102] _Point_102 += #izike_102 _Point_102
     #表示
-    execute as @a[tag=Playing_102] anchored eyes at @s facing entity @e[tag=PacMan_base_102,type=item_display,limit=1] feet positioned ^ ^ ^5 run summon text_display ~ ~ ~ {Tags:[Entity_102,Point_Display_102],text:'{"score": {"name":"#izike_102","objective": "_Point_102"},"bold":true}',billboard:"center",background:0}
+    summon text_display ~ ~1 ~ {Tags:[Entity_102,Point_Display_102],text:'{"score": {"name":"#izike_102","objective": "_Point_102"},"bold":true}',billboard:"center",background:0,transformation:[5f,0f,0f,0f, 0f,5f,0f,0f, 0f,0f,5f,0f, 0f,0f,0f,1f]}
 
 #ヒットストップ設定
 scoreboard players set #stop_102 _Timer_102 30
