@@ -37,12 +37,3 @@ execute if score @s Timer_101 matches 17 at @e[tag=StagePoint_101,type=marker,sc
 execute if score @s Timer_101 matches 18 at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] run clone 1001 62 -62 1001 85 -62 ~8 62 -46
 execute if score @s Timer_101 matches 19 at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] run clone 1002 62 -62 1002 85 -62 ~9 62 -46
 execute if score @s Timer_101 matches 20 at @e[tag=StagePoint_101,type=marker,scores={Group_101=1}] run clone 1003 62 -62 1003 85 -62 ~10 62 -46
-
-##ミニの計算
-execute if score @s Timer_101 matches 100 run scoreboard players reset @s Coin_101
-execute if score @s Timer_101 matches 100 run scoreboard players operation @s Coin_101 = @s Point_101
-execute if score @s Timer_101 matches 100 run scoreboard players operation @s Coin_101 /= #_const_10 operation_101
-execute if score @s Timer_101 matches 100 run scoreboard players operation @s add_coin_000 = @s Coin_101
-
-##得点表示
-execute if score @s Timer_101 matches 100 run tellraw @s {"translate":"------------------------\nあなたのスコア : %s\n獲得ミニ : %s\n------------------------","with":[{"score":{"name":"@s","objective":"Point_101"},"color":"green"},{"score":{"name":"@s","objective":"Coin_101"},"color":"green"}]}
