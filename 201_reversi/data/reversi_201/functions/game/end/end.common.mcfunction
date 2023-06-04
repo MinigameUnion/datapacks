@@ -8,7 +8,7 @@
 #   reversi_201:game/force_end
 
 # 羊を動くようにする
-    execute as @e[type=sheep,tag=StoneSheep_201] run attribute @s generic.movement_speed base set 1.5
+    execute as @e[type=sheep,tag=StoneSheep_201] run attribute @s generic.movement_speed base set 0.15
 # ボスバー消す
     bossbar set reversi_201:player1_201 players
     bossbar set reversi_201:player2_201 players
