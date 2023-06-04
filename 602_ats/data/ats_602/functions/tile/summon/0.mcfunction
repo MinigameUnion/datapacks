@@ -15,7 +15,6 @@ scoreboard players set @s score_602 0
 scoreboard players set @s e_602 0
 
 teleport @s ~ ~ ~ ~ ~
-execute if score $602 gamemode_602 matches 2..3 run function ats_602:tile/summon/1
 scoreboard players add $602 e1_602 1
 scoreboard players operation @s e1_602 = $602 e1_602
 scoreboard players operation @s e2_602 = $602 e1_602
