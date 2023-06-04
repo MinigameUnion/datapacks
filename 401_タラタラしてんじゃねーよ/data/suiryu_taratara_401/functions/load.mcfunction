@@ -4,10 +4,6 @@
 #
 # @within tag/function minecraft:load
 
-# 3年前の自分を消去するための処理
-# 一回実行すれば消してok
-  execute if score #6000_401 tara_score1_401 matches 6000 run function suiryu_taratara_401:good_bye
-
 # scoreboard
 
   ## トリガー
