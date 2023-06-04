@@ -17,6 +17,7 @@ execute if score @s _Timer_102 matches 40 run playsound minecraft:block.note_blo
 execute if score @s _Timer_102 matches 20 run playsound minecraft:block.note_block.bit voice @s ~ ~ ~ 2 1
 
 #リンゴを捨てた場合は再開
+execute unless data entity @s {Inventory:[{tag:{Continue:1b}}]} run clear @a golden_apple{Continue:1b}
 execute unless data entity @s {Inventory:[{tag:{Continue:1b}}]} run kill @e[type=item,nbt={Item:{tag:{Continue:1b}}}]
 execute unless data entity @s {Inventory:[{tag:{Continue:1b}}]} run scoreboard players set @s _HP_102 3
 execute unless data entity @s {Inventory:[{tag:{Continue:1b}}]} run bossbar remove pac_man_102:pre_start
