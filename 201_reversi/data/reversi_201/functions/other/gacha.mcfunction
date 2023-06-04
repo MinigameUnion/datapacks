@@ -12,11 +12,11 @@ execute if score #RANDOM num_000 matches 0..2 unless data storage reversi_201:da
 execute if score #RANDOM num_000 matches 0..2 unless data storage reversi_201:data {UnlockSkins:["プレート"]} run playsound entity.player.levelup player @s ~ ~ ~ 1 1.2
 execute if score #RANDOM num_000 matches 0..2 unless data storage reversi_201:data {UnlockSkins:["プレート"]} run data modify storage reversi_201:data UnlockSkins append value "プレート"
 
-execute if score #RANDOM num_000 matches 3..5 if data storage reversi_201:data {UnlockSkins:["アンシエント"]} run tellraw @s [{"text":"スキン","color":"white"},{"text":" アンシエント ","color":"gold"},{"text":"を手に入れた... が既に持っているようだ。"}]
-execute if score #RANDOM num_000 matches 3..5 if data storage reversi_201:data {UnlockSkins:["アンシエント"]} run playsound entity.villager.no player @s ~ ~ ~ 1 0.7
-execute if score #RANDOM num_000 matches 3..5 unless data storage reversi_201:data {UnlockSkins:["アンシエント"]} run tellraw @s [{"text":"スキン","color":"white"},{"text":" アンシエント ","color":"gold"},{"text":"を手に入れた"}]
-execute if score #RANDOM num_000 matches 3..5 unless data storage reversi_201:data {UnlockSkins:["アンシエント"]} run playsound entity.player.levelup player @s ~ ~ ~ 1 1.2
-execute if score #RANDOM num_000 matches 3..5 unless data storage reversi_201:data {UnlockSkins:["アンシエント"]} run data modify storage reversi_201:data UnlockSkins append value "アンシエント"
+execute if score #RANDOM num_000 matches 3..5 if data storage reversi_201:data {UnlockSkins:["エンシェント"]} run tellraw @s [{"text":"スキン","color":"white"},{"text":" エンシェント ","color":"gold"},{"text":"を手に入れた... が既に持っているようだ。"}]
+execute if score #RANDOM num_000 matches 3..5 if data storage reversi_201:data {UnlockSkins:["エンシェント"]} run playsound entity.villager.no player @s ~ ~ ~ 1 0.7
+execute if score #RANDOM num_000 matches 3..5 unless data storage reversi_201:data {UnlockSkins:["エンシェント"]} run tellraw @s [{"text":"スキン","color":"white"},{"text":" エンシェント ","color":"gold"},{"text":"を手に入れた"}]
+execute if score #RANDOM num_000 matches 3..5 unless data storage reversi_201:data {UnlockSkins:["エンシェント"]} run playsound entity.player.levelup player @s ~ ~ ~ 1 1.2
+execute if score #RANDOM num_000 matches 3..5 unless data storage reversi_201:data {UnlockSkins:["エンシェント"]} run data modify storage reversi_201:data UnlockSkins append value "エンシェント"
 
 execute if score #RANDOM num_000 matches 6..8 if data storage reversi_201:data {UnlockSkins:["イリュージョン"]} run tellraw @s [{"text":"スキン","color":"white"},{"text":" イリュー ジョン","color":"gold"},{"text":"を手に入れた... が既に持っているようだ。"}]
 execute if score #RANDOM num_000 matches 6..8 if data storage reversi_201:data {UnlockSkins:["イリュージョン"]} run playsound entity.villager.no player @s ~ ~ ~ 1 0.7
