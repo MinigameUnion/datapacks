@@ -29,3 +29,6 @@ setblock 6040 93 12 minecraft:birch_wall_sign[facing=north]{Text2:'{"text":"Grou
 
 setblock 6037 93 12 minecraft:air
 setblock 6037 93 12 minecraft:birch_wall_sign[facing=north]{Text2:'{"text":"Lobby","bold":true,"underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/function ats_602:sign/teleport/lobby"}}'}
+
+setblock 6028 82 17 minecraft:air
+setblock 6028 82 17 minecraft:acacia_wall_sign[facing=south]{Text2:'{"text":"強制終了","bold":true,"underlined":true,"color":"red","clickEvent":{"action":"run_command","value":"/execute if score $602 gamemode_602 matches 1.. run function ats_602:assembly/cancel"}}'}
