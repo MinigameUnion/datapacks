@@ -1,26 +1,7 @@
 {
     "condition": "minecraft:inverted",
     "term": {
-        "condition": "minecraft:alternative",
-        "terms": [
-            {
-                "condition": "minecraft:entity_scores",
-                "entity": "this",
-                "scores": {
-                    "match_id_502": {
-                        "min": 0
-                    }
-                }
-            },
-            {
-                "condition": "minecraft:entity_scores",
-                "entity": "this",
-                "scores": {
-                    "type_502": {
-                        "min": 0
-                    }
-                }
-            }
-        ]
+        "condition": "minecraft:reference",
+        "name": "clay_502:game/player/playing"
     }
 }
