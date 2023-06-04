@@ -2,10 +2,11 @@
 # @within
 #   function clay_502:game/tutorial/create
 
-tellraw @s ["",{"text":"[Tutorial] ","color":"gold"},{"text":"クレー射撃 チュートリアル","color":"reset"},{"text":" です","color":"gray"}]
-tellraw @s ["",{"text":"[Tutorial] ","color":"gold"},{"text":"銃の扱い方,クレーの撃ち方","color":"reset"},{"text":"などを演習します","color":"gray"}]
-tellraw @s ["",{"text":"[Tutorial] ","color":"gold"},{"text":"使用するキーは","color":"gray"},{"text":"体力,満腹度の上あたり","color":"reset"},{"text":"に表示されます","color":"gray"}]
-tellraw @s ["",{"text":"[Tutorial] ","color":"gold"},{"text":"銃を拾うと","color":"gray"},{"text":" 他のプレイヤーは","color":"reset"},{"text":"参加出来なくなってしまう","color":"red","underlined": true},{"text":"ので","color":"gray"}]
-tellraw @s ["",{"text":"[Tutorial] ","color":"gold"},{"text":"マルチで演習する際は ","color":"gray"},{"text":"拾わずに","color":"red","underlined": true},{"text":"参加を待ちましょう","color":"gray"}]
+tellraw @s ["",{"text":"[Tutorial] ","color":"gold"},{"text":"クレー射撃 チュートリアル","color":"white"}]
+
+tellraw @s {"translate":"%sを演習します","color":"gray","with":[{"text":"銃の扱い方,クレーの撃ち方","color":"white"}]}
+tellraw @s {"translate":"操作方法は%sに表示されます","color":"gray","with":[{"text":"画面中央下段","color":"white"}]}
+tellraw @s {"translate":"複数人で演習する場合は%s参加を待ちましょう","color":"gray","with":[{"text":"銃を拾わずに","color":"red","underlined":true}]}
+tellraw @s {"translate": "銃を拾うと%sになります","color":"gray","with":[[{"text":"他のプレイヤーは","color":"white"},{"text":"途中参加不可能","color":"red","underlined":true}]]}
 
 function clay_502:game/player/create

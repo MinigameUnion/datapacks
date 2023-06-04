@@ -1,5 +1,5 @@
 {
     "values": [
-        "suiryu_taratara_401:save_data_load"
+        "suiryu_taratara_401:handler/load_playdata"
     ]
 }

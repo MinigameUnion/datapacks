@@ -7,7 +7,7 @@
                     "items": [
                         "minecraft:shears"
                     ],
-                    "nbt": "{801:1b}"
+                    "nbt": "{801:1b,801Super:0b}"
                 }
             }
         }

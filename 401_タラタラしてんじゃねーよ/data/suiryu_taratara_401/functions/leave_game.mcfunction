@@ -1,6 +1,12 @@
-scoreboard players set @s playing_000 0
+#> suiryu_taratara_401:leave_game
+#
+# ロビーへ戻る
+# 看板右クリックで実行
+#
+# @private
 
-tp -0.24 4.00 -0.24
-tag @a remove taratara_gachaed_401
+# ロビーへ戻る
+  function player_000:leave_game
 
-function player_000:leave_game
+# 他にプレイヤーが居なければ初期化
+  execute unless entity @a[scores={playing_000=401}] run function suiryu_taratara_401:init

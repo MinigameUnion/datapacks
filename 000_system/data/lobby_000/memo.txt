@@ -14,3 +14,10 @@
 
 
 /setblock ~ ~1 ~ minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"000","clickEvent":{"action":"run_command","value":"/function player_000:leave_game"}}',Text2:'{"text":"Lobby","clickEvent":{"action":"run_command","value":"/tp @s 8 14 -24 180 0"}}'} replace
+
+インベーダー
+　音がほかの人にも聞こえる
+
+パックマン
+　リンゴを持ったまま退出するとよくない
+　コンティニューのテキストが見切れてる

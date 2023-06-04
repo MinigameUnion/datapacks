@@ -1,7 +1,7 @@
 #真後ろを向く
 
 #info
-# as,at: @e[tag=Ghost_base_102]
+# as,at: @e[tag=Ghost_base_102,type=item_display]
 
 #ゴーストの視点切り替え
 scoreboard players set @s _Operation_102 0

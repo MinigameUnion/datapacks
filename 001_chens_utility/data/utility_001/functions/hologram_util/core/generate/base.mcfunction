@@ -1,5 +1,7 @@
 #> utility_001:hologram_util/core/generate/base
-# @internal
+# @within function
+#   utility_001:hologram_util/core/generate/offset/
+#   utility_001:hologram_util/core/generate/base
 
 #ItemIconの検査
     data modify storage utility_001:hologram_util Test.String set from storage utility_001:hologram_util TextGroup[-1].Text[-1]
