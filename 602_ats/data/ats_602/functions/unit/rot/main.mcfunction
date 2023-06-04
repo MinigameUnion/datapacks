@@ -25,7 +25,7 @@ execute if entity @s[scores={c_602=4}] run function ats_602:unit/rot/0
 execute if entity @s[scores={c_602=7}] run function ats_602:unit/rot/0
 
 #score
-execute if entity @s[tag=silverfish_602] unless entity @s[scores={mulScore1_602=6}] if block ^ ^ ^0.9 minecraft:gray_concrete run function ats_602:unit/type/silverfish/1
-execute if entity @s[tag=silverfish_602] if entity @s[scores={mulScore1_602=6}] unless block ^ ^ ^0.9 minecraft:gray_concrete run scoreboard players set @s mulScore1_602 3
+execute if entity @s[tag=silverfish_602] if entity @s[tag=silverfish_effect_602] unless block ^ ^ ^0.9 minecraft:gray_concrete run tag @s remove silverfish_effect_602
+execute if entity @s[tag=silverfish_602] unless entity @s[tag=silverfish_effect_602] if block ^ ^ ^0.9 minecraft:gray_concrete run function ats_602:unit/type/silverfish/1
 
-execute unless score $602 gamemode_602 matches 1 if entity @s[scores={c_602=1..}] run function ats_602:unit/hit/score
+execute unless score $602 gamemode_602 matches 1 if entity @s[scores={c_602=1..}] run tag @s add addScore_602

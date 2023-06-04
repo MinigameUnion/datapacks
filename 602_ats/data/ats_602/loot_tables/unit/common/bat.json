@@ -12,7 +12,7 @@
                             "lore": [
                                 [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Common","color":"green"}],
                                 [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
-                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"7 ","color":"aqua","bold":true},{"text":"x1.0 ","color":"light_purple","bold":true},{"text":"1.0","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"停止状態ではスコア加算倍率が1.2","color":"white"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"7 ","color":"aqua","bold":true},{"text":"x1.0 ","color":"light_purple","bold":true},{"text":"1.0","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"停止状態ではスコア加算倍率0.2増加","color":"white"}]}],
                                 [{"text":"---------------------","italic": false}],
                                 [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
                                 [{"text":"Class:Mammalia / Order:Chiroptera","color":"dark_gray","italic": false}],

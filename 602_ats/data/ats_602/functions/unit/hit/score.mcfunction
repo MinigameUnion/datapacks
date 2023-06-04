@@ -5,3 +5,4 @@ execute if entity @s[tag=fox_602,scores={a1_602=181..}] run function ats_602:uni
 execute if entity @s[tag=mooshroom_check_602] run function ats_602:unit/type/mooshroom/2
 scoreboard players operation @s score_602 += @s score0_602
 scoreboard players operation $602 score_602 += @s score0_602
+tag @s remove addScore_602

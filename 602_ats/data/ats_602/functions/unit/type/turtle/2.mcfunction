@@ -16,7 +16,7 @@ execute if score $602 gamemode_602 matches 2..3 run scoreboard players set @s a1
 scoreboard players set @s a2_602 2
 scoreboard players set @s addScore_602 10
 scoreboard players set @s mulScore0_602 18
-scoreboard players set @s mulScore1_602 3
+scoreboard players set @s mulScore2_602 3
 
 teleport @s ~ ~ ~ ~ 0
 

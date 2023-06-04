@@ -1,4 +1,4 @@
-execute unless score $602 gamemode_602 matches 1 run function ats_602:unit/hit/score
+execute unless score $602 gamemode_602 matches 1 run tag @s add addScore_602
 
 function ats_602:unit/hit/check/self
 function ats_602:unit/hit/check/partner

@@ -40,6 +40,7 @@
 #declare tag hit_self_602
 #declare tag hit_partner_602
 #declare tag skill_changed_602
+#declare tag addScore_602
 
 #declare bossbar score_602 スコア表示
 #declare bossbar timer_602 タイマー
@@ -71,6 +72,7 @@ scoreboard objectives remove sneak_602
 
 scoreboard objectives remove mulScore0_602
 scoreboard objectives remove mulScore1_602
+scoreboard objectives remove mulScore2_602
 
 scoreboard objectives remove gamemode_602
 scoreboard objectives remove click_602
@@ -98,6 +100,7 @@ scoreboard objectives add sneak_602 dummy {"text":"sneak_602","color":"gold"}
 
 scoreboard objectives add mulScore0_602 dummy {"text":"mulScore0_602","color":"aqua"}
 scoreboard objectives add mulScore1_602 dummy {"text":"mulScore1_602","color":"aqua"}
+scoreboard objectives add mulScore2_602 dummy {"text":"mulScore2_602","color":"aqua"}
 
 scoreboard objectives add gamemode_602 dummy {"text":"gamemode_602","color":"light_purple"}
 scoreboard objectives add click_602 trigger {"text":"click_602","color":"light_purple"}
