@@ -10,17 +10,16 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{801:1b,801Super:0b}"
+                            "tag": "{801:1b,801Super:1b,Enchantments:[{}]}"
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": {"translate":"item.minecraft.shears","color":"aqua","italic":false}
+                            "name": {"text":"すごいハサミ","color":"light_purple","italic":false}
                         },
                         {
                             "function": "minecraft:set_lore",
                             "lore": [
-                                [{"text":"","color":"white","italic":false},{"text":"ゲーム内：オープン"}],
-                                [{"text":"","color":"white","italic":false},{"text":"その他：決定・選択"}]
+                                [{"text":"","color":"white","italic":false},{"text":"ハズレの羊の毛を刈ろうとした場合、刈る代わりに目印をつける"}]
                             ]
                         }
                     ]
