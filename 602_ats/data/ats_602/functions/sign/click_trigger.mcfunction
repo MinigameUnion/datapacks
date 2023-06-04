@@ -20,7 +20,7 @@ execute if entity @s[scores={click_602=120}] unless score $o_2_602 a_602 matches
 
 execute if entity @s[scores={click_602=130}] unless score $o_3_602 a_602 matches -2147483648..2147483647 run function ats_602:sign/option/3/unlock0
 
-execute if entity @s[scores={click_602=140}] run function ats_602:sign/option/4/reset
+execute if entity @s[scores={click_602=140}] run function ats_602:sign/option/4/reset_g_check
 execute if entity @s[scores={click_602=141}] run function ats_602:sign/option/4/1/main
 execute if entity @s[scores={click_602=142}] run function ats_602:sign/option/4/2/main
 execute if entity @s[scores={click_602=143}] run function ats_602:sign/option/4/3/main
@@ -29,14 +29,14 @@ execute if entity @s[scores={click_602=144}] run function ats_602:sign/option/4/
 execute if entity @s[scores={click_602=145}] run function ats_602:sign/option/4/2/unlock
 execute if entity @s[scores={click_602=146}] run function ats_602:sign/option/4/3/unlock
 
-execute if entity @s[scores={click_602=147}] run function ats_602:sign/option/4/1/apply
-execute if entity @s[scores={click_602=148}] run function ats_602:sign/option/4/2/apply
-execute if entity @s[scores={click_602=149}] run function ats_602:sign/option/4/3/apply
+execute if entity @s[scores={click_602=147}] run function ats_602:sign/option/4/1/apply_g_check
+execute if entity @s[scores={click_602=148}] run function ats_602:sign/option/4/2/apply_g_check
+execute if entity @s[scores={click_602=149}] run function ats_602:sign/option/4/3/apply_g_check
 
 execute if entity @s[scores={click_602=150}] unless score $o_5_602 a_602 matches -2147483648..2147483647 run function ats_602:sign/option/5/unlock0
-execute if entity @s[scores={click_602=151..152}] run function ats_602:sign/option/5/remove
-execute if entity @s[scores={click_602=153..154}] run function ats_602:sign/option/5/add
-execute if entity @s[scores={click_602=155}] run function ats_602:sign/option/5/reset
+execute if entity @s[scores={click_602=151..152}] run function ats_602:sign/option/5/remove_g_check
+execute if entity @s[scores={click_602=153..154}] run function ats_602:sign/option/5/add_g_check
+execute if entity @s[scores={click_602=155}] run function ats_602:sign/option/5/reset_g_check
 
 
 execute if entity @s[scores={click_602=1..}] run scoreboard players reset @s click_602
