@@ -35,7 +35,7 @@
 
 #declare tag join_team_602
 #declare tag join_game_602
-#declare tag play_area_602
+#declare tag join_area_602
 #declare tag hit_602
 #declare tag hit_self_602
 #declare tag hit_partner_602
