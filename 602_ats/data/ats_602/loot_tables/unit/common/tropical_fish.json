@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Common","color":"green"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"5 ","color":"aqua","bold":true},{"text":"x1.0 ","color":"light_purple","bold":true},{"text":"1.1","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"周りに動物がいるとスコア加算倍率が1.2","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Actinopterygii","color":"dark_gray","italic": false}],
+                                [{"text":"Order:Characiformes / Family:Characidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Pristella / Species:P. maxillaris","color":"dark_gray"}],
+                                [{"text":"Binomial:Pristella maxillaris","color":"dark_gray","bold": true}],
+                                [{"text":"熱帯魚には大きく分けて淡水魚、海水魚の二つがあり","color":"gray","italic": false}],
+                                [{"text":"飼育の際には各環境に合わせる必要がある。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"熱帯魚 (プリステラ)","color":"green","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[5b,10b,10b,1b],item602:1b,UnitItem602:1b,mul_602:\"x1.0\",mul1_602:\"1.1\",CustomModelData:6018,Tags:[\"tropical_fish_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

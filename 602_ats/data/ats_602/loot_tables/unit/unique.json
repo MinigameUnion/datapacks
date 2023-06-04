@@ -1,0 +1,11 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {"type": "minecraft:loot_table","name": "ats_602:unit/unique/mule"},
+                {"type": "minecraft:loot_table","name": "ats_602:unit/unique/cat"}
+            ]
+        }
+    ]
+}

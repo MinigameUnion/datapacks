@@ -18,7 +18,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ネコ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:1b}"
+                            "tag": "{item602:1b,say602:1b}"
                         }
                     ]
                 },
@@ -37,7 +37,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"イヌ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:2b}"
+                            "tag": "{item602:1b,say602:2b}"
                         }
                     ]
                 },
@@ -56,7 +56,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ウシ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:3b}"
+                            "tag": "{item602:1b,say602:3b}"
                         }
                     ]
                 },
@@ -75,7 +75,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ヒツジ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:4b}"
+                            "tag": "{item602:1b,say602:4b}"
                         }
                     ]
                 },
@@ -94,7 +94,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ニワトリ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:5b}"
+                            "tag": "{item602:1b,say602:5b}"
                         }
                     ]
                 },
@@ -113,7 +113,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ヒヨコ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:6b}"
+                            "tag": "{item602:1b,say602:6b}"
                         }
                     ]
                 },
@@ -132,7 +132,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ブタ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:7b}"
+                            "tag": "{item602:1b,say602:7b}"
                         }
                     ]
                 },
@@ -151,7 +151,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ウマ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:8b}"
+                            "tag": "{item602:1b,say602:8b}"
                         }
                     ]
                 },
@@ -170,7 +170,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ライオン","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:9b}"
+                            "tag": "{item602:1b,say602:9b}"
                         }
                     ]
                 },
@@ -189,7 +189,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"オオカミ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:10b}"
+                            "tag": "{item602:1b,say602:10b}"
                         }
                     ]
                 },
@@ -208,7 +208,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"ゾウ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:11b}"
+                            "tag": "{item602:1b,say602:11b}"
                         }
                     ]
                 },
@@ -227,7 +227,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"村人","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:12b}"
+                            "tag": "{item602:1b,say602:12b}"
                         }
                     ]
                 },
@@ -246,7 +246,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"クリーパー","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:13b}"
+                            "tag": "{item602:1b,say602:13b}"
                         }
                     ]
                 },
@@ -265,7 +265,7 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"イカ","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:14b}"
+                            "tag": "{item602:1b,say602:14b}"
                         }
                     ]
                 },
@@ -284,11 +284,11 @@
                         {"function": "minecraft:set_name","name": [{"text":"鳴き声台本","color":"light_purple","bold": true,"italic": false},{"text":":","color":"white"},{"text":"おさかな","color":"blue"}]},
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{only602:0b,say602:15b}"
+                            "tag": "{item602:1b,say602:15b}"
                         }
                     ]
                 }
-            ]            
+            ]
         }
     ]
 }

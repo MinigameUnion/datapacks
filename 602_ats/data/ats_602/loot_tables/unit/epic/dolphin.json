@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Epic","color":"light_purple"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"7 ","color":"aqua","bold":true},{"text":"x1.5 ","color":"light_purple","bold":true},{"text":"1.5","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"一度だけ低速の状態で動物と接触した場合、その動物を最速状態にする","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Cetartiodactyla","color":"dark_gray","italic": false}],
+                                [{"text":"Suborder:Odontoceti / Family:Delphinidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Tursiops / Species:T. truncatus","color":"dark_gray"}],
+                                [{"text":"Binomial:Trusiops truncatus","color":"dark_gray","bold":true}],
+                                [{"text":"イルカは片方の脳を眠らせ、片方は起きたままといった半球睡眠が可能。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"イルカ (ハンドウイルカ)","color":"light_purple","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[7b,10b,15b,5b],item602:1b,UnitItem602:1b,mul_602:\"x1.5\",mul1_602:\"1.5\",CustomModelData:6027,Tags:[\"dolphin_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

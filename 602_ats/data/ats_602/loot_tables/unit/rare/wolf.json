@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Rare","color":"blue"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"5 ","color":"aqua","bold":true},{"text":"x1.2 ","color":"light_purple","bold":true},{"text":"1.2","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"低速状態になると3回だけ最高速度に、移動可能時間を少しだけ復活する。","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Carnivora / Suborder:Caniformia","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Canidae / Subfamily:Caninae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Canis / Species:C. lupus","color":"dark_gray"}],
+                                [{"text":"Binomial:Canis lupus","color":"dark_gray","bold":true}],
+                                [{"text":"普段は群れで動くオオカミだが","color":"gray","italic": false}],
+                                [{"text":"成熟後や群れの解散などにより一匹狼にもなり得る。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"オオカミ (タイリクオオカミ)","color":"blue","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[5b,10b,12b,2b],item602:1b,UnitItem602:1b,mul_602:\"x1.2\",mul1_602:\"1.2\",CustomModelData:6011,Tags:[\"wolf_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

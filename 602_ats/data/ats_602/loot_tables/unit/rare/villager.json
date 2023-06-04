@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Rare","color":"blue"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"5 ","color":"aqua","bold":true},{"text":"x1.3 ","color":"light_purple","bold":true},{"text":"1.0","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"エメラルドゾーンの、スコア加算量ボーナスが2倍貰える","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Primates / Suborder:Haplorhini","color":"dark_gray","italic": false}],
+                                [{"text":"Infraorder:Simiiformes / Family:Hominidae / Subfamily:Homininae","color":"dark_gray","italic": false}],
+                                [{"text":"Tride:Hominini / Species:Bos taurus","color":"dark_gray"}],
+                                [{"text":"Genus:Homo / Species:???","color":"dark_gray"}],
+                                [{"text":"ﾌｩｰﾝ","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"ムラビト","color":"blue","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[5b,10b,13b,0b],item602:1b,UnitItem602:1b,mul_602:\"x1.3\",mul1_602:\"1.0\",CustomModelData:6029,Tags:[\"villager_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

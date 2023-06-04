@@ -1,0 +1,1 @@
+tellraw @s [{"text":"","color":"gold"},{"text":"[ミニ換金ペナルティ] ","color":"red"},{"text":"GAMEMODE SCORE","color":"light_purple"},{"text":" / "},{"score":{"name":"$o2_mini_602","objective":"score_602"}},{"text":" (No Consumption)"}]

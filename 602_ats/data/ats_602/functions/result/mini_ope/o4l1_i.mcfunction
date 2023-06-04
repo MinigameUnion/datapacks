@@ -1,0 +1,1 @@
+tellraw @s [{"text":"","color":"red"},{"text":"[ミニ換金ペナルティ] ","color":"red"},{"text":"Score","color":"white"},{"text":" - "},{"score":{"name":"$o4l1_mini_602","objective":"score_602"}},{"text":" (Chaos Level 1)"}]

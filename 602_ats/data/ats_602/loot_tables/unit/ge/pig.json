@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"速度 : 5 ","color":"aqua","italic": false}],
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"GrassEater","color":"dark_green"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"ニンジンじゃなくて草を食う。","color":"white"}],
+                                [{"text":"特性詳細 : ","color":"yellow","italic": false},{"text":"GrassEater(略してGE)である彼(彼女)はニンジンではなく","color":"white"}],
+                                [{"text":"草をちゃんと食べる。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"ブタ(グラスイーターの姿)","color":"dark_green","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[5b],item602:1b,UnitItem602:1b,mul_602:\"x1.5\",CustomModelData:6004,Tags:[\"pig_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

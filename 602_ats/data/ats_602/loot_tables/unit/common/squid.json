@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Common","color":"green"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"3 ","color":"aqua","bold":true},{"text":"x1.0 ","color":"light_purple","bold":true},{"text":"1.2","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"一度だけ停止時にイカ墨を周りに吹きかけて、近くの動物の向きをランダムにする","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Mollusca / Class:Cephalopoda","color":"dark_gray","italic": false}],
+                                [{"text":"Superorder:Decapodiformes / Order:Oegopsida","color":"dark_gray","italic": false}],
+                                [{"text":"Family:Gonatidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Gonatopsis / Species:G. borealis","color":"dark_gray"}],
+                                [{"text":"Binomial:Gonatopsis borealis","color":"dark_gray","bold": true}],
+                                [{"text":"スウェーデンではタコとイカを区別する単語がない(両方ともBläckfisk)。","color":"gray","italic": false}],
+                                [{"text":"一応触腕無し(8本足のみ)のイカならいる。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"イカ (タコイカ)","color":"green","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[3b,10b,10b,2b],item602:1b,UnitItem602:1b,mul_602:\"x1.0\",mul1_602:\"1.2\",CustomModelData:6010,Tags:[\"squid_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

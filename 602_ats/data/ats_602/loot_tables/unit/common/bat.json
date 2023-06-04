@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Common","color":"green"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"7 ","color":"aqua","bold":true},{"text":"x1.0 ","color":"light_purple","bold":true},{"text":"1.0","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"停止状態ではスコア加算倍率0.2増加","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Chiroptera","color":"dark_gray","italic": false}],
+                                [{"text":"Suborder:Yinpterochiroptera","color":"dark_gray","italic": false}],
+                                [{"text":"Superfamily:Pteropodoidea / Family:Pteropodidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Rousettus / Species:R. aegyptiacus","color":"dark_gray"}],
+                                [{"text":"Binomial:Rousettus aegyptiacus","color":"dark_gray","bold": true}],
+                                [{"text":"コウモリには視力、聴力の両方を備え持った種類が存在する。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"コウモリ (エジプトルーセットオオコウモリ)","color":"green","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[7b,10b,10b,0b],item602:1b,UnitItem602:1b,mul_602:\"x1.0\",mul1_602:\"1.0\",CustomModelData:6005,Tags:[\"bat_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"Rare","color":"blue"}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"速度","color":"aqua"},{"text":" / "},{"text":"スコア倍率","color":"light_purple"},{"text":" / "},{"text":"スコア加算量","color":"gold"},{"text":"]"}]}],
+                                [{"text":"","italic":false,"color":"white","extra":[{"text":"["},{"text":"4 ","color":"aqua","bold":true},{"text":"x1.6 ","color":"light_purple","bold":true},{"text":"1.0","color":"gold","bold":true},{"text":"]"},{"text":" 特性 : ","color":"yellow"},{"text":"移動速度が最速(4)中、動物と接触するとボーナスとしてスコア獲得","color":"white"}]}],
+                                [{"text":"---------------------","italic": false}],
+                                [{"text":"Kingdom:Animalia / Phylum:Chordata / Subphylum:Vertebrata","color":"dark_gray","italic": false}],
+                                [{"text":"Class:Mammalia / Order:Carnivora / Family:Ursidae","color":"dark_gray","italic": false}],
+                                [{"text":"Genus:Ursus / Species:U. maritimus ","color":"dark_gray"}],
+                                [{"text":"Binomial:Ursus maritimus","color":"dark_gray","bold":true}],
+                                [{"text":"シロクマは毛の色が白いのではなく、透明。肌の色は黒い。","color":"gray","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"シロクマ (ホッキョクグマ)","color":"blue","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[4b,10b,16b,0b],item602:1b,UnitItem602:1b,mul_602:\"x1.6\",mul1_602:\"1.0\",CustomModelData:6015,Tags:[\"polar_bear_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

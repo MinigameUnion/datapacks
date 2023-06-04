@@ -1,0 +1,1 @@
+tellraw @s [{"text":"","color":"aqua"},{"text":"獲得ミニ = ","color":"aqua"},{"text":"Score / "},{"score":{"name":"$gm1_mini_602","objective":"score_602"}},{"text":" (Program Mode)"}]

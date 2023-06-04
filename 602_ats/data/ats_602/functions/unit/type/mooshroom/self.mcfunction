@@ -1,0 +1,1 @@
+tag @e[limit=1,tag=hit_partner_602] add mooshroom_check_602

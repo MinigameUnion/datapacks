@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Buy : "},{"nbt":"ChaosOptions.Cost.L2","storage":"ats_602:main"},{"text":" mini / "},{"text":"右クリックで開放","bold":true,"underlined":true,"color":"red","clickEvent":{"action":"run_command","value":"/trigger click_602 set 145"}}]

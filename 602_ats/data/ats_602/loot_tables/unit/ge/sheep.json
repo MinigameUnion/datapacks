@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 1,
+                    "functions": [
+                        {"function": "minecraft:set_lore",
+                            "lore": [
+                                [{"text":"速度 : 4 ","color":"aqua","italic": false}],
+                                [{"text":"レアリティ : ","color":"white","italic": false},{"text":"GrassEater","color":"dark_green"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"いつも通り草を食う。","color":"white"}],
+                                [{"text":"特性詳細 : ","color":"yellow","italic": false},{"text":"GrassEater(略してGE)である彼(彼女)は原種とあまり変わらない。","color":"white"}],
+                                [{"text":"その為、最近までGE(GrassEaterの略)であることが知られてなかった。","color":"white","italic": false}]
+                                ]},
+                        {"function": "minecraft:set_name","name": [{"text":"ヒツジ(グラスイーターの姿)","color":"dark_green","bold": true,"italic": false}]},
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{602:[4b],item602:1b,UnitItem602:1b,mul_602:\"x1.5\",CustomModelData:6003,Tags:[\"sheep_602\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
