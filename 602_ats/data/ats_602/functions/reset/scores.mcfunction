@@ -23,7 +23,12 @@ scoreboard players set $pause_602 a_602 0
 
 scoreboard players set $gm1_mini_602 score_602 10
 scoreboard players set $gm2_mini_602 score_602 80
-scoreboard players set $gm3_mini_602 score_602 600
+scoreboard players set $gm3_mini_602 score_602 200
+
+scoreboard players set $o2_mini_602 score_602 7
+scoreboard players set $o3_mini_602 score_602 500
+scoreboard players set $o4l1_mini_602 score_602 1500
+scoreboard players set $o4l2_mini_602 score_602 12
 
 scoreboard players set $602 vs_602 0
 
