@@ -2,6 +2,7 @@
 # @within
 #   function clay_502:player/finish
 #   function clay_502:game/sign/leave_match/clicked
+#   function clay_502:game/player/return
 
 effect clear @s
 clear @s

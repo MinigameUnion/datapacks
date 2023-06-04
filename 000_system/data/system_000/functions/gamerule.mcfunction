@@ -3,14 +3,16 @@
 #   function system_000:load
 
 gamerule announceAdvancements false
+gamerule blockExplosionDropDecay false
 gamerule commandBlockOutput false
+gamerule commandModificationBlockLimit 65536
 gamerule disableElytraMovementCheck true
 gamerule disableRaids true
 gamerule doDaylightCycle false
 gamerule doEntityDrops false
 gamerule doFireTick false
-gamerule doInsomnia false
 gamerule doImmediateRespawn true
+gamerule doInsomnia false
 gamerule doLimitedCrafting true
 #gamerule doMobLoot true
 gamerule doMobSpawning false
@@ -23,19 +25,23 @@ gamerule fallDamage false
 #gamerule fireDamage true
 #gamerule forgiveDeadPlayers true
 #gamerule freezeDamage true
+gamerule globalSoundEvents false
 gamerule keepInventory true
-#gamerule logAdminCommands false
+#gamerule lavaSourceConversion false
+gamerule logAdminCommands false
 #gamerule maxCommandChainLength 65536
 gamerule maxEntityCramming 0
+#gamerule mobExplosionDropDecay false
 gamerule mobGriefing false
 #gamerule naturalRegeneration true
-#gamerule playersSleepingPercentage 100
+gamerule playersSleepingPercentage 101
 gamerule randomTickSpeed 0
-#gamerule reducedDebugInfo true
-#gamerule sendCommandFeedback false
+gamerule reducedDebugInfo true
+gamerule sendCommandFeedback false
 gamerule showDeathMessages false
+#gamerule snowAccumulationHeight 1
 gamerule spawnRadius 0
 gamerule spectatorsGenerateChunks false
+#gamerule tntExplosionDropDecay false
 #gamerule universalAnger false
-
-#TODO"logAdminCommands","reduceDebugInfo","sendCommandFeedback"はリリース時にアンコメント
+#gamerule waterSourceConversion true
