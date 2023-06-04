@@ -79,17 +79,17 @@ data modify storage reversi_201:menu Default.Setting append value {Offset:[2.4f,
 data modify storage reversi_201:menu Default.Setting append value {Offset:[3.2f,1.5f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.22f},HologramID:2001,Text:['{"text":"メ","color":"white","font":"uniform"}','{"text":"ニ","color":"white","font":"uniform"}','{"text":"ュ","color":"white","font":"uniform"}','{"text":"ー","color":"white","font":"uniform"}']}
 data modify storage reversi_201:menu Default.Setting append value {Offset:[4.2f,1.5f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.22f},HologramID:2002,Text:['{"text":"設","color":"green","font":"uniform"}','{"text":"定","color":"green","font":"uniform"}']}
 
-data modify storage reversi_201:menu Default.Setting append value {Offset:[1.7f,2.5f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.00f},HologramID:2030,Text:['{"text":"i","font":"reversi"}']}
+data modify storage reversi_201:menu Default.Setting append value {Offset:[1.7f,2.5f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.00f},HologramID:2030,Text:['{"text":"i","font":"reversi_201:reversi"}']}
 data modify storage reversi_201:menu Default.Setting append value {Offset:[2.2f,2.5f],Setting:{CursorCollider:0b,TextInterpret:1b,TextSpaceWidth:0.20f},HologramID:2020,Text:['{"text":"A","font":"uniform"}','{"text":"I","font":"uniform"}','{"text":"戦","font":"uniform"}','','{"text":":","font":"uniform"}']}
 
-data modify storage reversi_201:menu Default.Setting append value {Offset:[1.700f,2.9f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.00f},HologramID:2032,Text:['{"text":"i","font":"reversi"}']}
+data modify storage reversi_201:menu Default.Setting append value {Offset:[1.700f,2.9f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.00f},HologramID:2032,Text:['{"text":"i","font":"reversi_201:reversi"}']}
 data modify storage reversi_201:menu Default.Setting append value {Offset:[2.200f,2.9f],Setting:{CursorCollider:0b,TextInterpret:1b,TextSpaceWidth:0.20f},HologramID:2022,Text:['{"text":"長","font":"uniform"}','{"text":"考","font":"uniform"}','','','{"text":":","font":"uniform"}']}
 data modify storage reversi_201:menu Default.Setting append value {Offset:[3.975f,2.9f],Setting:{CursorCollider:0b,TextInterpret:1b,TextSpaceWidth:0.20f},HologramID:2022,Text:['{"text":"+","font":"uniform"}']}
 
-data modify storage reversi_201:menu Default.Setting append value {Offset:[1.7f,3.3f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.00f},HologramID:2035,Text:['{"text":"i","font":"reversi"}']}
+data modify storage reversi_201:menu Default.Setting append value {Offset:[1.7f,3.3f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.00f},HologramID:2035,Text:['{"text":"i","font":"reversi_201:reversi"}']}
 data modify storage reversi_201:menu Default.Setting append value {Offset:[2.2f,3.3f],Setting:{CursorCollider:0b,TextInterpret:0b,TextSpaceWidth:0.20f},HologramID:2025,Text:['羊','','','',':']}
 
-data modify storage reversi_201:menu Default.Setting append value {Offset:[1.7f,3.7f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.00f},HologramID:2037,Text:['{"text":"i","font":"reversi"}']}
+data modify storage reversi_201:menu Default.Setting append value {Offset:[1.7f,3.7f],Setting:{CursorCollider:1b,TextInterpret:1b,TextSpaceWidth:0.00f},HologramID:2037,Text:['{"text":"i","font":"reversi_201:reversi"}']}
 data modify storage reversi_201:menu Default.Setting append value {Offset:[2.2f,3.7f],Setting:{CursorCollider:0b,TextInterpret:0b,TextSpaceWidth:0.20f},HologramID:2027,Text:['盤','面','隔','離',':']}
 
 
