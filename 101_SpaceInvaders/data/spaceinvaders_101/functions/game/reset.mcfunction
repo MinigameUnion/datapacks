@@ -22,3 +22,12 @@
 ## そのほか
     clear @s carrot_on_a_stick
     effect clear @s jump_boost
+
+##ミニの計算
+    scoreboard players reset @s Coin_101
+    scoreboard players operation @s Coin_101 = @s Point_101
+    scoreboard players operation @s Coin_101 /= #_const_10 operation_101
+    scoreboard players operation @s add_coin_000 = @s Coin_101
+
+##得点表示
+    tellraw @s {"translate":"------------------------\nあなたのスコア : %s\n獲得ミニ : %s\n------------------------","with":[{"score":{"name":"@s","objective":"Point_101"},"color":"green"},{"score":{"name":"@s","objective":"Coin_101"},"color":"green"}]}
