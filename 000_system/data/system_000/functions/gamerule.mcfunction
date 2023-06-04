@@ -20,7 +20,7 @@ gamerule doPatrolSpawning false
 gamerule doTileDrops false
 gamerule doTraderSpawning false
 gamerule doWeatherCycle false
-#gamerule drowningDamage true
+gamerule drowningDamage false
 gamerule fallDamage false
 #gamerule fireDamage true
 #gamerule forgiveDeadPlayers true
