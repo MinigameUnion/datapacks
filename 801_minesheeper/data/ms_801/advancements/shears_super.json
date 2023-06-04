@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "used": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:shears"
+                    ],
+                    "nbt": "{801:1b,801Super:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ms_801:trigger/shears_super"
+    }
+}

@@ -1,3 +1,7 @@
+#> clay_502:player/join
+# @within
+#   function clay_502:game/tick/playing
+
 tp @s ~ ~ ~ ~ ~
 tag @s add playing_502
 tag @s add ticking_502

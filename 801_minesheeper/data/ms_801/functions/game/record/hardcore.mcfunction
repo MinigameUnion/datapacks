@@ -1,4 +1,7 @@
-#記録更新
+#> ms_801:game/record/hardcore
+# 記録更新
+# @internal
+
 execute store result score $Tmp2 General_801 run data get storage ms_801:record Hardcore[4].Time
 execute if score $Tmp General_801 < $Tmp2 General_801 run scoreboard players set $Tmp3 General_801 5
 execute if score $Tmp3 General_801 matches ..5 store result score $Tmp2 General_801 run data get storage ms_801:record Hardcore[3].Time

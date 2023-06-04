@@ -1,12 +1,9 @@
-#パックマン 常時実行処理
+#> pac_man_102:mobs/pacman/repeat
+### パックマン 常時実行処理
 
 #info
 # as,at: @e[tag=PacMan_base_102]
 # repeat
-
-#共通エンティティの紐づけ
-scoreboard players operation #temp _Id_102 = @s _Id_102
-execute as @e[tag=Entity_102] store success score @s _Group_102 if score @s _Id_102 = #temp _Id_102
 
 #食事
     #食事中タイマ
@@ -14,25 +11,25 @@ execute as @e[tag=Entity_102] store success score @s _Group_102 if score @s _Id_
     scoreboard players set @s[scores={_Timer_102=10}] _Timer_102 0
     #エサ
         #食事
-        execute positioned ~-0.5 ~ ~-0.5 if entity @e[tag=Pellet_102,dx=0,dy=0,dz=0] run function pac_man_102:objects/dots/eat_pellet
+        execute positioned ~-0.5 ~ ~-0.5 if entity @e[tag=Pellet_102,type=item_display,dx=0,dy=0,dz=0] run function pac_man_102:objects/dots/eat_pellet
     #パワーエサ
         #食事
-        execute positioned ~-0.5 ~ ~-0.5 if entity @e[tag=PowerPellet_102,dx=0,dy=0,dz=0] run function pac_man_102:objects/dots/eat_power_pellet
+        execute positioned ~-0.5 ~ ~-0.5 if entity @e[tag=PowerPellet_102,type=item_display,dx=0,dy=0,dz=0] run function pac_man_102:objects/dots/eat_power_pellet
     #イジケ
         #食事
-        execute if score #stop_102 _Timer_102 matches 0 positioned ~-0.5 ~ ~-0.5 if entity @e[tag=Ghost_base_102,dx=0,dy=-0.5,dz=0,scores={_State_102=3}] run function pac_man_102:mobs/ghost/eaten
+        execute if score #stop_102 _Timer_102 matches 0 positioned ~-0.5 ~ ~-0.5 if entity @e[tag=Ghost_base_102,type=item_display,dx=0,dy=-0.5,dz=0,scores={_State_102=3}] run function pac_man_102:mobs/ghost/eaten
     #フルーツ
         #食事
-        execute positioned ~-0.5 ~ ~-0.5 if entity @e[tag=Fruit_102,dx=0,dy=-0.5,dz=0.1] run function pac_man_102:objects/fruit/eat_fruit
+        execute positioned ~-0.5 ~ ~-0.5 if entity @e[tag=Fruit_102,type=item_display,dx=0,dy=-0.5,dz=0.1] run function pac_man_102:objects/fruit/eat_fruit
 
 #移動方向の設定
 execute if score #stop_102 _Timer_102 matches 0 unless score #player_102 _Input_102 = @s _Direction_102 align xz positioned ~0.5 ~ ~0.5 run function pac_man_102:mobs/pacman/direction
 
 #モデルアニメーション
     #向きを角度に反映
-    execute store result entity @e[tag=Rot_102,scores={_Group_102=1},limit=1] Rotation[0] float 90 run scoreboard players get @s _Direction_102
+    execute store result entity @s Rotation[0] float 90 run scoreboard players get @s _Direction_102
     #アニメーション
-    execute rotated as @e[tag=Rot_102,scores={_Group_102=1}] rotated ~ 0 unless block ^ ^ ^0.51 #pac_man_102:stage run function pac_man_102:mobs/pacman/model
+    execute rotated as @s rotated ~ 0 unless block ^ ^ ^0.51 #pac_man_102:stage run function pac_man_102:mobs/pacman/model
 
 #移動速度取得
     #通常時

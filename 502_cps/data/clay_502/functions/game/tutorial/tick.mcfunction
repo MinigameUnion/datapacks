@@ -1,3 +1,7 @@
+#> clay_502:game/tutorial/tick
+# @within
+#   function clay_502:game/tick/playing
+
 #execute if score @s progress_502 matches 5 if entity @a[scores={playing_000=502},tag=ticking_502,tag=playing_502,tag=restart_502] run function clay_502:game/tutorial/restart
 execute store result score #PLAYER num_502 if entity @a[tag=playing_502,tag=ticking_502]
 

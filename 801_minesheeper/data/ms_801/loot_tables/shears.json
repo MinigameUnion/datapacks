@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{801:1b}"
+                            "tag": "{801:1b,801Super:0b}"
                         },
                         {
                             "function": "minecraft:set_name",

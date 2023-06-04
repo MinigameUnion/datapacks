@@ -14,7 +14,9 @@
     # 筐体
     summon item_display ~ ~ ~ {Tags:[click_000,click.101_000,temp_000],item:{id:"minecraft:leather_helmet",Count:1b,tag:{display:{color:7829367},CustomModelData:1}},Rotation:[180f,0f],transformation:{translation:[0f,0.6f,0f],left_rotation:{axis:[0f,1f,0f],angle:3.1415f},scale:[1.2f,1.2f,1.2f],right_rotation:{axis:[0f,0f,1f],angle:0f}},brightness:{sky:15,block:15}}
     # タイトル
-    summon text_display ^ ^3.3 ^-0.5 {Tags:[click_000,click.101_000,temp_000],text:'{"text":"\\u0001","font":"lobby_000:default"}',billboard:"vertical",background:0,transformation:[1f,0f,0f,0f, 0f,1f,0f,0f, 0f,0f,1f,0f, 0f,0f,0f,5f],brightness:{sky:15,block:15}}
+    summon text_display ^ ^3.3 ^-0.5 {Tags:[click_000,click.101_000,temp_000],text:'{"text":"\\u0101","font":"lobby_000:default"}',billboard:"vertical",background:0,transformation:[1f,0f,0f,0f, 0f,1f,0f,0f, 0f,0f,1f,0f, 0f,0f,0f,5f],brightness:{sky:15,block:15}}
+    # 画面
+    summon text_display ^ ^1.715 ^-0.025 {Tags:[click_000,click.101_000,temp_000],text:'{"text":"\\u1101","font":"lobby_000:default"}',background:0,transformation:{translation:[0f,0f,0f],left_rotation:{axis:[1f,0f,0f],angle:-0.3925f},scale:[0.15f,0.15f,0.15f],right_rotation:[0f,0f,0f,1f]},brightness:{sky:15,block:15}}
     # クリック
     summon text_display ~ ~ ~ {Tags:[click_000,click.101_000,temp_000],background:0,text:'{"text":"Right Click","color":"yellow","bold":true,"font":"uniform"}',"alignment":"center",Rotation:[180f,0f],transformation:{translation:[0f,0.95f,0.63f],left_rotation:{axis:[1f,0f,0f],angle:0f},scale:[0.5f,0.7f,1f],right_rotation:{axis:[0f,1f,0f],angle:0f}},brightness:{sky:15,block:15}}
     # 向きを同期

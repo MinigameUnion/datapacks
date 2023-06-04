@@ -1,3 +1,0 @@
-execute if score #SOUND num_501 matches 1 at @s anchored eyes positioned ^ ^ ^0.5 anchored feet run playsound minecraft:block.wooden_trapdoor.open voice @a ~ ~ ~ 1 1.2 0
-execute if score #SOUND num_501 matches 2 at @s anchored eyes positioned ^ ^ ^0.5 anchored feet run playsound minecraft:block.wooden_trapdoor.open voice @a ~ ~ ~ 1 2 0
-#playsound minecraft:block.wooden_door.open block @a ~ ~ ~ 1 1.5 0

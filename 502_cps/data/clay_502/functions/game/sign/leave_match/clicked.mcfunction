@@ -1,3 +1,7 @@
+#> clay_502:game/sign/leave_match/clicked
+# @within
+#   function clay_502:game/tick/playing
+
 scoreboard players operation #ID num_502 = @s id_000
 execute as @e[tag=spawned_502,tag=ticking_502] if score @s num_502 = #ID num_502 run function clay_502:game/reset_spawn
 

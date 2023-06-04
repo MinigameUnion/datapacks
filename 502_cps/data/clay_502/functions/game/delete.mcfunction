@@ -1,6 +1,6 @@
 #> clay_502:game/delete
 # @within
-#   function clay_502:game/tick
+#   function clay_502:game/tick/playing
 
 forceload remove ~ ~ ~32 ~16
 data modify entity @s {} merge from storage clay_502:storage lobby.return

@@ -1,4 +1,7 @@
-#記録
+#> ms_801:game/record/root
+# 記録計算
+# @internal
+
 scoreboard players set $Tmp3 General_801 6
 scoreboard players set $Tmp General_801 20
 scoreboard players operation $Tmp General_801 *= $Time General_801

@@ -2,9 +2,10 @@
 # @within
 #   function clay_502:game/quickshot/create
 
-tellraw @s ["",{"text":"[QuickShot] ","color":"yellow"},{"text":"合計","color":"gray"},{"text":"18個のクレー","color":"reset"},{"text":"を","color":"gray"},{"text":"撃ち合い奪い合う","color":"reset"},{"text":"モード です","color":"gray"}]
-tellraw @s ["",{"text":"[QuickShot] ","color":"yellow"},{"text":"撃ちぬいたクレーの数","color":"reset"},{"text":" , ","color":"gray"},{"text":"発射からヒットするまでの時間","color":"reset"},{"text":" によって","color":"gray"}]
-tellraw @s ["",{"text":"[QuickShot] ","color":"yellow"},{"text":"勝敗","color":"reset"},{"text":"と","color":"gray"},{"text":"獲得できるミニ","color":"reset"},{"text":"が決定します","color":"gray"}]
-tellraw @s ["",{"text":"[QuickShot] ","color":"yellow"},{"text":"参加者全員","color":"reset"},{"text":"が","color":"gray"},{"text":"銃を手に取ると","color":"reset"},{"text":"スタートします","color":"gray"}]
+tellraw @s ["",{"text":"[QuickShot] ","color":"yellow"},{"text":"クレー射撃 クイックショット","color":"white"}]
+tellraw @s {"translate":"計%sを%sで奪い合うモードです","color":"gray","with":[{"text":"18個のクレー","color":"white"},{"text":"2人のプレイヤー","color":"white"}]}
+tellraw @s {"translate":"%sが多い方が勝者となります","color":"gray","with":[{"text":"撃ちぬいたクレーの数","color":"white"}]}
+tellraw @s {"translate":"勝者にはボーナスとして%sが与えられます","color":"gray","with":[{"translate":"%sミニ","color":"white","with":[{"score":{"name":"#WIN_BONUS","objective":"num_502"}}]}]}
+tellraw @s {"translate":"%sが%sスタートします","color":"gray","with":[{"text":"参加者の両方","color":"white"},{"text":"銃を手に取って","color":"white"}]}
 
 function clay_502:game/player/create
