@@ -4,6 +4,9 @@
 #
 # @within lobby_000:click
 
+# 記録が無ければ記録リセット
+  execute unless score #BestRecord suiryu_taratara_401.trigger matches 0..999999999 run function suiryu_taratara_401:record_reset
+
 # プレイ中のゲームIDを設定する
   scoreboard players set @s playing_000 401
 

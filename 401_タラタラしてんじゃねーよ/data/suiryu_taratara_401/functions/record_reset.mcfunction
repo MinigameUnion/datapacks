@@ -2,7 +2,7 @@
 #
 # 記録をリセットする
 #
-# @private
+# @within function suiryu_taratara_401:join
 
 # forceload add
   forceload add 4000 -5
