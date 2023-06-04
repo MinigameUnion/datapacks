@@ -41,7 +41,6 @@ scoreboard players set #START_POS[2] num_502 2000
 scoreboard players set #SPACE[0] num_502 0
 scoreboard players set #SPACE[2] num_502 80
 scoreboard players set #HIT_min num_502 1
-#TODO スペースを80(5chunk)取った弊害が出ないかテスト
 
 #scoreboard players set #COIN_max num_502 150
 scoreboard players set #COIN_min num_502 14
@@ -76,7 +75,7 @@ data merge storage clay_502:storage {sign:{leave:{disabled:{Text2:'{"text":"離�
 
 data modify storage clay_502:storage match.games set value []
 data modify storage clay_502:storage match.games append from storage clay_502:storage match.default
-data modify storage clay_502:storage match.games[-1].tag.name set value "tutorial"
+data modify storage clay_502:storage match.games[-1].name set value "tutorial"
 data modify storage clay_502:storage match.games[-1].tag.type set value 0b
 data modify storage clay_502:storage match.games[-1].tag.join set value -1b
 data modify storage clay_502:storage match.games[-1].tag.spectate set value 0b
@@ -84,7 +83,7 @@ data modify storage clay_502:storage match.games[-1].tag.display.Name set value 
 data modify storage clay_502:storage match.games[-1].tag.display.Lore set value ['チ','ュ','ー','ト','リ','ア','ル']
 
 data modify storage clay_502:storage match.games append from storage clay_502:storage match.default
-data modify storage clay_502:storage match.games[-1].tag.name set value "default"
+data modify storage clay_502:storage match.games[-1].name set value "default"
 data modify storage clay_502:storage match.games[-1].tag.type set value 1b
 data modify storage clay_502:storage match.games[-1].tag.join set value 0b
 data modify storage clay_502:storage match.games[-1].tag.spectate set value 1b
@@ -92,7 +91,7 @@ data modify storage clay_502:storage match.games[-1].tag.display.Name set value 
 data modify storage clay_502:storage match.games[-1].tag.display.Lore set value ['ス','タ','ン','ダ','ー','ド']
 
 data modify storage clay_502:storage match.games append from storage clay_502:storage match.default
-data modify storage clay_502:storage match.games[-1].tag.name set value "quickshot"
+data modify storage clay_502:storage match.games[-1].name set value "quickshot"
 data modify storage clay_502:storage match.games[-1].tag.type set value 2b
 data modify storage clay_502:storage match.games[-1].tag.join set value 2b
 data modify storage clay_502:storage match.games[-1].tag.spectate set value 1b
