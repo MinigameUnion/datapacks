@@ -12,7 +12,8 @@
                             "lore": [
                                 [{"text":"速度 : 6 ","color":"aqua","italic": false}],
                                 [{"text":"レアリティ : ","color":"white","italic": false},{"text":"GrassEater","color":"dark_green"}],
-                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"GrassEater(略してGE)である彼は停止時に一度だけ草を食べる卵を生み出す。","color":"white"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"停止時に草を食べる卵を生み出す。","color":"white"}],
+                                [{"text":"特性詳細 : ","color":"yellow","italic": false},{"text":"GrassEater(略してGE)である彼は停止時に一度だけ草を食べる卵を生み出す。","color":"white"}],
                                 [{"text":"直進しかできないが、卵も立派なGE(GrassEaterの略)の一味である。","color":"white","italic": false}]
                                 ]},
                         {"function": "minecraft:set_name","name": [{"text":"トリ(グラスイーターの姿)","color":"dark_green","bold": true,"italic": false}]},

@@ -12,7 +12,8 @@
                             "lore": [
                                 [{"text":"速度 : 5 ","color":"aqua","italic": false}],
                                 [{"text":"レアリティ : ","color":"white","italic": false},{"text":"GrassEater","color":"dark_green"}],
-                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"GrassEater(略してGE)である彼(彼女)は","color":"white"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"速度低下時に草を食べると速度が戻る。","color":"white"}],
+                                [{"text":"特性詳細 : ","color":"yellow","italic": false},{"text":"GrassEater(略してGE)である彼(彼女)は","color":"white"}],
                                 [{"text":"空腹(速度低下)時に草を食べると1度だけ元気を取り戻す。","color":"white","italic": false}]
                                 ]},
                         {"function": "minecraft:set_name","name": [{"text":"ウマ(グラスイーターの姿)","color":"dark_green","bold": true,"italic": false}]},

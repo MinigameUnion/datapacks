@@ -12,7 +12,8 @@
                             "lore": [
                                 [{"text":"速度 : 5 ","color":"aqua","italic": false}],
                                 [{"text":"レアリティ : ","color":"white","italic": false},{"text":"GrassEater","color":"dark_green"}],
-                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"GrassEater(略してGE)である彼(彼女)は地上活動が可能で","color":"white"}],
+                                [{"text":"特性 : ","color":"yellow","italic": false},{"text":"イカは地上を歩くし草も食う。","color":"white"}],
+                                [{"text":"特性詳細 : ","color":"yellow","italic": false},{"text":"GrassEater(略してGE)である彼(彼女)は地上活動が可能で","color":"white"}],
                                 [{"text":"普通に草を食う。","color":"white","italic": false}]
                                 ]},
                         {"function": "minecraft:set_name","name": [{"text":"イカ(グラスイーターの姿)","color":"dark_green","bold": true,"italic": false}]},
