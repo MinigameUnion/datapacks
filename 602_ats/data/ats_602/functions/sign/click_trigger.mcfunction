@@ -8,6 +8,7 @@ execute if entity @s[scores={click_602=12}] run function ats_602:sign/info/2/2
 
 execute if entity @s[scores={click_602=21}] run function ats_602:sign/info/3/1
 execute if entity @s[scores={click_602=22}] run function ats_602:sign/info/3/2
+execute if entity @s[scores={click_602=23}] run function ats_602:sign/info/3/3
 
 execute if entity @s[scores={click_602=31}] unless score $g_chaos_602 a_602 matches -2147483648..2147483647 run function ats_602:sign/gamemode/3/unlock0
 execute if entity @s[scores={click_602=41}] run function ats_602:sign/g1_0
