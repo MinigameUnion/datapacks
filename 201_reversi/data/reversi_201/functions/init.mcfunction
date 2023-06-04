@@ -10,8 +10,10 @@
 forceload add -20000 16
 
 #> VSCode Extension : Data-pack Helper Plus declare
-# @within function reversi_201:init
-# @within function reversi_201:game/**
+# @within function
+#   reversi_201:init
+#   reversi_201:menu/area_linker/*
+#   reversi_201:game/**
     #declare score_holder $sheep
     #declare score_holder #sheepC
     #declare score_holder #TurnColor 0が黒, 1が白 覚えようね
