@@ -9,3 +9,8 @@ execute as @e[x=0.5,y=1.0,z=0.5,distance=..0,tag=storage_000,predicate=player_00
 execute unless entity @a[tag=login_000] run schedule clear player_000:lobby/tick
 
 function player_000:lobby/text_display/reload
+schedule function player_000:lobby/text_display/reload 1s append
+schedule function player_000:lobby/text_display/reload 2s append
+schedule function player_000:lobby/text_display/reload 3s append
+schedule function player_000:lobby/text_display/reload 4s append
+schedule function player_000:lobby/text_display/reload 5s append
