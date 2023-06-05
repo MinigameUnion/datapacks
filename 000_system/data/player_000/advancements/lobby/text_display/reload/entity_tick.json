@@ -1,0 +1,39 @@
+{
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        },
+        "tick": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "player_000:lobby/text_display/reload/entity_tick": {
+                                        "trigger": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trigger"
+        ],
+        [
+            "tick"
+        ]
+    ],
+    "rewards": {
+        "function": "player_000:lobby/text_display/reload/entity_tick"
+    }
+}
