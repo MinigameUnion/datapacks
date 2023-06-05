@@ -4,6 +4,7 @@
 
 # 各種始末
 tp @e[tag=Game_801] 8000 -100 0
+execute as @e[tag=Game_801,type=#tool_000:living] if data entity @s CustomName run data merge entity @s {Health:0.0f,DeathTime:17s}
 kill @e[tag=Game_801]
 bossbar set disp_801 color white
 bossbar set time_801 visible false
