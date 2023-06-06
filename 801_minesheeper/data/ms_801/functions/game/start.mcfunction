@@ -8,8 +8,10 @@ scoreboard players set $GameInfo General_801 1
 scoreboard players set $UsedFlag General_801 0
 # 成功判定
 scoreboard players set $Succeeded General_801 0
-# すごいハサミ使用可能回数
+# すごいハサミ無料回数
 scoreboard players operation $SuperCount General_801 = $SuperLimit General_801
+# すごいハサミ費用
+scoreboard players set $SuperCost General_801 100
 # サイズ等調整
 execute if score $X General_801 matches 31.. run scoreboard players set $X General_801 30
 execute if score $X General_801 matches ..8 run scoreboard players set $X General_801 9

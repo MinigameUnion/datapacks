@@ -29,7 +29,9 @@ execute positioned 8000 10 0 run kill @e[type=item,nbt={Item:{id:"minecraft:blac
 execute anchored eyes positioned ^ ^ ^2 run tag @e[sort=nearest,type=sheep,tag=801,nbt={Sheared:1b},distance=..3,limit=1] add SuperSheared_801
 
 # 分岐
-execute if score $GameInfo General_801 matches 2 if entity @e[type=sheep,tag=SuperSheared_801,tag=Board_801,tag=!Flagged_801,distance=..10] run function ms_801:game/open/super
+execute if score $GameInfo General_801 matches 2 if entity @e[type=sheep,tag=SuperSheared_801,tag=Board_801,tag=!Flagged_801,distance=..10] run function ms_801:game/super_check
+execute if entity @s[tag=SuperOK_801] run function ms_801:game/open/super
+tag @s[tag=SuperOK_801] remove SuperOK_801
 execute as @e[type=sheep,tag=SuperSheared_801,distance=..5] run data merge entity @s {Sheared:0b}
 
 # 後始末
