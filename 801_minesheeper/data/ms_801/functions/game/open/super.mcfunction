@@ -3,9 +3,8 @@
 # @internal
 
 # 使用回数処理
-scoreboard players remove $SuperCount General_801 1
 tellraw @a[scores={playing_000=801}] ["",{"translate":"* %1$s がすごいハサミを使用した！","with":[{"selector":"@s"}]}]
-title @a[scores={playing_000=801},nbt={SelectedItem:{id:"minecraft:shears",tag:{801:1b,801Super:1b}}}] actionbar [{"text":"","color":"white","bold":true},{"translate":"すごいハサミ 残り回数 : %1$s 回","with":[{"score":{"name":"$SuperCount","objective":"General_801"}}]}]
+function ms_801:game/super_text
 
 # tag追加
 tag @s add Shearer_801

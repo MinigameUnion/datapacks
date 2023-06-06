@@ -26,7 +26,7 @@ execute positioned 8000 10 0 run kill @e[type=item,nbt={Item:{id:"minecraft:red_
 execute positioned 8000 10 0 run kill @e[type=item,nbt={Item:{id:"minecraft:black_wool"}},distance=..50]
 
 # 羊にtag付与
-tag @e[sort=nearest,type=sheep,tag=801,nbt={Sheared:1b},distance=..8] add Sheared_801
+execute anchored eyes positioned ^ ^ ^2 run tag @e[sort=nearest,type=sheep,tag=801,nbt={Sheared:1b},distance=..3,limit=1] add Sheared_801
 
 # 分岐
 execute if score $GameInfo General_801 matches 0 if entity @e[type=sheep,tag=Sheared_801,tag=Setting_801] run function ms_801:setting/triggered_shears
@@ -37,4 +37,4 @@ execute if entity @e[type=sheep,tag=Sheared_801,tag=Exit_801] run function ms_80
 execute unless score $GameInfo General_801 matches -1..2 as @e[type=sheep,tag=Sheared_801] run data merge entity @s {Sheared:0b}
 
 # 後始末
-tag @e[type=sheep,tag=Sheared_801,distance=..10] remove Sheared_801
+tag @e[type=sheep,tag=Sheared_801,distance=..5] remove Sheared_801
