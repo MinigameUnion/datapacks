@@ -10,5 +10,5 @@ execute if score $timer_602 a_602 matches ..-1 run bossbar set timer_602 name [{
 
 bossbar set timer_602 color blue
 
-bossbar set score_602 players @a[tag=in_602]
-bossbar set timer_602 players @a[tag=in_602]
+bossbar set score_602 players @a[scores={playing_000=602}]
+bossbar set timer_602 players @a[scores={playing_000=602}]

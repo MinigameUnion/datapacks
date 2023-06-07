@@ -7,6 +7,8 @@ setblock 6035 81 13 minecraft:air
 setblock 6028 82 13 minecraft:birch_wall_sign[facing=north]{Text1:'{"text":"RightClick!","underlined":true,"clickEvent":{"action":"run_command","value":"/function ats_602:sign/info/1/0"}}',Text3:'{"text":"アニマル塔戦闘","bold":true}',Text4:'{"text":"って？","bold":true}'} replace
 setblock 6028 81 13 minecraft:birch_wall_sign[facing=north]{Text2:'{"text":"ゲームモード一覧","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/function ats_602:sign/info/2/0"}}'} replace
 setblock 6035 82 13 minecraft:birch_wall_sign[facing=north]{Text2:'{"text":"ユニットについて","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/function ats_602:sign/info/3/0"}}'} replace
+setblock 6035 81 13 minecraft:birch_wall_sign[facing=north]{Text2:'{"text":"既知の不具合","color":"red","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/function ats_602:sign/info/4/0"}}'} replace
+
 
 
 setblock 6003 81 6 minecraft:air

@@ -1,1 +1,1 @@
-execute as @a[tag=in_602] positioned as @s rotated as @s run function ats_602:tada/2
+execute as @a[scores={playing_000=602}] positioned as @s rotated as @s run function ats_602:tada/2
