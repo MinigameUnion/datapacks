@@ -1,4 +1,5 @@
 ##TITLES
+title @a[tag=ticking_502] reset
 title @a[tag=ticking_502] times 10 50 10
 execute if score @s hit_502 matches 2.. if score @s hit_502 >= #PERFECT num_502 run title @a[tag=ticking_502] title [{"text":"PERFECT !!","color":"gold","bold":true}]
 execute if score @s hit_502 < #PERFECT num_502 run title @a[tag=ticking_502] title ""
