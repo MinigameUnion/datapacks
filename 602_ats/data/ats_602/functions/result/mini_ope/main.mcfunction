@@ -1,3 +1,5 @@
+scoreboard players operation @s add_coin_000 = $602 score_602
+
 #tellraw @s [{"score":{"name":"@s","objective":"add_coin_000"}}]
 
 execute if score $o_3_602 a_602 matches -1 run function ats_602:result/mini_ope/o3

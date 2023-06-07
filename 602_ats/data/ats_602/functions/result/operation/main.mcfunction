@@ -9,4 +9,4 @@ execute if entity @s[scores={mulScore0_602=11..}] run function ats_602:result/mu
 execute unless entity @s[scores={mulScore0_602=11..}] run function ats_602:result/no_multiplier
 execute as @a[tag=join_game_602] positioned as @s run function ats_602:result/operation/0
 
-kill @s
+tag @s add result_602
