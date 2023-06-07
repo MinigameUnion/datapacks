@@ -1,5 +1,6 @@
 kill @e[dx=47,dy=31,dz=31,tag=gun_stand_502,tag=ticking_502]
 
+title @a[tag=ticking_502] reset
 title @a[tag=ticking_502] times 5 55 20
 execute if score @s progress_502 matches 0 run title @a[tag=ticking_502] title [{"text":"START"}]
 execute if score @s progress_502 matches 1.. run title @a[tag=ticking_502] title [{"text":"RESTART"}]
