@@ -6,6 +6,7 @@
 # @within function suiryu_taratara_401:game/start/count_down/1
 
 # タイトル
+  title @a[predicate=suiryu_taratara_401:location/stage_and_audience] reset
   title @a[predicate=suiryu_taratara_401:location/stage_and_audience] title {"text":"START","color":"gold"}
 
 # サウンド
