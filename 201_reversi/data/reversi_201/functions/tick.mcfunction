@@ -7,6 +7,8 @@
 tag @a[scores={playing_000=201},x=2065.0,y=38.0,z=32.0,dx=8.0,dy=7.0,dz=9.0] add hologram_operator_001
 tag @a[scores={playing_000=201},x=2050.0,y=39.0,z=26.0,dx=5.0,dy=4.0,dz=6.0] add hologram_operator_001
 
+execute if score $isPlay ReversiData_201 matches 1 run function reversi_201:vfx/player_color/
+
 execute if score $isPlay ReversiData_201 matches 1 if score #TurnColor ReversiData_201 matches 0 run effect give @a[tag=!Player_Black_201,scores={playing_000=201},x=2056.0,y=38.0,z=7.0,dx=24.0,dy=7.0,dz=32.0] weakness 1 99 true
 execute if score $isPlay ReversiData_201 matches 1 if score #TurnColor ReversiData_201 matches 1 run effect give @a[tag=!Player_White_201,scores={playing_000=201},x=2056.0,y=38.0,z=7.0,dx=24.0,dy=7.0,dz=32.0] weakness 1 99 true
 
