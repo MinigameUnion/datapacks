@@ -17,7 +17,7 @@ scoreboard players operation @e[type=sheep,tag=Board_801] ID_801 += $Tmp General
 scoreboard players operation @e[type=marker,tag=Marker_801] ID_801 += $Tmp General_801
 
 # すごいハサミ配る
-execute if score $SuperCount General_801 matches 1.. run loot give @a[scores={playing_000=801},y=10,dy=5] loot ms_801:shears_super
+loot give @a[scores={playing_000=801},y=10,dy=5] loot ms_801:shears_super
 
 # 状態移行
 scoreboard players set $GameInfo General_801 2

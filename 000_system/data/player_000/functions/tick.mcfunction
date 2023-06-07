@@ -2,7 +2,7 @@
 # @within
 #   tag/function minecraft:tick
 
-execute as @a[scores={login_000=1..}] at @s run function #minecraft:handler/000_login
+execute as @a[scores={login_000=1..}] at @s run function player_000:login
 
 execute as @a if score @s foodLevel_000 < @s food_000 if score @s foodLevel_000 matches ..19 run effect give @s minecraft:saturation 1 0
 execute as @a if score @s foodLevel_000 > @s food_000 run effect give @s minecraft:hunger 1 255 true

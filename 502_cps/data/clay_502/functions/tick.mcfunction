@@ -1,3 +1,7 @@
+#> clay_502:tick
+# @within
+#   function clay_502:tick_check
+
 execute positioned 5015.5 1.0 2031.5 run tag @a[distance=..10,scores={playing_000=502}] add hologram_operator_001
 execute as @e[type=item,tag=clay_502,nbt={OnGround:1b}] at @s run function tool_000:entity/delete
 tag @e[tag=target_plate_502,tag=hit_502,tag=ticking_502] remove target_501
