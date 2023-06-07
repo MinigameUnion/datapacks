@@ -33,6 +33,7 @@ function system_000:define.num_000
 
 scoreboard players set #coin min_000 0
 scoreboard players set #coin max_000 999999999
+scoreboard objectives setdisplay list coin_000
 
 execute unless score #SYSTEM id_000 matches -2147483648..2147483647 run scoreboard players set #SYSTEM id_000 0
 execute unless score #playdata id_000 matches -2147483648..2147483647 run function system_000:data/create_id
