@@ -105,20 +105,13 @@ scoreboard objectives add mulScore2_602 dummy {"text":"mulScore2_602","color":"a
 scoreboard objectives add gamemode_602 dummy {"text":"gamemode_602","color":"light_purple"}
 scoreboard objectives add click_602 trigger {"text":"click_602","color":"light_purple"}
 
-scoreboard players set $g_chaos_602 a1_602 500
-
+scoreboard players set $g_chaos_602 a1_602 300
 scoreboard players set $o_0_602 a1_602 30
-
 scoreboard players set $o_1_602 a1_602 30
-
-scoreboard players set $o_2_602 a1_602 1000
-
-scoreboard players set $o_3_602 a1_602 400
-
+scoreboard players set $o_2_602 a1_602 500
+scoreboard players set $o_3_602 a1_602 300
 scoreboard players set $o_4_602 a1_602 0
-
-scoreboard players set $o_5_602 a1_602 1600
-
+scoreboard players set $o_5_602 a1_602 300
 
 scoreboard objectives add vs_602 dummy {"text":"vs_602","color":"light_purple"}
 scoreboard objectives add pId_602 dummy {"text":"pId_602","color":"light_purple"}
@@ -140,7 +133,7 @@ team modify RedTeam color red
 team modify BlueTeam color blue
 
 data modify storage ats_602:main ChaosOptions set value {}
-data modify storage ats_602:main ChaosOptions.Cost set value {L1:1000,L2:3000,L3:6000}
+data modify storage ats_602:main ChaosOptions.Cost set value {L1:100,L2:300,L3:600}
 
 bossbar add minecraft:score_602 [{"text":"placeholder"}]
 bossbar add minecraft:timer_602 [{"text":"placeholder"}]
