@@ -1,4 +1,5 @@
 ##TITLES
+title @a[tag=ticking_502] reset
 title @a[tag=ticking_502] times 10 50 10
 
 scoreboard players operation #1 hit_502 = @s hit_502
