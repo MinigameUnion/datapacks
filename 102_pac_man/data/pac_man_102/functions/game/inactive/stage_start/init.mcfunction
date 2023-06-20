@@ -14,5 +14,6 @@ scoreboard players set @s _Timer_102 70
 
 ## 設置
     function pac_man_102:objects/dots/set
+    function pac_man_102:objects/hp/update
     function pac_man_102:mobs/pacman/set
     function pac_man_102:mobs/ghost/set
