@@ -1,7 +1,7 @@
 data modify storage ats_602:unit List set value {Tags:["tile_602","start_602"],item:{id:"minecraft:slime_ball",Count:1b,tag:{CustomModelData:602000,mul_602:"x1.0"}}}
 
 data modify storage ats_602:unit List.Tags append from storage ats_602:main ItemClip.Tags[0]
-data modify storage ats_602:unit List.transformation.left_rotation set value [0.0f,1.0f,0.0f,0.0f]
+#data modify storage ats_602:unit List.transformation.left_rotation set value [0.0f,1.0f,0.0f,0.0f]
 execute if score $o_1_602 a_602 matches -1 run data modify storage ats_602:unit List.transformation.scale set value [0.0f,0.0f,0.0f]
 data modify storage ats_602:unit List.item.tag.Name set from storage ats_602:main ItemClip.display.Name
 

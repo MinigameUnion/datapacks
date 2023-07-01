@@ -1,7 +1,7 @@
 data modify storage ats_602:unit List set value {Tags:["tile_602","start_602"],item:{id:"minecraft:slime_ball",Count:1b,tag:{CustomModelData:602000,mul_602:"x1.0"}}}
 
 data modify storage ats_602:unit List.Tags append value "turtle_baby_602"
-data modify storage ats_602:unit List.transformation set value {left_rotation:[0.0f,1.0f,0.0f,0.0f],scale:[0.3f,0.3f,0.3f]}
+data modify storage ats_602:unit List.transformation set value {scale:[0.3f,0.3f,0.3f]}
 data modify storage ats_602:unit List.item.tag.Name set value '{"bold":true,"italic":false,"color":"blue","text":"コガメ (アオウミガメ)"}'
 
 data modify storage ats_602:unit List.item.tag.mul_602 set value "x1.4"
