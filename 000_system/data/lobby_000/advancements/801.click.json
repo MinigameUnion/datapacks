@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "right": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"lobby.801.enter_000\"]}"
+                }
+            }
+        },
+        "left": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"lobby.801.enter_000\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "right",
+            "left"
+        ]
+    ],
+    "rewards": {
+        "function": "lobby_000:rooms/801.click"
+    }
+}
