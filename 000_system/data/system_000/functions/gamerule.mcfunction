@@ -36,8 +36,8 @@ gamerule mobGriefing false
 #gamerule naturalRegeneration true
 gamerule playersSleepingPercentage 101
 gamerule randomTickSpeed 0
-gamerule reducedDebugInfo true
-gamerule sendCommandFeedback false
+## gamerule reducedDebugInfo true
+## gamerule sendCommandFeedback false
 gamerule showDeathMessages false
 #gamerule snowAccumulationHeight 1
 gamerule spawnRadius 0
